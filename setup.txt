@@ -1,0 +1,1 @@
+pip install roslibpy pyyaml rospkg numpy (for tf)
