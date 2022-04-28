@@ -1,19 +1,20 @@
+import math
 import rospy
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist, Vector3
 
-moved_x = 0
+moved = 0
 
 
 def callback(odom_data):
     rospy.logdebug("Received data from /viv/viv_velocity_controller/odom")
-    global moved_x
+    global moved
     position = odom_data.pose.pose.position
-    moved_x = position.x  # calculate absolute offset using x and y
+    moved = math.sqrt(position.x**2 + position.y**2)
 
 
 def move():
-    global moved_x
+    global moved
 
     # Starts a new node
     rospy.init_node('move_straight')
@@ -30,20 +31,19 @@ def move():
 
     vel_msg.linear.x = speed
 
-    start_distance = moved_x
+    start_distance = moved
 
     rospy.loginfo("Starting to move the robot")
     rospy.loginfo(f"Starting offset in x axis: {start_distance}")
 
     # Loop to move VIV the specified distance
-    while abs(moved_x-start_distance) < distance:
+    while abs(moved - start_distance) < distance:
         # Publish the velocity
         rospy.logdebug(f"Publishing velocity\n{vel_msg}")
         velocity_publisher.publish(vel_msg)
 
-        # t1 = rospy.Time.now().to_sec()
-        rospy.loginfo(f"Currently offset in x axis {moved_x}")
-        rospy.loginfo(f"Currently moved {abs(moved_x-start_distance)}")
+        rospy.loginfo(f"Current distance from (0,0) {moved}")
+        rospy.loginfo(f"Current distance from start point {abs(moved - start_distance)}")
 
     # After the loop, stops the robot
     vel_msg.linear.x = 0
@@ -51,7 +51,7 @@ def move():
     velocity_publisher.publish(vel_msg)
 
     rospy.sleep(1)
-    rospy.loginfo(f"Final offset in x axis {moved_x}")
+    rospy.loginfo(f"Final offset {moved}")
 
     rospy.signal_shutdown("Script over")
 
