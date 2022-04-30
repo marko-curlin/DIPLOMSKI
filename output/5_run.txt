@@ -1,0 +1,900 @@
+viv@VIV:~/catkin_ws/src/student_marko
+ $ python3 drive_robot_straight.py
+drive_robot_straight.py:43: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  velocity_publisher = rospy.Publisher('/viv/marko/cmd_vel', Twist, queue_size=None)
+Let's move your robot
+Input your speed: 50
+[INFO] [1651316296.891712]: Starting position: (21943023.0, -19045700.0, -18969016.0, 22023875.0)
+[INFO] [1651316297.893447]: Current position (21943023.0, -19045700.0, -18969016.0, 22023875.0)
+[INFO] [1651316297.894318]: Current velocity (0.0, 0.0, 0.0, 0.0)
+[INFO] [1651316297.894999]: Current change in position of motor 1 0.0
+[INFO] [1651316297.895595]: Current change in position of motor 2 0.0
+[INFO] [1651316297.896166]: Current change in position of motor 3 0.0
+[INFO] [1651316297.896743]: Current change in position of motor 4 0.0
+[INFO] [1651316297.993643]: Current position (21943023.0, -19045700.0, -18969016.0, 22023875.0)
+[INFO] [1651316297.994361]: Current velocity (0.0, 0.0, 0.0, 0.0)
+[INFO] [1651316297.995006]: Current change in position of motor 1 0.0
+[INFO] [1651316297.995642]: Current change in position of motor 2 0.0
+[INFO] [1651316297.996259]: Current change in position of motor 3 0.0
+[INFO] [1651316297.996876]: Current change in position of motor 4 0.0
+[INFO] [1651316298.093551]: Current position (21945549.0, -19048340.0, -18971748.0, 22026743.0)
+[INFO] [1651316298.094226]: Current velocity (12.864197530864198, -13.246913580246913, -13.061728395061728, 13.37037037037037)
+[INFO] [1651316298.094995]: Current change in position of motor 1 2526.0
+[INFO] [1651316298.095639]: Current change in position of motor 2 -2640.0
+[INFO] [1651316298.096224]: Current change in position of motor 3 -2732.0
+[INFO] [1651316298.096808]: Current change in position of motor 4 2868.0
+[INFO] [1651316298.193608]: Current position (21952479.0, -19055337.0, -18978862.0, 22033945.0)
+[INFO] [1651316298.194297]: Current velocity (27.555555555555557, -27.444444444444443, -27.493827160493826, 27.567901234567902)
+[INFO] [1651316298.195003]: Current change in position of motor 1 9456.0
+[INFO] [1651316298.195644]: Current change in position of motor 2 -9637.0
+[INFO] [1651316298.196231]: Current change in position of motor 3 -9846.0
+[INFO] [1651316298.196808]: Current change in position of motor 4 10070.0
+[INFO] [1651316298.293509]: Current position (21963462.0, -19066429.0, -18990012.0, 22045230.0)
+[INFO] [1651316298.294141]: Current velocity (41.629629629629626, -41.925925925925924, -41.49382716049383, 41.81481481481482)
+[INFO] [1651316298.294724]: Current change in position of motor 1 20439.0
+[INFO] [1651316298.295327]: Current change in position of motor 2 -20729.0
+[INFO] [1651316298.295909]: Current change in position of motor 3 -20996.0
+[INFO] [1651316298.296474]: Current change in position of motor 4 21355.0
+[INFO] [1651316298.393503]: Current position (21978533.0, -19081596.0, -19005284.0, 22060614.0)
+[INFO] [1651316298.394133]: Current velocity (56.098765432098766, -56.148148148148145, -56.01234567901235, 56.23456790123457)
+[INFO] [1651316298.394738]: Current change in position of motor 1 35510.0
+[INFO] [1651316298.395401]: Current change in position of motor 2 -35896.0
+[INFO] [1651316298.396002]: Current change in position of motor 3 -36268.0
+[INFO] [1651316298.396590]: Current change in position of motor 4 36739.0
+[INFO] [1651316298.493506]: Current position (21987071.0, -19090317.0, -19014084.0, 22069536.0)
+[INFO] [1651316298.494173]: Current velocity (59.58024691358025, -61.02469135802469, -61.629629629629626, 63.49382716049383)
+[INFO] [1651316298.494817]: Current change in position of motor 1 44048.0
+[INFO] [1651316298.495387]: Current change in position of motor 2 -44617.0
+[INFO] [1651316298.495995]: Current change in position of motor 3 -45068.0
+[INFO] [1651316298.496565]: Current change in position of motor 4 45661.0
+[INFO] [1651316298.593572]: Current position (22008457.0, -19112440.0, -19035876.0, 22091745.0)
+[INFO] [1651316298.594205]: Current velocity (72.01234567901234, -75.74074074074075, -73.92592592592592, 75.96296296296296)
+[INFO] [1651316298.594816]: Current change in position of motor 1 65434.0
+[INFO] [1651316298.595398]: Current change in position of motor 2 -66740.0
+[INFO] [1651316298.595977]: Current change in position of motor 3 -66860.0
+[INFO] [1651316298.596541]: Current change in position of motor 4 67870.0
+[INFO] [1651316298.693509]: Current position (22030173.0, -19135103.0, -19057857.0, 22114535.0)
+[INFO] [1651316298.694149]: Current velocity (73.34567901234568, -76.5925925925926, -74.23456790123457, 77.25925925925925)
+[INFO] [1651316298.694732]: Current change in position of motor 1 87150.0
+[INFO] [1651316298.695332]: Current change in position of motor 2 -89403.0
+[INFO] [1651316298.695919]: Current change in position of motor 3 -88841.0
+[INFO] [1651316298.696494]: Current change in position of motor 4 90660.0
+[INFO] [1651316298.793506]: Current position (22051921.0, -19157623.0, -19079274.0, 22137206.0)
+[INFO] [1651316298.794125]: Current velocity (74.11111111111111, -76.41975308641975, -72.70370370370371, 77.0)
+[INFO] [1651316298.794718]: Current change in position of motor 1 108898.0
+[INFO] [1651316298.795288]: Current change in position of motor 2 -111923.0
+[INFO] [1651316298.795901]: Current change in position of motor 3 -110258.0
+[INFO] [1651316298.796494]: Current change in position of motor 4 113331.0
+[INFO] [1651316298.893509]: Current position (22073512.0, -19179480.0, -19100756.0, 22159715.0)
+[INFO] [1651316298.894163]: Current velocity (73.96296296296296, -75.22222222222223, -73.93827160493827, 77.4074074074074)
+[INFO] [1651316298.894762]: Current change in position of motor 1 130489.0
+[INFO] [1651316298.895331]: Current change in position of motor 2 -133780.0
+[INFO] [1651316298.895942]: Current change in position of motor 3 -131740.0
+[INFO] [1651316298.896522]: Current change in position of motor 4 135840.0
+[INFO] [1651316298.993526]: Current position (22095121.0, -19201997.0, -19122705.0, 22182326.0)
+[INFO] [1651316298.994196]: Current velocity (73.66666666666667, -76.35802469135803, -75.03703703703704, 77.14814814814815)
+[INFO] [1651316298.994781]: Current change in position of motor 1 152098.0
+[INFO] [1651316298.995355]: Current change in position of motor 2 -156297.0
+[INFO] [1651316298.995944]: Current change in position of motor 3 -153689.0
+[INFO] [1651316298.996523]: Current change in position of motor 4 158451.0
+[INFO] [1651316299.093597]: Current position (22105998.0, -19213134.0, -19133709.0, 22193518.0)
+[INFO] [1651316299.094232]: Current velocity (74.17283950617283, -76.28395061728395, -75.35802469135803, 76.55555555555556)
+[INFO] [1651316299.094819]: Current change in position of motor 1 162975.0
+[INFO] [1651316299.095389]: Current change in position of motor 2 -167434.0
+[INFO] [1651316299.095961]: Current change in position of motor 3 -164693.0
+[INFO] [1651316299.096580]: Current change in position of motor 4 169643.0
+[INFO] [1651316299.193509]: Current position (22127761.0, -19235296.0, -19155085.0, 22215674.0)
+[INFO] [1651316299.194162]: Current velocity (74.82716049382717, -76.07407407407408, -73.18518518518519, 75.74074074074075)
+[INFO] [1651316299.194786]: Current change in position of motor 1 184738.0
+[INFO] [1651316299.195359]: Current change in position of motor 2 -189596.0
+[INFO] [1651316299.195936]: Current change in position of motor 3 -186069.0
+[INFO] [1651316299.196502]: Current change in position of motor 4 191799.0
+[INFO] [1651316299.293503]: Current position (22149692.0, -19257395.0, -19176984.0, 22238072.0)
+[INFO] [1651316299.294124]: Current velocity (74.71604938271605, -75.8641975308642, -74.8641975308642, 76.5925925925926)
+[INFO] [1651316299.294727]: Current change in position of motor 1 206669.0
+[INFO] [1651316299.295336]: Current change in position of motor 2 -211695.0
+[INFO] [1651316299.295903]: Current change in position of motor 3 -207968.0
+[INFO] [1651316299.296470]: Current change in position of motor 4 214197.0
+[INFO] [1651316299.393503]: Current position (22171725.0, -19280110.0, -19199266.0, 22260713.0)
+[INFO] [1651316299.394240]: Current velocity (74.50617283950618, -76.55555555555556, -75.23456790123457, 76.30864197530865)
+[INFO] [1651316299.394880]: Current change in position of motor 1 228702.0
+[INFO] [1651316299.395445]: Current change in position of motor 2 -234410.0
+[INFO] [1651316299.396026]: Current change in position of motor 3 -230250.0
+[INFO] [1651316299.396581]: Current change in position of motor 4 236838.0
+[INFO] [1651316299.493598]: Current position (22193937.0, -19302708.0, -19221217.0, 22282934.0)
+[INFO] [1651316299.494295]: Current velocity (74.98765432098766, -76.30864197530865, -73.91358024691358, 75.64197530864197)
+[INFO] [1651316299.494970]: Current change in position of motor 1 250914.0
+[INFO] [1651316299.495608]: Current change in position of motor 2 -257008.0
+[INFO] [1651316299.496234]: Current change in position of motor 3 -252201.0
+[INFO] [1651316299.496865]: Current change in position of motor 4 259059.0
+[INFO] [1651316299.593542]: Current position (22215975.0, -19324810.0, -19243155.0, 22305432.0)
+[INFO] [1651316299.594216]: Current velocity (74.70370370370371, -74.79012345679013, -74.5679012345679, 76.29629629629629)
+[INFO] [1651316299.594882]: Current change in position of motor 1 272952.0
+[INFO] [1651316299.595479]: Current change in position of motor 2 -279110.0
+[INFO] [1651316299.596117]: Current change in position of motor 3 -274139.0
+[INFO] [1651316299.596741]: Current change in position of motor 4 281557.0
+[INFO] [1651316299.693561]: Current position (22226843.0, -19336000.0, -19254031.0, 22316628.0)
+[INFO] [1651316299.694238]: Current velocity (74.4320987654321, -76.27160493827161, -74.67901234567901, 76.53086419753086)
+[INFO] [1651316299.694825]: Current change in position of motor 1 283820.0
+[INFO] [1651316299.695392]: Current change in position of motor 2 -290300.0
+[INFO] [1651316299.696038]: Current change in position of motor 3 -285015.0
+[INFO] [1651316299.696688]: Current change in position of motor 4 292753.0
+[INFO] [1651316299.793534]: Current position (22248806.0, -19358599.0, -19276325.0, 22339336.0)
+[INFO] [1651316299.794171]: Current velocity (74.54320987654322, -76.45679012345678, -75.4320987654321, 76.85185185185185)
+[INFO] [1651316299.794766]: Current change in position of motor 1 305783.0
+[INFO] [1651316299.795359]: Current change in position of motor 2 -312899.0
+[INFO] [1651316299.795948]: Current change in position of motor 3 -307309.0
+[INFO] [1651316299.796496]: Current change in position of motor 4 315461.0
+[INFO] [1651316299.893498]: Current position (22270976.0, -19381225.0, -19298071.0, 22361683.0)
+[INFO] [1651316299.894113]: Current velocity (74.93827160493827, -76.51851851851852, -73.1358024691358, 76.06172839506173)
+[INFO] [1651316299.894704]: Current change in position of motor 1 327953.0
+[INFO] [1651316299.895273]: Current change in position of motor 2 -335525.0
+[INFO] [1651316299.895902]: Current change in position of motor 3 -329055.0
+[INFO] [1651316299.896480]: Current change in position of motor 4 337808.0
+[INFO] [1651316299.993501]: Current position (22292766.0, -19403408.0, -19319726.0, 22384137.0)
+[INFO] [1651316299.994144]: Current velocity (74.5925925925926, -75.92592592592592, -74.19753086419753, 76.98765432098766)
+[INFO] [1651316299.994739]: Current change in position of motor 1 349743.0
+[INFO] [1651316299.995317]: Current change in position of motor 2 -357708.0
+[INFO] [1651316299.995880]: Current change in position of motor 3 -350710.0
+[INFO] [1651316299.996497]: Current change in position of motor 4 360262.0
+[INFO] [1651316300.093502]: Current position (22314652.0, -19425958.0, -19341593.0, 22406461.0)
+[INFO] [1651316300.094184]: Current velocity (74.45679012345678, -76.70370370370371, -75.07407407407408, 76.49382716049382)
+[INFO] [1651316300.094778]: Current change in position of motor 1 371629.0
+[INFO] [1651316300.095368]: Current change in position of motor 2 -380258.0
+[INFO] [1651316300.095965]: Current change in position of motor 3 -372577.0
+[INFO] [1651316300.096565]: Current change in position of motor 4 382586.0
+[INFO] [1651316300.193512]: Current position (22336474.0, -19448223.0, -19363571.0, 22428622.0)
+[INFO] [1651316300.194147]: Current velocity (74.93827160493827, -76.1604938271605, -75.30864197530865, 75.32098765432099)
+[INFO] [1651316300.194741]: Current change in position of motor 1 393451.0
+[INFO] [1651316300.195296]: Current change in position of motor 2 -402523.0
+[INFO] [1651316300.195885]: Current change in position of motor 3 -394555.0
+[INFO] [1651316300.196486]: Current change in position of motor 4 404747.0
+[INFO] [1651316300.293517]: Current position (22347437.0, -19459206.0, -19374485.0, 22439647.0)
+[INFO] [1651316300.294152]: Current velocity (75.04938271604938, -75.27160493827161, -74.8641975308642, 75.82716049382717)
+[INFO] [1651316300.294748]: Current change in position of motor 1 404414.0
+[INFO] [1651316300.295296]: Current change in position of motor 2 -413506.0
+[INFO] [1651316300.295883]: Current change in position of motor 3 -405469.0
+[INFO] [1651316300.296454]: Current change in position of motor 4 415772.0
+[INFO] [1651316300.393502]: Current position (22369456.0, -19481174.0, -19396465.0, 22462151.0)
+[INFO] [1651316300.394109]: Current velocity (74.82716049382717, -75.01234567901234, -75.0246913580247, 76.60493827160494)
+[INFO] [1651316300.394736]: Current change in position of motor 1 426433.0
+[INFO] [1651316300.395322]: Current change in position of motor 2 -435474.0
+[INFO] [1651316300.395914]: Current change in position of motor 3 -427449.0
+[INFO] [1651316300.396468]: Current change in position of motor 4 438276.0
+[INFO] [1651316300.493506]: Current position (22391333.0, -19503441.0, -19418696.0, 22484700.0)
+[INFO] [1651316300.494205]: Current velocity (74.5925925925926, -75.82716049382717, -75.53086419753086, 76.80246913580247)
+[INFO] [1651316300.494848]: Current change in position of motor 1 448310.0
+[INFO] [1651316300.495449]: Current change in position of motor 2 -457741.0
+[INFO] [1651316300.496081]: Current change in position of motor 3 -449680.0
+[INFO] [1651316300.496663]: Current change in position of motor 4 460825.0
+[INFO] [1651316300.593506]: Current position (22413551.0, -19526019.0, -19440948.0, 22507148.0)
+[INFO] [1651316300.594181]: Current velocity (75.0, -76.08641975308642, -74.45679012345678, 75.45679012345678)
+[INFO] [1651316300.594832]: Current change in position of motor 1 470528.0
+[INFO] [1651316300.595508]: Current change in position of motor 2 -480319.0
+[INFO] [1651316300.596136]: Current change in position of motor 3 -471932.0
+[INFO] [1651316300.596826]: Current change in position of motor 4 483273.0
+[INFO] [1651316300.693502]: Current position (22435845.0, -19548360.0, -19463130.0, 22529760.0)
+[INFO] [1651316300.694151]: Current velocity (74.8641975308642, -73.9753086419753, -74.82716049382717, 76.1358024691358)
+[INFO] [1651316300.694798]: Current change in position of motor 1 492822.0
+[INFO] [1651316300.695431]: Current change in position of motor 2 -502660.0
+[INFO] [1651316300.696020]: Current change in position of motor 3 -494114.0
+[INFO] [1651316300.696632]: Current change in position of motor 4 505885.0
+[INFO] [1651316300.793499]: Current position (22457740.0, -19571027.0, -19485452.0, 22552452.0)
+[INFO] [1651316300.794124]: Current velocity (73.67901234567901, -76.08641975308642, -74.75308641975309, 76.23456790123457)
+[INFO] [1651316300.794710]: Current change in position of motor 1 514717.0
+[INFO] [1651316300.795268]: Current change in position of motor 2 -525327.0
+[INFO] [1651316300.795857]: Current change in position of motor 3 -516436.0
+[INFO] [1651316300.796474]: Current change in position of motor 4 528577.0
+[INFO] [1651316300.893507]: Current position (22468775.0, -19582285.0, -19496490.0, 22563723.0)
+[INFO] [1651316300.894170]: Current velocity (74.46913580246914, -76.33333333333333, -75.06172839506173, 76.20987654320987)
+[INFO] [1651316300.894773]: Current change in position of motor 1 525752.0
+[INFO] [1651316300.895338]: Current change in position of motor 2 -536585.0
+[INFO] [1651316300.895910]: Current change in position of motor 3 -527474.0
+[INFO] [1651316300.896465]: Current change in position of motor 4 539848.0
+[INFO] [1651316300.993499]: Current position (22490846.0, -19604572.0, -19518643.0, 22585716.0)
+[INFO] [1651316300.994091]: Current velocity (74.93827160493827, -75.34567901234568, -75.33333333333333, 74.58024691358025)
+[INFO] [1651316300.994654]: Current change in position of motor 1 547823.0
+[INFO] [1651316300.995242]: Current change in position of motor 2 -558872.0
+[INFO] [1651316300.995805]: Current change in position of motor 3 -549627.0
+[INFO] [1651316300.996358]: Current change in position of motor 4 561841.0
+[INFO] [1651316301.093501]: Current position (22513201.0, -19626942.0, -19541255.0, 22608269.0)
+[INFO] [1651316301.094125]: Current velocity (74.9753086419753, -75.03703703703704, -75.55555555555556, 75.79012345679013)
+[INFO] [1651316301.094708]: Current change in position of motor 1 570178.0
+[INFO] [1651316301.095289]: Current change in position of motor 2 -581242.0
+[INFO] [1651316301.095892]: Current change in position of motor 3 -572239.0
+[INFO] [1651316301.096472]: Current change in position of motor 4 584394.0
+[INFO] [1651316301.193498]: Current position (22535310.0, -19649423.0, -19563634.0, 22630392.0)
+[INFO] [1651316301.194122]: Current velocity (74.20987654320987, -75.5679012345679, -75.58024691358025, 74.81481481481481)
+[INFO] [1651316301.194694]: Current change in position of motor 1 592287.0
+[INFO] [1651316301.195279]: Current change in position of motor 2 -603723.0
+[INFO] [1651316301.195862]: Current change in position of motor 3 -594618.0
+[INFO] [1651316301.196428]: Current change in position of motor 4 606517.0
+[INFO] [1651316301.293545]: Current position (22557028.0, -19671238.0, -19585659.0, 22652393.0)
+[INFO] [1651316301.294233]: Current velocity (74.77777777777777, -75.14814814814815, -75.71604938271605, 75.07407407407408)
+[INFO] [1651316301.294882]: Current change in position of motor 1 614005.0
+[INFO] [1651316301.295501]: Current change in position of motor 2 -625538.0
+[INFO] [1651316301.296110]: Current change in position of motor 3 -616643.0
+[INFO] [1651316301.296683]: Current change in position of motor 4 628518.0
+[INFO] [1651316301.393520]: Current position (22578987.0, -19693212.0, -19607851.0, 22674641.0)
+[INFO] [1651316301.394142]: Current velocity (74.48148148148148, -74.46913580246914, -75.5679012345679, 76.28395061728395)
+[INFO] [1651316301.394721]: Current change in position of motor 1 635964.0
+[INFO] [1651316301.395312]: Current change in position of motor 2 -647512.0
+[INFO] [1651316301.395885]: Current change in position of motor 3 -638835.0
+[INFO] [1651316301.396523]: Current change in position of motor 4 650766.0
+[INFO] [1651316301.493462]: Current position (22589894.0, -19704164.0, -19618870.0, 22685914.0)
+[INFO] [1651316301.494157]: Current velocity (74.45679012345678, -74.85185185185185, -75.58024691358025, 76.88888888888889)
+[INFO] [1651316301.494867]: Current change in position of motor 1 646871.0
+[INFO] [1651316301.495511]: Current change in position of motor 2 -658464.0
+[INFO] [1651316301.496152]: Current change in position of motor 3 -649854.0
+[INFO] [1651316301.496781]: Current change in position of motor 4 662039.0
+[INFO] [1651316301.593555]: Current position (22611755.0, -19726623.0, -19641397.0, 22708851.0)
+[INFO] [1651316301.594257]: Current velocity (73.5925925925926, -75.82716049382717, -75.80246913580247, 77.30864197530865)
+[INFO] [1651316301.594891]: Current change in position of motor 1 668732.0
+[INFO] [1651316301.595648]: Current change in position of motor 2 -680923.0
+[INFO] [1651316301.596292]: Current change in position of motor 3 -672381.0
+[INFO] [1651316301.596921]: Current change in position of motor 4 684976.0
+[INFO] [1651316301.693579]: Current position (22633395.0, -19748966.0, -19663608.0, 22731516.0)
+[INFO] [1651316301.694537]: Current velocity (73.62962962962963, -76.0246913580247, -75.17283950617283, 76.71604938271605)
+[INFO] [1651316301.695205]: Current change in position of motor 1 690372.0
+[INFO] [1651316301.695834]: Current change in position of motor 2 -703266.0
+[INFO] [1651316301.696445]: Current change in position of motor 3 -694592.0
+[INFO] [1651316301.697061]: Current change in position of motor 4 707641.0
+[INFO] [1651316301.793511]: Current position (22655053.0, -19771117.0, -19685338.0, 22753861.0)
+[INFO] [1651316301.794150]: Current velocity (74.08641975308642, -75.82716049382717, -74.18518518518519, 76.41975308641975)
+[INFO] [1651316301.794747]: Current change in position of motor 1 712030.0
+[INFO] [1651316301.795332]: Current change in position of motor 2 -725417.0
+[INFO] [1651316301.795907]: Current change in position of motor 3 -716322.0
+[INFO] [1651316301.796468]: Current change in position of motor 4 729986.0
+[INFO] [1651316301.893571]: Current position (22676833.0, -19793580.0, -19707361.0, 22776529.0)
+[INFO] [1651316301.894272]: Current velocity (73.81481481481481, -76.8641975308642, -74.98765432098766, 77.23456790123457)
+[INFO] [1651316301.894916]: Current change in position of motor 1 733810.0
+[INFO] [1651316301.895529]: Current change in position of motor 2 -747880.0
+[INFO] [1651316301.896117]: Current change in position of motor 3 -738345.0
+[INFO] [1651316301.896707]: Current change in position of motor 4 752654.0
+[INFO] [1651316301.993508]: Current position (22698177.0, -19815828.0, -19729103.0, 22798774.0)
+[INFO] [1651316301.994134]: Current velocity (73.71604938271605, -76.18518518518519, -74.91358024691358, 75.90123456790124)
+[INFO] [1651316301.994745]: Current change in position of motor 1 755154.0
+[INFO] [1651316301.995331]: Current change in position of motor 2 -770128.0
+[INFO] [1651316301.995920]: Current change in position of motor 3 -760087.0
+[INFO] [1651316301.996497]: Current change in position of motor 4 774899.0
+[INFO] [1651316302.093505]: Current position (22709205.0, -19826951.0, -19740216.0, 22809763.0)
+[INFO] [1651316302.094136]: Current velocity (74.76543209876543, -75.50617283950618, -75.30864197530865, 74.98765432098766)
+[INFO] [1651316302.094740]: Current change in position of motor 1 766182.0
+[INFO] [1651316302.095363]: Current change in position of motor 2 -781251.0
+[INFO] [1651316302.095965]: Current change in position of motor 3 -771200.0
+[INFO] [1651316302.096557]: Current change in position of motor 4 785888.0
+[INFO] [1651316302.193504]: Current position (22731288.0, -19848900.0, -19762326.0, 22831814.0)
+[INFO] [1651316302.194146]: Current velocity (75.0246913580247, -74.61728395061728, -74.72839506172839, 75.03703703703704)
+[INFO] [1651316302.194739]: Current change in position of motor 1 788265.0
+[INFO] [1651316302.195317]: Current change in position of motor 2 -803200.0
+[INFO] [1651316302.195915]: Current change in position of motor 3 -793310.0
+[INFO] [1651316302.196490]: Current change in position of motor 4 807939.0
+[INFO] [1651316302.293510]: Current position (22753418.0, -19871063.0, -19784267.0, 22853856.0)
+[INFO] [1651316302.294199]: Current velocity (75.11111111111111, -75.95061728395062, -74.41975308641975, 74.71604938271605)
+[INFO] [1651316302.294873]: Current change in position of motor 1 810395.0
+[INFO] [1651316302.295460]: Current change in position of motor 2 -825363.0
+[INFO] [1651316302.296048]: Current change in position of motor 3 -815251.0
+[INFO] [1651316302.296629]: Current change in position of motor 4 829981.0
+[INFO] [1651316302.393507]: Current position (22775493.0, -19893628.0, -19806353.0, 22875976.0)
+[INFO] [1651316302.394136]: Current velocity (75.01234567901234, -76.92592592592592, -74.75308641975309, 75.27160493827161)
+[INFO] [1651316302.394723]: Current change in position of motor 1 832470.0
+[INFO] [1651316302.395290]: Current change in position of motor 2 -847928.0
+[INFO] [1651316302.395964]: Current change in position of motor 3 -837337.0
+[INFO] [1651316302.396546]: Current change in position of motor 4 852101.0
+[INFO] [1651316302.493562]: Current position (22797683.0, -19916324.0, -19828054.0, 22898315.0)
+[INFO] [1651316302.494254]: Current velocity (74.95061728395062, -76.65432098765432, -73.95061728395062, 75.48148148148148)
+[INFO] [1651316302.494846]: Current change in position of motor 1 854660.0
+[INFO] [1651316302.495453]: Current change in position of motor 2 -870624.0
+[INFO] [1651316302.496066]: Current change in position of motor 3 -859038.0
+[INFO] [1651316302.496643]: Current change in position of motor 4 874440.0
+[INFO] [1651316302.593567]: Current position (22819730.0, -19938506.0, -19849961.0, 22920626.0)
+[INFO] [1651316302.594312]: Current velocity (74.82716049382717, -75.77777777777777, -74.50617283950618, 75.98765432098766)
+[INFO] [1651316302.594951]: Current change in position of motor 1 876707.0
+[INFO] [1651316302.595598]: Current change in position of motor 2 -892806.0
+[INFO] [1651316302.596235]: Current change in position of motor 3 -880945.0
+[INFO] [1651316302.596893]: Current change in position of motor 4 896751.0
+[INFO] [1651316302.693507]: Current position (22830482.0, -19949612.0, -19860801.0, 22931706.0)
+[INFO] [1651316302.694137]: Current velocity (73.87654320987654, -75.81481481481481, -74.12345679012346, 75.71604938271605)
+[INFO] [1651316302.694730]: Current change in position of motor 1 887459.0
+[INFO] [1651316302.695344]: Current change in position of motor 2 -903912.0
+[INFO] [1651316302.695934]: Current change in position of motor 3 -891785.0
+[INFO] [1651316302.696505]: Current change in position of motor 4 907831.0
+[INFO] [1651316302.793507]: Current position (22852721.0, -19972287.0, -19883083.0, 22954266.0)
+[INFO] [1651316302.794173]: Current velocity (74.67901234567901, -76.08641975308642, -74.4320987654321, 75.41975308641975)
+[INFO] [1651316302.794772]: Current change in position of motor 1 909698.0
+[INFO] [1651316302.795351]: Current change in position of motor 2 -926587.0
+[INFO] [1651316302.795933]: Current change in position of motor 3 -914067.0
+[INFO] [1651316302.796513]: Current change in position of motor 4 930391.0
+[INFO] [1651316302.893578]: Current position (22874673.0, -19994456.0, -19904473.0, 22976445.0)
+[INFO] [1651316302.894212]: Current velocity (74.91358024691358, -75.50617283950618, -73.18518518518519, 75.87654320987654)
+[INFO] [1651316302.894841]: Current change in position of motor 1 931650.0
+[INFO] [1651316302.895421]: Current change in position of motor 2 -948756.0
+[INFO] [1651316302.896003]: Current change in position of motor 3 -935457.0
+[INFO] [1651316302.896579]: Current change in position of motor 4 952570.0
+[INFO] [1651316302.993511]: Current position (22896723.0, -20016735.0, -19926216.0, 22998713.0)
+[INFO] [1651316302.994182]: Current velocity (75.0246913580247, -76.46913580246914, -74.14814814814815, 75.76543209876543)
+[INFO] [1651316302.994777]: Current change in position of motor 1 953700.0
+[INFO] [1651316302.995431]: Current change in position of motor 2 -971035.0
+[INFO] [1651316302.996035]: Current change in position of motor 3 -957200.0
+[INFO] [1651316302.996621]: Current change in position of motor 4 974838.0
+[INFO] [1651316303.093510]: Current position (22918788.0, -20039334.0, -19948023.0, 23021010.0)
+[INFO] [1651316303.094183]: Current velocity (74.81481481481481, -76.75308641975309, -73.81481481481481, 75.34567901234568)
+[INFO] [1651316303.094781]: Current change in position of motor 1 975765.0
+[INFO] [1651316303.095360]: Current change in position of motor 2 -993634.0
+[INFO] [1651316303.095942]: Current change in position of motor 3 -979007.0
+[INFO] [1651316303.096530]: Current change in position of motor 4 997135.0
+[INFO] [1651316303.193504]: Current position (22940879.0, -20061990.0, -19969475.0, 23043152.0)
+[INFO] [1651316303.194138]: Current velocity (74.90123456790124, -76.48148148148148, -72.39506172839506, 75.25925925925925)
+[INFO] [1651316303.194740]: Current change in position of motor 1 997856.0
+[INFO] [1651316303.195330]: Current change in position of motor 2 -1016290.0
+[INFO] [1651316303.195919]: Current change in position of motor 3 -1000459.0
+[INFO] [1651316303.196491]: Current change in position of motor 4 1019277.0
+[INFO] [1651316303.293516]: Current position (22951920.0, -20073081.0, -19980130.0, 23054215.0)
+[INFO] [1651316303.294200]: Current velocity (74.87654320987654, -74.96296296296296, -72.77777777777777, 75.85185185185185)
+[INFO] [1651316303.294836]: Current change in position of motor 1 1008897.0
+[INFO] [1651316303.295510]: Current change in position of motor 2 -1027381.0
+[INFO] [1651316303.296115]: Current change in position of motor 3 -1011114.0
+[INFO] [1651316303.296754]: Current change in position of motor 4 1030340.0
+[INFO] [1651316303.393579]: Current position (22974021.0, -20095459.0, -20002169.0, 23076963.0)
+[INFO] [1651316303.394288]: Current velocity (75.08641975308642, -76.12345679012346, -75.0, 76.74074074074075)
+[INFO] [1651316303.394892]: Current change in position of motor 1 1030998.0
+[INFO] [1651316303.395473]: Current change in position of motor 2 -1049759.0
+[INFO] [1651316303.396060]: Current change in position of motor 3 -1033153.0
+[INFO] [1651316303.396687]: Current change in position of motor 4 1053088.0
+[INFO] [1651316303.493505]: Current position (22995882.0, -20117734.0, -20023990.0, 23099102.0)
+[INFO] [1651316303.494167]: Current velocity (74.70370370370371, -76.14814814814815, -74.61728395061728, 75.80246913580247)
+[INFO] [1651316303.494824]: Current change in position of motor 1 1052859.0
+[INFO] [1651316303.495492]: Current change in position of motor 2 -1072034.0
+[INFO] [1651316303.496098]: Current change in position of motor 3 -1054974.0
+[INFO] [1651316303.496754]: Current change in position of motor 4 1075227.0
+[INFO] [1651316303.593507]: Current position (23017771.0, -20139923.0, -20045574.0, 23121067.0)
+[INFO] [1651316303.594189]: Current velocity (75.04938271604938, -75.79012345679013, -73.37037037037037, 75.34567901234568)
+[INFO] [1651316303.594858]: Current change in position of motor 1 1074748.0
+[INFO] [1651316303.595507]: Current change in position of motor 2 -1094223.0
+[INFO] [1651316303.596144]: Current change in position of motor 3 -1076558.0
+[INFO] [1651316303.596780]: Current change in position of motor 4 1097192.0
+[INFO] [1651316303.693534]: Current position (23039883.0, -20162181.0, -20067201.0, 23143368.0)
+[INFO] [1651316303.694313]: Current velocity (75.1358024691358, -76.62962962962963, -73.91358024691358, 76.14814814814815)
+[INFO] [1651316303.694996]: Current change in position of motor 1 1096860.0
+[INFO] [1651316303.695575]: Current change in position of motor 2 -1116481.0
+[INFO] [1651316303.696216]: Current change in position of motor 3 -1098185.0
+[INFO] [1651316303.696848]: Current change in position of motor 4 1119493.0
+[INFO] [1651316303.793512]: Current position (23062116.0, -20184961.0, -20089119.0, 23165843.0)
+[INFO] [1651316303.794203]: Current velocity (75.04938271604938, -76.91358024691358, -74.38271604938272, 75.41975308641975)
+[INFO] [1651316303.794826]: Current change in position of motor 1 1119093.0
+[INFO] [1651316303.795460]: Current change in position of motor 2 -1139261.0
+[INFO] [1651316303.796119]: Current change in position of motor 3 -1120103.0
+[INFO] [1651316303.796706]: Current change in position of motor 4 1141968.0
+[INFO] [1651316303.893567]: Current position (23073145.0, -20196304.0, -20100248.0, 23176885.0)
+[INFO] [1651316303.894291]: Current velocity (74.96296296296296, -76.81481481481481, -75.07407407407408, 74.8395061728395)
+[INFO] [1651316303.894952]: Current change in position of motor 1 1130122.0
+[INFO] [1651316303.895594]: Current change in position of motor 2 -1150604.0
+[INFO] [1651316303.896178]: Current change in position of motor 3 -1131232.0
+[INFO] [1651316303.896796]: Current change in position of motor 4 1153010.0
+[INFO] [1651316303.993505]: Current position (23095392.0, -20218596.0, -20122457.0, 23199170.0)
+[INFO] [1651316303.994165]: Current velocity (74.9753086419753, -74.8641975308642, -74.39506172839506, 75.49382716049382)
+[INFO] [1651316303.994803]: Current change in position of motor 1 1152369.0
+[INFO] [1651316303.995425]: Current change in position of motor 2 -1172896.0
+[INFO] [1651316303.996094]: Current change in position of motor 3 -1153441.0
+[INFO] [1651316303.996741]: Current change in position of motor 4 1175295.0
+[INFO] [1651316304.093508]: Current position (23117428.0, -20240771.0, -20144150.0, 23221486.0)
+[INFO] [1651316304.094150]: Current velocity (74.70370370370371, -76.1358024691358, -73.76543209876543, 76.12345679012346)
+[INFO] [1651316304.094729]: Current change in position of motor 1 1174405.0
+[INFO] [1651316304.095303]: Current change in position of motor 2 -1195071.0
+[INFO] [1651316304.095907]: Current change in position of motor 3 -1175134.0
+[INFO] [1651316304.096480]: Current change in position of motor 4 1197611.0
+[INFO] [1651316304.193506]: Current position (23139132.0, -20263130.0, -20165782.0, 23243644.0)
+[INFO] [1651316304.194140]: Current velocity (74.72839506172839, -76.65432098765432, -73.93827160493827, 75.69135802469135)
+[INFO] [1651316304.194704]: Current change in position of motor 1 1196109.0
+[INFO] [1651316304.195263]: Current change in position of motor 2 -1217430.0
+[INFO] [1651316304.195848]: Current change in position of motor 3 -1196766.0
+[INFO] [1651316304.196420]: Current change in position of motor 4 1219769.0
+[INFO] [1651316304.293505]: Current position (23161349.0, -20285748.0, -20187983.0, 23265890.0)
+[INFO] [1651316304.294122]: Current velocity (74.98765432098766, -75.71604938271605, -75.0, 74.87654320987654)
+[INFO] [1651316304.294688]: Current change in position of motor 1 1218326.0
+[INFO] [1651316304.295275]: Current change in position of motor 2 -1240048.0
+[INFO] [1651316304.295880]: Current change in position of motor 3 -1218967.0
+[INFO] [1651316304.296475]: Current change in position of motor 4 1242015.0
+[INFO] [1651316304.393519]: Current position (23183622.0, -20307931.0, -20210032.0, 23288536.0)
+[INFO] [1651316304.394139]: Current velocity (74.88888888888889, -75.48148148148148, -73.85185185185185, 76.74074074074075)
+[INFO] [1651316304.394732]: Current change in position of motor 1 1240599.0
+[INFO] [1651316304.395355]: Current change in position of motor 2 -1262231.0
+[INFO] [1651316304.395933]: Current change in position of motor 3 -1241016.0
+[INFO] [1651316304.396506]: Current change in position of motor 4 1264661.0
+[INFO] [1651316304.493505]: Current position (23194630.0, -20319166.0, -20220886.0, 23299693.0)
+[INFO] [1651316304.494114]: Current velocity (74.62962962962963, -76.28395061728395, -74.46913580246914, 76.53086419753086)
+[INFO] [1651316304.494731]: Current change in position of motor 1 1251607.0
+[INFO] [1651316304.495289]: Current change in position of motor 2 -1273466.0
+[INFO] [1651316304.495883]: Current change in position of motor 3 -1251870.0
+[INFO] [1651316304.496452]: Current change in position of motor 4 1275818.0
+[INFO] [1651316304.593551]: Current position (23215895.0, -20341465.0, -20242583.0, 23321869.0)
+[INFO] [1651316304.594151]: Current velocity (72.92592592592592, -76.60493827160494, -74.18518518518519, 75.76543209876543)
+[INFO] [1651316304.594755]: Current change in position of motor 1 1272872.0
+[INFO] [1651316304.595324]: Current change in position of motor 2 -1295765.0
+[INFO] [1651316304.595906]: Current change in position of motor 3 -1273567.0
+[INFO] [1651316304.596471]: Current change in position of motor 4 1297994.0
+[INFO] [1651316304.693582]: Current position (23237592.0, -20363789.0, -20264307.0, 23343774.0)
+[INFO] [1651316304.694271]: Current velocity (74.66666666666667, -76.03703703703704, -74.77777777777777, 74.98765432098766)
+[INFO] [1651316304.694916]: Current change in position of motor 1 1294569.0
+[INFO] [1651316304.695553]: Current change in position of motor 2 -1318089.0
+[INFO] [1651316304.696129]: Current change in position of motor 3 -1295291.0
+[INFO] [1651316304.696749]: Current change in position of motor 4 1319899.0
+[INFO] [1651316304.793553]: Current position (23259229.0, -20385794.0, -20286045.0, 23365860.0)
+[INFO] [1651316304.794227]: Current velocity (74.30864197530865, -75.79012345679013, -74.9753086419753, 75.98765432098766)
+[INFO] [1651316304.794862]: Current change in position of motor 1 1316206.0
+[INFO] [1651316304.795444]: Current change in position of motor 2 -1340094.0
+[INFO] [1651316304.796081]: Current change in position of motor 3 -1317029.0
+[INFO] [1651316304.796725]: Current change in position of motor 4 1341985.0
+[INFO] [1651316304.893506]: Current position (23280877.0, -20408386.0, -20307796.0, 23388264.0)
+[INFO] [1651316304.894135]: Current velocity (74.01234567901234, -77.35802469135803, -74.4074074074074, 76.30864197530865)
+[INFO] [1651316304.894765]: Current change in position of motor 1 1337854.0
+[INFO] [1651316304.895336]: Current change in position of motor 2 -1362686.0
+[INFO] [1651316304.895905]: Current change in position of motor 3 -1338780.0
+[INFO] [1651316304.896470]: Current change in position of motor 4 1364389.0
+[INFO] [1651316304.993503]: Current position (23302648.0, -20430885.0, -20329411.0, 23410176.0)
+[INFO] [1651316304.994120]: Current velocity (74.80246913580247, -77.04938271604938, -74.18518518518519, 74.96296296296296)
+[INFO] [1651316304.994740]: Current change in position of motor 1 1359625.0
+[INFO] [1651316304.995309]: Current change in position of motor 2 -1385185.0
+[INFO] [1651316304.995884]: Current change in position of motor 3 -1360395.0
+[INFO] [1651316304.996451]: Current change in position of motor 4 1386301.0
+[INFO] [1651316305.093509]: Current position (23324710.0, -20453147.0, -20350893.0, 23432268.0)
+[INFO] [1651316305.094129]: Current velocity (74.8395061728395, -74.9753086419753, -73.35802469135803, 75.76543209876543)
+[INFO] [1651316305.094714]: Current change in position of motor 1 1381687.0
+[INFO] [1651316305.095326]: Current change in position of motor 2 -1407447.0
+[INFO] [1651316305.095933]: Current change in position of motor 3 -1381877.0
+[INFO] [1651316305.096504]: Current change in position of motor 4 1408393.0
+[INFO] [1651316305.193560]: Current position (23335667.0, -20464450.0, -20361958.0, 23443432.0)
+[INFO] [1651316305.194188]: Current velocity (75.0, -76.64197530864197, -75.1604938271605, 75.92592592592592)
+[INFO] [1651316305.194766]: Current change in position of motor 1 1392644.0
+[INFO] [1651316305.195336]: Current change in position of motor 2 -1418750.0
+[INFO] [1651316305.195945]: Current change in position of motor 3 -1392942.0
+[INFO] [1651316305.196516]: Current change in position of motor 4 1419557.0
+[INFO] [1651316305.293503]: Current position (23357616.0, -20486891.0, -20383868.0, 23465724.0)
+[INFO] [1651316305.294168]: Current velocity (74.71604938271605, -76.4320987654321, -74.24691358024691, 75.60493827160494)
+[INFO] [1651316305.294822]: Current change in position of motor 1 1414593.0
+[INFO] [1651316305.295436]: Current change in position of motor 2 -1441191.0
+[INFO] [1651316305.296055]: Current change in position of motor 3 -1414852.0
+[INFO] [1651316305.296634]: Current change in position of motor 4 1441849.0
+[INFO] [1651316305.393510]: Current position (23379676.0, -20509327.0, -20405825.0, 23487529.0)
+[INFO] [1651316305.394165]: Current velocity (75.03703703703704, -76.1358024691358, -75.17283950617283, 74.62962962962963)
+[INFO] [1651316305.394794]: Current change in position of motor 1 1436653.0
+[INFO] [1651316305.395362]: Current change in position of motor 2 -1463627.0
+[INFO] [1651316305.395947]: Current change in position of motor 3 -1436809.0
+[INFO] [1651316305.396521]: Current change in position of motor 4 1463654.0
+[INFO] [1651316305.493514]: Current position (23401723.0, -20531495.0, -20428143.0, 23509450.0)
+[INFO] [1651316305.494140]: Current velocity (75.08641975308642, -75.38271604938272, -75.58024691358025, 74.67901234567901)
+[INFO] [1651316305.494734]: Current change in position of motor 1 1458700.0
+[INFO] [1651316305.495306]: Current change in position of motor 2 -1485795.0
+[INFO] [1651316305.495904]: Current change in position of motor 3 -1459127.0
+[INFO] [1651316305.496482]: Current change in position of motor 4 1485575.0
+[INFO] [1651316305.593505]: Current position (23423872.0, -20553972.0, -20450341.0, 23531413.0)
+[INFO] [1651316305.594163]: Current velocity (75.01234567901234, -76.39506172839506, -75.65432098765432, 74.81481481481481)
+[INFO] [1651316305.594761]: Current change in position of motor 1 1480849.0
+[INFO] [1651316305.595330]: Current change in position of motor 2 -1508272.0
+[INFO] [1651316305.595903]: Current change in position of motor 3 -1481325.0
+[INFO] [1651316305.596490]: Current change in position of motor 4 1507538.0
+[INFO] [1651316305.693505]: Current position (23446042.0, -20576526.0, -20472666.0, 23553336.0)
+[INFO] [1651316305.694132]: Current velocity (74.93827160493827, -76.20987654320987, -75.5925925925926, 74.19753086419753)
+[INFO] [1651316305.694717]: Current change in position of motor 1 1503019.0
+[INFO] [1651316305.695350]: Current change in position of motor 2 -1530826.0
+[INFO] [1651316305.695953]: Current change in position of motor 3 -1503650.0
+[INFO] [1651316305.696525]: Current change in position of motor 4 1529461.0
+[INFO] [1651316305.793514]: Current position (23457051.0, -20587657.0, -20483810.0, 23564282.0)
+[INFO] [1651316305.794229]: Current velocity (74.95061728395062, -75.65432098765432, -75.72839506172839, 74.39506172839506)
+[INFO] [1651316305.794881]: Current change in position of motor 1 1514028.0
+[INFO] [1651316305.795505]: Current change in position of motor 2 -1541957.0
+[INFO] [1651316305.796126]: Current change in position of motor 3 -1514794.0
+[INFO] [1651316305.796705]: Current change in position of motor 4 1540407.0
+[INFO] [1651316305.893548]: Current position (23479200.0, -20609913.0, -20506247.0, 23586671.0)
+[INFO] [1651316305.894229]: Current velocity (74.62962962962963, -75.72839506172839, -75.75308641975309, 75.66666666666667)
+[INFO] [1651316305.894938]: Current change in position of motor 1 1536177.0
+[INFO] [1651316305.895580]: Current change in position of motor 2 -1564213.0
+[INFO] [1651316305.896226]: Current change in position of motor 3 -1537231.0
+[INFO] [1651316305.896863]: Current change in position of motor 4 1562796.0
+[INFO] [1651316305.993509]: Current position (23501061.0, -20632155.0, -20528392.0, 23608920.0)
+[INFO] [1651316305.994178]: Current velocity (74.09876543209876, -75.46913580246914, -75.20987654320987, 75.90123456790124)
+[INFO] [1651316305.994834]: Current change in position of motor 1 1558038.0
+[INFO] [1651316305.995474]: Current change in position of motor 2 -1586455.0
+[INFO] [1651316305.996080]: Current change in position of motor 3 -1559376.0
+[INFO] [1651316305.996668]: Current change in position of motor 4 1585045.0
+[INFO] [1651316306.093511]: Current position (23522707.0, -20654361.0, -20550311.0, 23630811.0)
+[INFO] [1651316306.094185]: Current velocity (74.61728395061728, -76.22222222222223, -75.4320987654321, 74.77777777777777)
+[INFO] [1651316306.094864]: Current change in position of motor 1 1579684.0
+[INFO] [1651316306.095460]: Current change in position of motor 2 -1608661.0
+[INFO] [1651316306.096053]: Current change in position of motor 3 -1581295.0
+[INFO] [1651316306.096640]: Current change in position of motor 4 1606936.0
+[INFO] [1651316306.193510]: Current position (23544557.0, -20676282.0, -20572279.0, 23652655.0)
+[INFO] [1651316306.194182]: Current velocity (74.96296296296296, -74.55555555555556, -75.11111111111111, 74.75308641975309)
+[INFO] [1651316306.194799]: Current change in position of motor 1 1601534.0
+[INFO] [1651316306.195388]: Current change in position of motor 2 -1630582.0
+[INFO] [1651316306.195981]: Current change in position of motor 3 -1603263.0
+[INFO] [1651316306.196560]: Current change in position of motor 4 1628780.0
+[INFO] [1651316306.293550]: Current position (23566460.0, -20698344.0, -20594267.0, 23674603.0)
+[INFO] [1651316306.294178]: Current velocity (75.01234567901234, -75.9753086419753, -75.30864197530865, 75.12345679012346)
+[INFO] [1651316306.294791]: Current change in position of motor 1 1623437.0
+[INFO] [1651316306.295383]: Current change in position of motor 2 -1652644.0
+[INFO] [1651316306.295977]: Current change in position of motor 3 -1625251.0
+[INFO] [1651316306.296555]: Current change in position of motor 4 1650728.0
+[INFO] [1651316306.393504]: Current position (23577451.0, -20709486.0, -20605381.0, 23685599.0)
+[INFO] [1651316306.394138]: Current velocity (74.91358024691358, -75.65432098765432, -75.49382716049382, 75.30864197530865)
+[INFO] [1651316306.394726]: Current change in position of motor 1 1634428.0
+[INFO] [1651316306.395350]: Current change in position of motor 2 -1663786.0
+[INFO] [1651316306.395947]: Current change in position of motor 3 -1636365.0
+[INFO] [1651316306.396517]: Current change in position of motor 4 1661724.0
+[INFO] [1651316306.493515]: Current position (23599314.0, -20731794.0, -20627623.0, 23707777.0)
+[INFO] [1651316306.494148]: Current velocity (74.58024691358025, -75.72839506172839, -75.80246913580247, 75.23456790123457)
+[INFO] [1651316306.494754]: Current change in position of motor 1 1656291.0
+[INFO] [1651316306.495333]: Current change in position of motor 2 -1686094.0
+[INFO] [1651316306.495912]: Current change in position of motor 3 -1658607.0
+[INFO] [1651316306.496527]: Current change in position of motor 4 1683902.0
+[INFO] [1651316306.593544]: Current position (23621283.0, -20753883.0, -20649987.0, 23730209.0)
+[INFO] [1651316306.594167]: Current velocity (74.33333333333333, -74.81481481481481, -75.75308641975309, 76.4320987654321)
+[INFO] [1651316306.594809]: Current change in position of motor 1 1678260.0
+[INFO] [1651316306.595416]: Current change in position of motor 2 -1708183.0
+[INFO] [1651316306.595998]: Current change in position of motor 3 -1680971.0
+[INFO] [1651316306.596567]: Current change in position of motor 4 1706334.0
+[INFO] [1651316306.693524]: Current position (23642822.0, -20775960.0, -20672248.0, 23752860.0)
+[INFO] [1651316306.694150]: Current velocity (73.28395061728395, -75.29629629629629, -75.67901234567901, 77.35802469135803)
+[INFO] [1651316306.694769]: Current change in position of motor 1 1699799.0
+[INFO] [1651316306.695348]: Current change in position of motor 2 -1730260.0
+[INFO] [1651316306.695929]: Current change in position of motor 3 -1703232.0
+[INFO] [1651316306.696498]: Current change in position of motor 4 1728985.0
+[INFO] [1651316306.793507]: Current position (23664413.0, -20798102.0, -20694387.0, 23775550.0)
+[INFO] [1651316306.794160]: Current velocity (73.58024691358025, -76.08641975308642, -75.54320987654322, 77.30864197530865)
+[INFO] [1651316306.794758]: Current change in position of motor 1 1721390.0
+[INFO] [1651316306.795364]: Current change in position of motor 2 -1752402.0
+[INFO] [1651316306.795979]: Current change in position of motor 3 -1725371.0
+[INFO] [1651316306.796549]: Current change in position of motor 4 1751675.0
+[INFO] [1651316306.893502]: Current position (23686211.0, -20820652.0, -20716830.0, 23798315.0)
+[INFO] [1651316306.894124]: Current velocity (73.80246913580247, -75.39506172839506, -75.45679012345678, 76.06172839506173)
+[INFO] [1651316306.894798]: Current change in position of motor 1 1743188.0
+[INFO] [1651316306.895443]: Current change in position of motor 2 -1774952.0
+[INFO] [1651316306.896070]: Current change in position of motor 3 -1747814.0
+[INFO] [1651316306.896646]: Current change in position of motor 4 1774440.0
+[INFO] [1651316306.993509]: Current position (23697233.0, -20831724.0, -20727937.0, 23809517.0)
+[INFO] [1651316306.994192]: Current velocity (74.1358024691358, -75.5679012345679, -75.53086419753086, 76.34567901234568)
+[INFO] [1651316306.994809]: Current change in position of motor 1 1754210.0
+[INFO] [1651316306.995382]: Current change in position of motor 2 -1786024.0
+[INFO] [1651316306.995973]: Current change in position of motor 3 -1758921.0
+[INFO] [1651316306.996575]: Current change in position of motor 4 1785642.0
+[INFO] [1651316307.093545]: Current position (23719019.0, -20854490.0, -20750283.0, 23832413.0)
+[INFO] [1651316307.094215]: Current velocity (72.71604938271605, -76.33333333333333, -74.93827160493827, 76.76543209876543)
+[INFO] [1651316307.094879]: Current change in position of motor 1 1775996.0
+[INFO] [1651316307.095641]: Current change in position of motor 2 -1808790.0
+[INFO] [1651316307.096345]: Current change in position of motor 3 -1781267.0
+[INFO] [1651316307.096985]: Current change in position of motor 4 1808538.0
+[INFO] [1651316307.193550]: Current position (23740756.0, -20877076.0, -20772307.0, 23854905.0)
+[INFO] [1651316307.194217]: Current velocity (73.28395061728395, -76.23456790123457, -74.45679012345678, 76.0246913580247)
+[INFO] [1651316307.194971]: Current change in position of motor 1 1797733.0
+[INFO] [1651316307.195569]: Current change in position of motor 2 -1831376.0
+[INFO] [1651316307.196213]: Current change in position of motor 3 -1803291.0
+[INFO] [1651316307.196802]: Current change in position of motor 4 1831030.0
+[INFO] [1651316307.293563]: Current position (23762449.0, -20899216.0, -20794130.0, 23876891.0)
+[INFO] [1651316307.294235]: Current velocity (74.75308641975309, -75.12345679012346, -74.81481481481481, 75.1604938271605)
+[INFO] [1651316307.294892]: Current change in position of motor 1 1819426.0
+[INFO] [1651316307.295487]: Current change in position of motor 2 -1853516.0
+[INFO] [1651316307.296144]: Current change in position of motor 3 -1825114.0
+[INFO] [1651316307.296804]: Current change in position of motor 4 1853016.0
+[INFO] [1651316307.393505]: Current position (23784377.0, -20921388.0, -20816057.0, 23898952.0)
+[INFO] [1651316307.394178]: Current velocity (74.64197530864197, -76.35802469135803, -74.28395061728395, 75.01234567901234)
+[INFO] [1651316307.394800]: Current change in position of motor 1 1841354.0
+[INFO] [1651316307.395385]: Current change in position of motor 2 -1875688.0
+[INFO] [1651316307.395983]: Current change in position of motor 3 -1847041.0
+[INFO] [1651316307.396573]: Current change in position of motor 4 1875077.0
+[INFO] [1651316307.493551]: Current position (23806432.0, -20944014.0, -20837942.0, 23921077.0)
+[INFO] [1651316307.494228]: Current velocity (74.96296296296296, -77.01234567901234, -74.77777777777777, 75.18518518518519)
+[INFO] [1651316307.494925]: Current change in position of motor 1 1863409.0
+[INFO] [1651316307.495571]: Current change in position of motor 2 -1898314.0
+[INFO] [1651316307.496203]: Current change in position of motor 3 -1868926.0
+[INFO] [1651316307.496800]: Current change in position of motor 4 1897202.0
+[INFO] [1651316307.593552]: Current position (23817325.0, -20955238.0, -20848940.0, 23931973.0)
+[INFO] [1651316307.594233]: Current velocity (74.70370370370371, -76.93827160493827, -75.48148148148148, 75.4074074074074)
+[INFO] [1651316307.594917]: Current change in position of motor 1 1874302.0
+[INFO] [1651316307.595512]: Current change in position of motor 2 -1909538.0
+[INFO] [1651316307.596131]: Current change in position of motor 3 -1879924.0
+[INFO] [1651316307.596725]: Current change in position of motor 4 1908098.0
+[INFO] [1651316307.693558]: Current position (23839076.0, -20977130.0, -20871007.0, 23954119.0)
+[INFO] [1651316307.694189]: Current velocity (74.67901234567901, -74.46913580246914, -75.48148148148148, 75.80246913580247)
+[INFO] [1651316307.694813]: Current change in position of motor 1 1896053.0
+[INFO] [1651316307.695433]: Current change in position of motor 2 -1931430.0
+[INFO] [1651316307.696057]: Current change in position of motor 3 -1901991.0
+[INFO] [1651316307.696630]: Current change in position of motor 4 1930244.0
+[INFO] [1651316307.793504]: Current position (23860977.0, -20999542.0, -20893024.0, 23976577.0)
+[INFO] [1651316307.794146]: Current velocity (74.27160493827161, -76.32098765432099, -74.44444444444444, 76.44444444444444)
+[INFO] [1651316307.794800]: Current change in position of motor 1 1917954.0
+[INFO] [1651316307.795404]: Current change in position of motor 2 -1953842.0
+[INFO] [1651316307.796009]: Current change in position of motor 3 -1924008.0
+[INFO] [1651316307.796580]: Current change in position of motor 4 1952702.0
+[INFO] [1651316307.893562]: Current position (23882699.0, -21021950.0, -20914468.0, 23998846.0)
+[INFO] [1651316307.894176]: Current velocity (74.66666666666667, -76.87654320987654, -73.77777777777777, 76.04938271604938)
+[INFO] [1651316307.894788]: Current change in position of motor 1 1939676.0
+[INFO] [1651316307.895401]: Current change in position of motor 2 -1976250.0
+[INFO] [1651316307.896021]: Current change in position of motor 3 -1945452.0
+[INFO] [1651316307.896602]: Current change in position of motor 4 1974971.0
+[INFO] [1651316307.993510]: Current position (23904612.0, -21044220.0, -20936081.0, 24020844.0)
+[INFO] [1651316307.994136]: Current velocity (75.0246913580247, -75.79012345679013, -74.17283950617283, 75.49382716049382)
+[INFO] [1651316307.994743]: Current change in position of motor 1 1961589.0
+[INFO] [1651316307.995359]: Current change in position of motor 2 -1998520.0
+[INFO] [1651316307.995957]: Current change in position of motor 3 -1967065.0
+[INFO] [1651316307.996550]: Current change in position of motor 4 1996969.0
+[INFO] [1651316308.093511]: Current position (23926511.0, -21066242.0, -20957638.0, 24042975.0)
+[INFO] [1651316308.094216]: Current velocity (75.06172839506173, -76.28395061728395, -73.75308641975309, 75.92592592592592)
+[INFO] [1651316308.094861]: Current change in position of motor 1 1983488.0
+[INFO] [1651316308.095484]: Current change in position of motor 2 -2020542.0
+[INFO] [1651316308.096087]: Current change in position of motor 3 -1988622.0
+[INFO] [1651316308.096676]: Current change in position of motor 4 2019100.0
+[INFO] [1651316308.193463]: Current position (23948589.0, -21088677.0, -20979375.0, 24065227.0)
+[INFO] [1651316308.194123]: Current velocity (75.14814814814815, -76.28395061728395, -74.0, 75.62962962962963)
+[INFO] [1651316308.194714]: Current change in position of motor 1 2005566.0
+[INFO] [1651316308.195286]: Current change in position of motor 2 -2042977.0
+[INFO] [1651316308.195886]: Current change in position of motor 3 -2010359.0
+[INFO] [1651316308.196478]: Current change in position of motor 4 2041352.0
+[INFO] [1651316308.293541]: Current position (23959547.0, -21099812.0, -20990207.0, 24076175.0)
+[INFO] [1651316308.294229]: Current velocity (75.06172839506173, -76.11111111111111, -73.8395061728395, 74.82716049382717)
+[INFO] [1651316308.294928]: Current change in position of motor 1 2016524.0
+[INFO] [1651316308.295618]: Current change in position of motor 2 -2054112.0
+[INFO] [1651316308.296280]: Current change in position of motor 3 -2021191.0
+[INFO] [1651316308.296966]: Current change in position of motor 4 2052300.0
+[INFO] [1651316308.393506]: Current position (23981606.0, -21122119.0, -21011898.0, 24098222.0)
+[INFO] [1651316308.394180]: Current velocity (75.0246913580247, -75.53086419753086, -73.71604938271605, 75.28395061728395)
+[INFO] [1651316308.394825]: Current change in position of motor 1 2038583.0
+[INFO] [1651316308.395489]: Current change in position of motor 2 -2076419.0
+[INFO] [1651316308.396132]: Current change in position of motor 3 -2042882.0
+[INFO] [1651316308.396779]: Current change in position of motor 4 2074347.0
+[INFO] [1651316308.493510]: Current position (24003728.0, -21144385.0, -21033682.0, 24120868.0)
+[INFO] [1651316308.494173]: Current velocity (75.04938271604938, -75.9753086419753, -73.75308641975309, 76.92592592592592)
+[INFO] [1651316308.494792]: Current change in position of motor 1 2060705.0
+[INFO] [1651316308.495393]: Current change in position of motor 2 -2098685.0
+[INFO] [1651316308.495990]: Current change in position of motor 3 -2064666.0
+[INFO] [1651316308.496571]: Current change in position of motor 4 2096993.0
+[INFO] [1651316308.593499]: Current position (24026103.0, -21167044.0, -21055763.0, 24143733.0)
+[INFO] [1651316308.594153]: Current velocity (75.01234567901234, -75.93827160493827, -74.5925925925926, 76.85185185185185)
+[INFO] [1651316308.594802]: Current change in position of motor 1 2083080.0
+[INFO] [1651316308.595426]: Current change in position of motor 2 -2121344.0
+[INFO] [1651316308.596005]: Current change in position of motor 3 -2086747.0
+[INFO] [1651316308.596577]: Current change in position of motor 4 2119858.0
+[INFO] [1651316308.693564]: Current position (24047937.0, -21189103.0, -21077527.0, 24165755.0)
+[INFO] [1651316308.694236]: Current velocity (74.82716049382717, -75.82716049382717, -74.38271604938272, 75.32098765432099)
+[INFO] [1651316308.694912]: Current change in position of motor 1 2104914.0
+[INFO] [1651316308.695529]: Current change in position of motor 2 -2143403.0
+[INFO] [1651316308.696116]: Current change in position of motor 3 -2108511.0
+[INFO] [1651316308.696741]: Current change in position of motor 4 2141880.0
+[INFO] [1651316308.793505]: Current position (24058948.0, -21200226.0, -21088522.0, 24176916.0)
+[INFO] [1651316308.794225]: Current velocity (75.49382716049382, -76.28395061728395, -73.81481481481481, 76.12345679012346)
+[INFO] [1651316308.794876]: Current change in position of motor 1 2127141.0
+[INFO] [1651316308.795493]: Current change in position of motor 2 -2165824.0
+[INFO] [1651316308.796081]: Current change in position of motor 3 -2130538.0
+[INFO] [1651316308.796767]: Current change in position of motor 4 2164486.0
+[INFO] [1651316308.893541]: Current position (24081273.0, -21222869.0, -21110285.0, 24199425.0)
+[INFO] [1651316308.894224]: Current velocity (75.28395061728395, -76.96296296296296, -73.29629629629629, 75.90123456790124)
+[INFO] [1651316308.894870]: Current change in position of motor 1 2138250.0
+[INFO] [1651316308.895514]: Current change in position of motor 2 -2177169.0
+[INFO] [1651316308.896156]: Current change in position of motor 3 -2141269.0
+[INFO] [1651316308.896808]: Current change in position of motor 4 2175550.0
+[INFO] [1651316308.993608]: Current position (24103259.0, -21245315.0, -21131744.0, 24221456.0)
+[INFO] [1651316308.994293]: Current velocity (75.22222222222223, -76.93827160493827, -73.74074074074075, 75.14814814814815)
+[INFO] [1651316308.994953]: Current change in position of motor 1 2160236.0
+[INFO] [1651316308.995588]: Current change in position of motor 2 -2199615.0
+[INFO] [1651316308.996229]: Current change in position of motor 3 -2162728.0
+[INFO] [1651316308.996865]: Current change in position of motor 4 2197581.0
+[INFO] [1651316309.093503]: Current position (24125311.0, -21267662.0, -21153681.0, 24243469.0)
+[INFO] [1651316309.094169]: Current velocity (75.0246913580247, -75.61728395061728, -74.96296296296296, 75.01234567901234)
+[INFO] [1651316309.094768]: Current change in position of motor 1 2182288.0
+[INFO] [1651316309.095367]: Current change in position of motor 2 -2221962.0
+[INFO] [1651316309.095959]: Current change in position of motor 3 -2184665.0
+[INFO] [1651316309.096544]: Current change in position of motor 4 2219594.0
+[INFO] [1651316309.193501]: Current position (24147295.0, -21289792.0, -21175475.0, 24265572.0)
+[INFO] [1651316309.194152]: Current velocity (75.33333333333333, -76.38271604938272, -73.71604938271605, 75.5925925925926)
+[INFO] [1651316309.194749]: Current change in position of motor 1 2204272.0
+[INFO] [1651316309.195332]: Current change in position of motor 2 -2244092.0
+[INFO] [1651316309.195912]: Current change in position of motor 3 -2206459.0
+[INFO] [1651316309.196497]: Current change in position of motor 4 2241697.0
+[INFO] [1651316309.293543]: Current position (24169292.0, -21312126.0, -21196951.0, 24287709.0)
+[INFO] [1651316309.294178]: Current velocity (74.92592592592592, -76.49382716049382, -73.64197530864197, 75.79012345679013)
+[INFO] [1651316309.294836]: Current change in position of motor 1 2226269.0
+[INFO] [1651316309.295432]: Current change in position of motor 2 -2266426.0
+[INFO] [1651316309.296022]: Current change in position of motor 3 -2227935.0
+[INFO] [1651316309.296588]: Current change in position of motor 4 2263834.0
+[INFO] [1651316309.393540]: Current position (24191164.0, -21334560.0, -21218649.0, 24309723.0)
+[INFO] [1651316309.394171]: Current velocity (74.9753086419753, -76.33333333333333, -74.1604938271605, 75.11111111111111)
+[INFO] [1651316309.394779]: Current change in position of motor 1 2248141.0
+[INFO] [1651316309.395341]: Current change in position of motor 2 -2288860.0
+[INFO] [1651316309.395922]: Current change in position of motor 3 -2249633.0
+[INFO] [1651316309.396519]: Current change in position of motor 4 2285848.0
+[INFO] [1651316309.493498]: Current position (24202143.0, -21345580.0, -21229549.0, 24320709.0)
+[INFO] [1651316309.494114]: Current velocity (74.91358024691358, -75.8395061728395, -74.8395061728395, 75.18518518518519)
+[INFO] [1651316309.494689]: Current change in position of motor 1 2259120.0
+[INFO] [1651316309.495274]: Current change in position of motor 2 -2299880.0
+[INFO] [1651316309.495900]: Current change in position of motor 3 -2260533.0
+[INFO] [1651316309.496475]: Current change in position of motor 4 2296834.0
+[INFO] [1651316309.593567]: Current position (24224177.0, -21367796.0, -21251322.0, 24343141.0)
+[INFO] [1651316309.594202]: Current velocity (74.90123456790124, -75.93827160493827, -73.66666666666667, 76.41975308641975)
+[INFO] [1651316309.594799]: Current change in position of motor 1 2281154.0
+[INFO] [1651316309.595370]: Current change in position of motor 2 -2322096.0
+[INFO] [1651316309.595946]: Current change in position of motor 3 -2282306.0
+[INFO] [1651316309.596534]: Current change in position of motor 4 2319266.0
+[INFO] [1651316309.693555]: Current position (24246198.0, -21390405.0, -21273052.0, 24365484.0)
+[INFO] [1651316309.694273]: Current velocity (74.95061728395062, -76.98765432098766, -74.11111111111111, 75.79012345679013)
+[INFO] [1651316309.694900]: Current change in position of motor 1 2303175.0
+[INFO] [1651316309.695496]: Current change in position of motor 2 -2344705.0
+[INFO] [1651316309.696099]: Current change in position of motor 3 -2304036.0
+[INFO] [1651316309.696685]: Current change in position of motor 4 2341609.0
+[INFO] [1651316309.793543]: Current position (24268197.0, -21412935.0, -21295062.0, 24387504.0)
+[INFO] [1651316309.794217]: Current velocity (74.44444444444444, -75.79012345679013, -74.75308641975309, 74.61728395061728)
+[INFO] [1651316309.794874]: Current change in position of motor 1 2325174.0
+[INFO] [1651316309.795446]: Current change in position of motor 2 -2367235.0
+[INFO] [1651316309.796144]: Current change in position of motor 3 -2326046.0
+[INFO] [1651316309.796846]: Current change in position of motor 4 2363629.0
+[INFO] [1651316309.893562]: Current position (24290189.0, -21434970.0, -21317148.0, 24409507.0)
+[INFO] [1651316309.894247]: Current velocity (74.90123456790124, -75.32098765432099, -75.32098765432099, 74.88888888888889)
+[INFO] [1651316309.894933]: Current change in position of motor 1 2347166.0
+[INFO] [1651316309.895620]: Current change in position of motor 2 -2389270.0
+[INFO] [1651316309.896303]: Current change in position of motor 3 -2348132.0
+[INFO] [1651316309.897053]: Current change in position of motor 4 2385632.0
+[INFO] [1651316309.993599]: Current position (24312400.0, -21457565.0, -21339353.0, 24431748.0)
+[INFO] [1651316309.994311]: Current velocity (74.95061728395062, -76.4320987654321, -74.95061728395062, 75.61728395061728)
+[INFO] [1651316309.995018]: Current change in position of motor 1 2369377.0
+[INFO] [1651316309.995663]: Current change in position of motor 2 -2411865.0
+[INFO] [1651316309.996236]: Current change in position of motor 3 -2370337.0
+[INFO] [1651316309.996799]: Current change in position of motor 4 2407873.0
+[INFO] [1651316310.093521]: Current position (24323199.0, -21468789.0, -21350253.0, 24442949.0)
+[INFO] [1651316310.094138]: Current velocity (74.18518518518519, -76.82716049382717, -74.79012345679013, 76.09876543209876)
+[INFO] [1651316310.094733]: Current change in position of motor 1 2380176.0
+[INFO] [1651316310.095311]: Current change in position of motor 2 -2423089.0
+[INFO] [1651316310.095900]: Current change in position of motor 3 -2381237.0
+[INFO] [1651316310.096469]: Current change in position of motor 4 2419074.0
+[INFO] [1651316310.193503]: Current position (24344981.0, -21491267.0, -21372213.0, 24465109.0)
+[INFO] [1651316310.194134]: Current velocity (74.53086419753086, -76.51851851851852, -74.75308641975309, 75.1358024691358)
+[INFO] [1651316310.194758]: Current change in position of motor 1 2401958.0
+[INFO] [1651316310.195378]: Current change in position of motor 2 -2445567.0
+[INFO] [1651316310.195956]: Current change in position of motor 3 -2403197.0
+[INFO] [1651316310.196539]: Current change in position of motor 4 2441234.0
+[INFO] [1651316310.293505]: Current position (24367186.0, -21513788.0, -21394205.0, 24487278.0)
+[INFO] [1651316310.294145]: Current velocity (74.95061728395062, -76.1604938271605, -74.14814814814815, 75.37037037037037)
+[INFO] [1651316310.294751]: Current change in position of motor 1 2424163.0
+[INFO] [1651316310.295331]: Current change in position of motor 2 -2468088.0
+[INFO] [1651316310.295909]: Current change in position of motor 3 -2425189.0
+[INFO] [1651316310.296473]: Current change in position of motor 4 2463403.0
+[INFO] [1651316310.393503]: Current position (24389078.0, -21536290.0, -21412145.0, 24509651.0)
+[INFO] [1651316310.394126]: Current velocity (74.37037037037037, -76.49382716049382, -58.95061728395062, 76.08641975308642)
+[INFO] [1651316310.394705]: Current change in position of motor 1 2446055.0
+[INFO] [1651316310.395308]: Current change in position of motor 2 -2490590.0
+[INFO] [1651316310.395912]: Current change in position of motor 3 -2443129.0
+[INFO] [1651316310.396486]: Current change in position of motor 4 2485776.0
+[INFO] [1651316310.493504]: Current position (24411063.0, -21558877.0, -21433380.0, 24532146.0)
+[INFO] [1651316310.494138]: Current velocity (74.82716049382717, -77.08641975308642, -75.67901234567901, 77.34567901234568)
+[INFO] [1651316310.494722]: Current change in position of motor 1 2468040.0
+[INFO] [1651316310.495308]: Current change in position of motor 2 -2513177.0
+[INFO] [1651316310.495880]: Current change in position of motor 3 -2464364.0
+[INFO] [1651316310.496485]: Current change in position of motor 4 2508271.0
+[INFO] [1651316310.593539]: Current position (24433138.0, -21581203.0, -21455646.0, 24554689.0)
+[INFO] [1651316310.594274]: Current velocity (74.45679012345678, -74.9753086419753, -74.55555555555556, 75.5679012345679)
+[INFO] [1651316310.594954]: Current change in position of motor 1 2490115.0
+[INFO] [1651316310.595616]: Current change in position of motor 2 -2535503.0
+[INFO] [1651316310.596263]: Current change in position of motor 3 -2486630.0
+[INFO] [1651316310.596908]: Current change in position of motor 4 2530814.0
+[INFO] [1651316310.693506]: Current position (24444032.0, -21592317.0, -21466308.0, 24565789.0)
+[INFO] [1651316310.694133]: Current velocity (74.55555555555556, -75.71604938271605, -72.75308641975309, 75.8395061728395)
+[INFO] [1651316310.694728]: Current change in position of motor 1 2501009.0
+[INFO] [1651316310.695354]: Current change in position of motor 2 -2546617.0
+[INFO] [1651316310.695947]: Current change in position of motor 3 -2497292.0
+[INFO] [1651316310.696521]: Current change in position of motor 4 2541914.0
+[INFO] [1651316310.793546]: Current position (24466067.0, -21614887.0, -21487998.0, 24588181.0)
+[INFO] [1651316310.794240]: Current velocity (74.93827160493827, -76.67901234567901, -74.24691358024691, 76.66666666666667)
+[INFO] [1651316310.794874]: Current change in position of motor 1 2523044.0
+[INFO] [1651316310.795533]: Current change in position of motor 2 -2569187.0
+[INFO] [1651316310.796162]: Current change in position of motor 3 -2518982.0
+[INFO] [1651316310.796800]: Current change in position of motor 4 2564306.0
+[INFO] [1651316310.893519]: Current position (24487821.0, -21637293.0, -21509917.0, 24610583.0)
+[INFO] [1651316310.894194]: Current velocity (73.70370370370371, -76.19753086419753, -75.06172839506173, 75.90123456790124)
+[INFO] [1651316310.894798]: Current change in position of motor 1 2544798.0
+[INFO] [1651316310.895380]: Current change in position of motor 2 -2591593.0
+[INFO] [1651316310.895957]: Current change in position of motor 3 -2540901.0
+[INFO] [1651316310.896558]: Current change in position of motor 4 2586708.0
+[INFO] [1651316310.993503]: Current position (24509824.0, -21659499.0, -21532253.0, 24633149.0)
+[INFO] [1651316310.994134]: Current velocity (74.64197530864197, -76.0246913580247, -75.58024691358025, 76.66666666666667)
+[INFO] [1651316310.994705]: Current change in position of motor 1 2566801.0
+[INFO] [1651316310.995299]: Current change in position of motor 2 -2613799.0
+[INFO] [1651316310.995859]: Current change in position of motor 3 -2563237.0
+[INFO] [1651316310.996445]: Current change in position of motor 4 2609274.0
+[INFO] [1651316311.093501]: Current position (24531792.0, -21681906.0, -21554428.0, 24655759.0)
+[INFO] [1651316311.094129]: Current velocity (74.19753086419753, -75.77777777777777, -74.75308641975309, 76.38271604938272)
+[INFO] [1651316311.094715]: Current change in position of motor 1 2588769.0
+[INFO] [1651316311.095266]: Current change in position of motor 2 -2636206.0
+[INFO] [1651316311.095892]: Current change in position of motor 3 -2585412.0
+[INFO] [1651316311.096464]: Current change in position of motor 4 2631884.0
+[INFO] [1651316311.193501]: Current position (24553708.0, -21704198.0, -21576455.0, 24677855.0)
+[INFO] [1651316311.194139]: Current velocity (74.9753086419753, -75.95061728395062, -75.41975308641975, 75.18518518518519)
+[INFO] [1651316311.194711]: Current change in position of motor 1 2610685.0
+[INFO] [1651316311.195270]: Current change in position of motor 2 -2658498.0
+[INFO] [1651316311.195879]: Current change in position of motor 3 -2607439.0
+[INFO] [1651316311.196460]: Current change in position of motor 4 2653980.0
+[INFO] [1651316311.293629]: Current position (24564629.0, -21715207.0, -21587517.0, 24688798.0)
+[INFO] [1651316311.294383]: Current velocity (74.93827160493827, -75.03703703703704, -75.44444444444444, 74.72839506172839)
+[INFO] [1651316311.295059]: Current change in position of motor 1 2621606.0
+[INFO] [1651316311.295640]: Current change in position of motor 2 -2669507.0
+[INFO] [1651316311.296257]: Current change in position of motor 3 -2618501.0
+[INFO] [1651316311.296871]: Current change in position of motor 4 2664923.0
+[INFO] [1651316311.393514]: Current position (24586907.0, -21737447.0, -21609866.0, 24711005.0)
+[INFO] [1651316311.394209]: Current velocity (75.46913580246914, -75.53086419753086, -75.64197530864197, 75.01234567901234)
+[INFO] [1651316311.394840]: Current change in position of motor 1 2643884.0
+[INFO] [1651316311.395516]: Current change in position of motor 2 -2691747.0
+[INFO] [1651316311.396153]: Current change in position of motor 3 -2640850.0
+[INFO] [1651316311.396778]: Current change in position of motor 4 2687130.0
+[INFO] [1651316311.493508]: Current position (24609092.0, -21759633.0, -21631789.0, 24732988.0)
+[INFO] [1651316311.494200]: Current velocity (75.25925925925925, -75.65432098765432, -75.29629629629629, 75.28395061728395)
+[INFO] [1651316311.494839]: Current change in position of motor 1 2666069.0
+[INFO] [1651316311.495462]: Current change in position of motor 2 -2713933.0
+[INFO] [1651316311.496116]: Current change in position of motor 3 -2662773.0
+[INFO] [1651316311.496743]: Current change in position of motor 4 2709113.0
+[INFO] [1651316311.593567]: Current position (24631233.0, -21781886.0, -21654014.0, 24755201.0)
+[INFO] [1651316311.594249]: Current velocity (75.06172839506173, -75.24691358024691, -75.48148148148148, 75.0)
+[INFO] [1651316311.594831]: Current change in position of motor 1 2688210.0
+[INFO] [1651316311.595396]: Current change in position of motor 2 -2736186.0
+[INFO] [1651316311.595967]: Current change in position of motor 3 -2684998.0
+[INFO] [1651316311.596519]: Current change in position of motor 4 2731326.0
+[INFO] [1651316311.693498]: Current position (24653041.0, -21803784.0, -21676144.0, 24777390.0)
+[INFO] [1651316311.694129]: Current velocity (74.8641975308642, -74.79012345679013, -75.58024691358025, 76.12345679012346)
+[INFO] [1651316311.694743]: Current change in position of motor 1 2710018.0
+[INFO] [1651316311.695311]: Current change in position of motor 2 -2758084.0
+[INFO] [1651316311.695872]: Current change in position of motor 3 -2707128.0
+[INFO] [1651316311.696433]: Current change in position of motor 4 2753515.0
+[INFO] [1651316311.793492]: Current position (24674937.0, -21825738.0, -21696357.0, 24799678.0)
+[INFO] [1651316311.794124]: Current velocity (74.32098765432099, -75.39506172839506, -62.876543209876544, 76.22222222222223)
+[INFO] [1651316311.794705]: Current change in position of motor 1 2731914.0
+[INFO] [1651316311.795266]: Current change in position of motor 2 -2780038.0
+[INFO] [1651316311.795830]: Current change in position of motor 3 -2727341.0
+[INFO] [1651316311.796386]: Current change in position of motor 4 2775803.0
+[INFO] [1651316311.893502]: Current position (24685763.0, -21836842.0, -21705926.0, 24810960.0)
+[INFO] [1651316311.894120]: Current velocity (74.38271604938272, -76.01234567901234, -67.65432098765432, 76.80246913580247)
+[INFO] [1651316311.894710]: Current change in position of motor 1 2742740.0
+[INFO] [1651316311.895283]: Current change in position of motor 2 -2791142.0
+[INFO] [1651316311.895876]: Current change in position of motor 3 -2736910.0
+[INFO] [1651316311.896490]: Current change in position of motor 4 2798663.0
+[INFO] [1651316311.993504]: Current position (24707912.0, -21859829.0, -21728640.0, 24834024.0)
+[INFO] [1651316311.994175]: Current velocity (73.87654320987654, -77.0, -75.93827160493827, 77.44444444444444)
+[INFO] [1651316311.994768]: Current change in position of motor 1 2764889.0
+[INFO] [1651316311.995331]: Current change in position of motor 2 -2814129.0
+[INFO] [1651316311.995908]: Current change in position of motor 3 -2759624.0
+[INFO] [1651316311.996530]: Current change in position of motor 4 2810149.0
+[INFO] [1651316312.093502]: Current position (24728846.0, -21881616.0, -21750463.0, 24856343.0)
+[INFO] [1651316312.094151]: Current velocity (72.07407407407408, -75.50617283950618, -74.07407407407408, 76.46913580246914)
+[INFO] [1651316312.094735]: Current change in position of motor 1 2785823.0
+[INFO] [1651316312.095298]: Current change in position of motor 2 -2835916.0
+[INFO] [1651316312.095893]: Current change in position of motor 3 -2781447.0
+[INFO] [1651316312.096474]: Current change in position of motor 4 2832468.0
+[INFO] [1651316312.193549]: Current position (24750781.0, -21904300.0, -21771778.0, 24878898.0)
+[INFO] [1651316312.194225]: Current velocity (74.03703703703704, -76.80246913580247, -70.03703703703704, 76.58024691358025)
+[INFO] [1651316312.194851]: Current change in position of motor 1 2807758.0
+[INFO] [1651316312.195477]: Current change in position of motor 2 -2858600.0
+[INFO] [1651316312.196103]: Current change in position of motor 3 -2802762.0
+[INFO] [1651316312.196689]: Current change in position of motor 4 2855023.0
+[INFO] [1651316312.293570]: Current position (24772947.0, -21927156.0, -21793960.0, 24901669.0)
+[INFO] [1651316312.294185]: Current velocity (74.37037037037037, -76.5679012345679, -74.58024691358025, 76.03703703703704)
+[INFO] [1651316312.294813]: Current change in position of motor 1 2829924.0
+[INFO] [1651316312.295433]: Current change in position of motor 2 -2881456.0
+[INFO] [1651316312.296060]: Current change in position of motor 3 -2824944.0
+[INFO] [1651316312.296652]: Current change in position of motor 4 2877794.0
+[INFO] [1651316312.393502]: Current position (24794990.0, -21949250.0, -21816216.0, 24923905.0)
+[INFO] [1651316312.394121]: Current velocity (73.87654320987654, -74.33333333333333, -75.32098765432099, 75.24691358024691)
+[INFO] [1651316312.394695]: Current change in position of motor 1 2851967.0
+[INFO] [1651316312.395272]: Current change in position of motor 2 -2903550.0
+[INFO] [1651316312.395840]: Current change in position of motor 3 -2847200.0
+[INFO] [1651316312.396419]: Current change in position of motor 4 2900030.0
+[INFO] [1651316312.493506]: Current position (24806001.0, -21960269.0, -21827388.0, 24935143.0)
+[INFO] [1651316312.494129]: Current velocity (74.45679012345678, -73.98765432098766, -75.32098765432099, 75.70370370370371)
+[INFO] [1651316312.494787]: Current change in position of motor 1 2862978.0
+[INFO] [1651316312.495394]: Current change in position of motor 2 -2914569.0
+[INFO] [1651316312.495948]: Current change in position of motor 3 -2858372.0
+[INFO] [1651316312.496522]: Current change in position of motor 4 2911268.0
+[INFO] [1651316312.593506]: Current position (24828075.0, -21982466.0, -21849253.0, 24957435.0)
+[INFO] [1651316312.594120]: Current velocity (74.90123456790124, -75.54320987654322, -73.18518518518519, 75.72839506172839)
+[INFO] [1651316312.594697]: Current change in position of motor 1 2885052.0
+[INFO] [1651316312.595254]: Current change in position of motor 2 -2936766.0
+[INFO] [1651316312.595847]: Current change in position of motor 3 -2880237.0
+[INFO] [1651316312.596416]: Current change in position of motor 4 2933560.0
+^C[INFO] [1651316313.654740]: Final position (24909100.0, -22063631.0, -21928785.0, 25035118.0)
+[INFO] [1651316313.655792]: Final change in position of motor 1 2966077.0
+[INFO] [1651316313.656643]: Final change in position of motor 2 -3017931.0
+[INFO] [1651316313.657397]: Final change in position of motor 3 -2959769.0
+[INFO] [1651316313.658159]: Final change in position of motor 4 3011243.0
