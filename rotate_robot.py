@@ -2,78 +2,99 @@ from math import radians, degrees
 import rospy
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist, Vector3
+from sensor_msgs.msg import JointState
 import util
 
-x = 0
-y = 0
+start_position = 0, 0, 0, 0
+position = 0, 0, 0, 0
+velocity = 0, 0, 0, 0
 yaw = 0
+start_yaw = 0
+velocity_publisher: rospy.Publisher
 
 
-def callback(odom_data):
-    # rospy.logdebug("Received data from /viv/viv_velocity_controller/odom")
-    global yaw, x, y
+def odom_callback(odom_data):
+    # rospy.logdebug("Received data from /T265/camera/odom/sample")
+    global yaw
     pose = odom_data.pose.pose  # first pose is PoseWithCovariance
     yaw = util.get_yaw_from_pose_message(pose)
-    x = pose.position.x
-    y = pose.position.y
+
+
+def joint_state_callback(joint_state_data):
+    # rospy.logdebug("Received data from /viv/viv_epos_driver/joint_state")
+    global position, velocity
+    position = joint_state_data.position
+    velocity = joint_state_data.velocity
+
+
+def shutdown_func():
+    vel_msg = Twist()
+
+    # Once shutdown, stops the robot
+    vel_msg.angular.z = 0
+    # Force the robot to stop
+    velocity_publisher.publish(vel_msg)
+
+    rospy.sleep(1)
+    # The important bits
+    rospy.loginfo(f"Final yaw: {degrees(yaw)}")
+    rospy.loginfo(f"Final change in yaw: {degrees(yaw - start_yaw)}")
+    rospy.loginfo(f"Final position: {position}")
+    rospy.loginfo(f"Final change in position of motor 1: {position[0] - start_position[0]}")
+    rospy.loginfo(f"Final change in position of motor 2: {position[1] - start_position[1]}")
+    rospy.loginfo(f"Final change in position of motor 3: {position[2] - start_position[2]}")
+    rospy.loginfo(f"Final change in position of motor 4: {position[3] - start_position[3]}")
 
 
 def rotate():
+    global velocity_publisher, start_position, start_yaw
+
     # Starts a new node
     rospy.init_node('rotate')
 
-    velocity_publisher = rospy.Publisher('/viv/viv_velocity_controller/cmd_vel', Twist, queue_size=None)
-    rospy.Subscriber('/viv/viv_velocity_controller/odom', Odometry, callback)
+    rospy.on_shutdown(shutdown_func)
+
+    velocity_publisher = rospy.Publisher('/viv/marko/cmd_vel', Twist, queue_size=None)
+    rospy.Subscriber('/viv/viv_epos_driver/joint_state', JointState, joint_state_callback)
+    rospy.Subscriber('/T265/camera/odom/sample', Odometry, odom_callback)
 
     # Receiving the user's input
-    print("Let's turn your robot")
+    print("Let's rotate your robot")
     speed = float(input("Input the turning speed: "))
-    wanted_rotation = radians(float(input("Type your wanted rotation (deg): ")))
 
-    rospy.sleep(1)  # just to make sure we read the data from /odom into the global variables
+    rospy.sleep(1)  # just to make sure we read the data from the subscriber into the global variables
 
     twist_msg = Twist()
 
     twist_msg.angular.z = speed
 
+    start_position = position
     start_yaw = yaw
-    start_x = x
-    start_y = y
 
-    rospy.loginfo("Starting to rotate the robot")
+    rospy.loginfo(f"Starting position: {start_position}")
     rospy.loginfo(f"Starting yaw: {degrees(start_yaw)}")
 
     rospy.sleep(1)
 
-    # Loop to rotate VIV the specified wanted_rotation
+    # Loop to rotate VIV
     rate = rospy.Rate(10)
-    while abs(yaw - start_yaw) < wanted_rotation:
+    while not rospy.is_shutdown():
         # Publish the twist
         rospy.logdebug(f"Publishing twist msg\n{twist_msg}")
         velocity_publisher.publish(twist_msg)
 
-        # t1 = rospy.Time.now().to_sec()
+        rospy.loginfo(f"Current position: {position}")
+        rospy.loginfo(f"Current velocity: {velocity}")
+
+        rospy.loginfo(f"Current change in position of motor 1: {position[0] - start_position[0]}")
+        rospy.loginfo(f"Current change in position of motor 2: {position[1] - start_position[1]}")
+        rospy.loginfo(f"Current change in position of motor 3: {position[2] - start_position[2]}")
+        rospy.loginfo(f"Current change in position of motor 4: {position[3] - start_position[3]}")
+
         rospy.loginfo(f"Current yaw: {degrees(yaw)}")
         rospy.loginfo(f"Current change in yaw: {degrees(yaw - start_yaw)}")
-        rospy.loginfo(f"Current distance from start point in x axis: {x - start_x}")
-        rospy.loginfo(f"Current distance from start point in y axis: {y - start_y}")
 
         rate.sleep()  # let's not spam the robot
-
-    # After the loop, stops the robot
-    twist_msg.angular.z = 0
-    # Force the robot to stop
-    velocity_publisher.publish(twist_msg)
-
-    rospy.sleep(1)
-    rospy.loginfo(f"Final yaw {degrees(yaw)}")
-    rospy.loginfo(f"Final coordinates ({x}, {y})")
-    # The important bits
-    rospy.loginfo(f"Final change in yaw {degrees(yaw - start_yaw)}")
-    rospy.loginfo(f"Final distance from start point in x axis {x - start_x}")
-    rospy.loginfo(f"Final distance from start point in y axis {y - start_y}")
-
-    rospy.signal_shutdown("Script over")
 
 
 if __name__ == '__main__':
