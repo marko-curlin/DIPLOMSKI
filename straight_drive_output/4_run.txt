@@ -772,3 +772,15 @@ Input your speed: 1
 [INFO] [1651315761.967846]: Final change in position of motor 2 -2586391.0
 [INFO] [1651315761.968487]: Final change in position of motor 3 -2541901.0
 [INFO] [1651315761.969104]: Final change in position of motor 4 2583057.0
+
+REAL LIFE DATA:
+colour: smeda
+FINISH measurement:
+    front left joint: 0cm
+    rear left joint: 67.5cm
+START measurement:
+    front left joint: 336.5cm
+    rear left joint: 405.5cm
+
+FINISH wheel diff: 67.5cm
+START wheel diff: 69cm

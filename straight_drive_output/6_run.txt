@@ -484,3 +484,15 @@ Input your speed: -0.9
 [INFO] [1651316842.547094]: Final change in position of motor 2 1600353.0
 [INFO] [1651316842.547682]: Final change in position of motor 3 1546884.0
 [INFO] [1651316842.548264]: Final change in position of motor 4 -1611366.0
+
+REAL LIFE DATA:
+colour: narancasta (rikverc)
+FINISH measurement: (x, y axis)
+    front left joint: 0cm 0cm
+    rear left joint: 67.5cm 0cm
+START measurement:
+    front left joint: 206cm 11cm
+    rear left joint: 273.5cm 18cm
+
+FINISH wheel diff: 67.5cm
+START wheel diff: 67.5cm

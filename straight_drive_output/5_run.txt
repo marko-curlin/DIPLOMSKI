@@ -898,3 +898,15 @@ Input your speed: 50
 [INFO] [1651316313.656643]: Final change in position of motor 2 -3017931.0
 [INFO] [1651316313.657397]: Final change in position of motor 3 -2959769.0
 [INFO] [1651316313.658159]: Final change in position of motor 4 3011243.0
+
+REAL LIFE DATA:
+colour: zuta
+FINISH measurement:
+    front left joint: 0cm
+    rear left joint: 68.5cm
+START measurement:
+    front left joint: 393.5cm
+    rear left joint: 462cm
+
+FINISH wheel diff: 68.5cm
+START wheel diff: 68.5cm

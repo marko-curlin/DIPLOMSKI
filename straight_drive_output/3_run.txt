@@ -1312,3 +1312,15 @@ Input your speed: 0.4
 [INFO] [1651314806.280406]: Final change in position of motor 2 -2797068.0
 [INFO] [1651314806.280989]: Final change in position of motor 3 -2799202.0
 [INFO] [1651314806.281548]: Final change in position of motor 4 2797096.0
+
+REAL LIFE DATA:
+colour: crvena
+FINISH measurement:
+    front left joint: 0cm
+    rear left joint: 68cm
+START measurement:
+    front left joint: 368cm
+    rear left joint: 435cm
+
+FINISH wheel diff: 68cm
+START wheel diff: 67cm

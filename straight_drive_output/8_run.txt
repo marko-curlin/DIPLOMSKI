@@ -694,3 +694,15 @@ Input your speed: 0.75
 [INFO] [1651318914.468095]: Final change in position of motor 2 -2328057.0
 [INFO] [1651318914.468683]: Final change in position of motor 3 -2257932.0
 [INFO] [1651318914.469280]: Final change in position of motor 4 2324098.0
+
+REAL LIFE DATA:
+colour: zelena
+FINISH measurement:
+    front left joint: 0cm
+    rear left joint: 68.5cm
+START measurement:
+    front left joint: 304cm
+    rear left joint: 371cm
+
+FINISH wheel diff: 68.5cm
+START wheel diff: 67cm
