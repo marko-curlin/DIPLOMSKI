@@ -1,0 +1,1804 @@
+Script started on 2022-04-30 17:14:03+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="86" LINES="50"]
+[1m[7m%[27m[1m[0m                                                                                      ]2;viv@VIV:~/catkin_ws/src/student_marko]1;..student_marko[0m[27m[24m[J[1m[32mviv@VIV[00m:[1m[34m~/catkin_ws/src/student_marko[00m [31m[00m
+[34m[00m [1m$[0m [K[?1h=[?2004hscript 7_run.txt[16Dexit            [12Drosbag record -a[16Dpython3 rotate_robot.py[?1l>[?2004l
+]2;python3 rotate_robot.py]1;python3rotate_robot.py:57: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  velocity_publisher = rospy.Publisher('/viv/marko/cmd_vel', Twist, queue_size=None)
+Let's rotate your robot
+Input the turning speed: 10
+[INFO] [1651331722.057824]: Starting position: (3324656.0, -32594646.0, -32500977.0, 3240172.0)
+[INFO] [1651331722.058791]: Starting yaw: 25.7133321871332
+[INFO] [1651331723.060706]: Current position: (3324656.0, -32594646.0, -32500977.0, 3240171.0)
+[INFO] [1651331723.061659]: Current velocity: (0.0, 0.0, 0.0, -0.012345679012345678)
+[INFO] [1651331723.062351]: Current change in position of motor 1: 0.0
+[INFO] [1651331723.063030]: Current change in position of motor 2: 0.0
+[INFO] [1651331723.063687]: Current change in position of motor 3: 0.0
+[INFO] [1651331723.064342]: Current change in position of motor 4: -1.0
+[INFO] [1651331723.064976]: Current yaw: 25.71254373952741
+[INFO] [1651331723.065627]: Current change in yaw: -0.0007884476057916178
+[INFO] [1651331723.160788]: Current position: (3324656.0, -32594646.0, -32500977.0, 3240172.0)
+[INFO] [1651331723.161603]: Current velocity: (0.0, 0.0, 0.0, 0.0)
+[INFO] [1651331723.162330]: Current change in position of motor 1: 0.0
+[INFO] [1651331723.163067]: Current change in position of motor 2: 0.0
+[INFO] [1651331723.163700]: Current change in position of motor 3: 0.0
+[INFO] [1651331723.164331]: Current change in position of motor 4: 0.0
+[INFO] [1651331723.164956]: Current yaw: 25.716695882894083
+[INFO] [1651331723.165574]: Current change in yaw: 0.0033636957608838415
+[INFO] [1651331723.260769]: Current position: (3323963.0, -32595341.0, -32501688.0, 3239404.0)
+[INFO] [1651331723.261499]: Current velocity: (-3.54320987654321, -3.4814814814814814, -3.4691358024691357, -3.4691358024691357)
+[INFO] [1651331723.262162]: Current change in position of motor 1: -693.0
+[INFO] [1651331723.262793]: Current change in position of motor 2: -695.0
+[INFO] [1651331723.263410]: Current change in position of motor 3: -711.0
+[INFO] [1651331723.264046]: Current change in position of motor 4: -768.0
+[INFO] [1651331723.264655]: Current yaw: 25.76937200835571
+[INFO] [1651331723.265254]: Current change in yaw: 0.05603982122250932
+[INFO] [1651331723.360753]: Current position: (3322108.0, -32597223.0, -32503590.0, 3237497.0)
+[INFO] [1651331723.361548]: Current velocity: (-7.407407407407407, -7.444444444444445, -7.493827160493828, -7.395061728395062)
+[INFO] [1651331723.362189]: Current change in position of motor 1: -2548.0
+[INFO] [1651331723.362822]: Current change in position of motor 2: -2577.0
+[INFO] [1651331723.363425]: Current change in position of motor 3: -2613.0
+[INFO] [1651331723.364053]: Current change in position of motor 4: -2675.0
+[INFO] [1651331723.364666]: Current yaw: 25.897183586011135
+[INFO] [1651331723.365287]: Current change in yaw: 0.18385139887793614
+[INFO] [1651331723.460750]: Current position: (3319062.0, -32600364.0, -32506747.0, 3234216.0)
+[INFO] [1651331723.461452]: Current velocity: (-12.407407407407407, -12.88888888888889, -13.0, -13.679012345679013)
+[INFO] [1651331723.462117]: Current change in position of motor 1: -5594.0
+[INFO] [1651331723.462744]: Current change in position of motor 2: -5718.0
+[INFO] [1651331723.463366]: Current change in position of motor 3: -5770.0
+[INFO] [1651331723.463954]: Current change in position of motor 4: -5956.0
+[INFO] [1651331723.464570]: Current yaw: 26.122156031774892
+[INFO] [1651331723.465211]: Current change in yaw: 0.40882384464169413
+[INFO] [1651331723.560759]: Current position: (3316733.0, -32602726.0, -32509068.0, 3231913.0)
+[INFO] [1651331723.561572]: Current velocity: (-15.074074074074074, -15.246913580246913, -15.0, -15.148148148148149)
+[INFO] [1651331723.562231]: Current change in position of motor 1: -7923.0
+[INFO] [1651331723.562828]: Current change in position of motor 2: -8080.0
+[INFO] [1651331723.563513]: Current change in position of motor 3: -8091.0
+[INFO] [1651331723.564093]: Current change in position of motor 4: -8259.0
+[INFO] [1651331723.564701]: Current yaw: 26.630715994675544
+[INFO] [1651331723.565297]: Current change in yaw: 0.9173838075423457
+[INFO] [1651331723.660769]: Current position: (3311483.0, -32607991.0, -32514408.0, 3226550.0)
+[INFO] [1651331723.661623]: Current velocity: (-19.074074074074073, -19.061728395061728, -19.074074074074073, -19.135802469135804)
+[INFO] [1651331723.662338]: Current change in position of motor 1: -13173.0
+[INFO] [1651331723.663440]: Current change in position of motor 2: -13345.0
+[INFO] [1651331723.664091]: Current change in position of motor 3: -13431.0
+[INFO] [1651331723.664738]: Current change in position of motor 4: -13622.0
+[INFO] [1651331723.665380]: Current yaw: 27.429051958582438
+[INFO] [1651331723.666019]: Current change in yaw: 1.7157197714492385
+[INFO] [1651331723.760775]: Current position: (3304974.0, -32614513.0, -32520933.0, 3220014.0)
+[INFO] [1651331723.761600]: Current velocity: (-22.950617283950617, -22.962962962962962, -22.77777777777778, -23.02469135802469)
+[INFO] [1651331723.762289]: Current change in position of motor 1: -19682.0
+[INFO] [1651331723.762923]: Current change in position of motor 2: -19867.0
+[INFO] [1651331723.763877]: Current change in position of motor 3: -19956.0
+[INFO] [1651331723.764539]: Current change in position of motor 4: -20158.0
+[INFO] [1651331723.765144]: Current yaw: 28.256145053151954
+[INFO] [1651331723.765757]: Current change in yaw: 2.5428128660187537
+[INFO] [1651331723.860765]: Current position: (3297419.0, -32622136.0, -32528605.0, 3212351.0)
+[INFO] [1651331723.861491]: Current velocity: (-27.098765432098766, -27.25925925925926, -27.0, -26.666666666666668)
+[INFO] [1651331723.862147]: Current change in position of motor 1: -27237.0
+[INFO] [1651331723.862803]: Current change in position of motor 2: -27490.0
+[INFO] [1651331723.863442]: Current change in position of motor 3: -27628.0
+[INFO] [1651331723.864043]: Current change in position of motor 4: -27821.0
+[INFO] [1651331723.864661]: Current yaw: 29.061635852813005
+[INFO] [1651331723.865313]: Current change in yaw: 3.348303665679805
+[INFO] [1651331723.960779]: Current position: (3288662.0, -32630931.0, -32537387.0, 3203312.0)
+[INFO] [1651331723.961585]: Current velocity: (-30.691358024691358, -31.098765432098766, -30.432098765432098, -32.925925925925924)
+[INFO] [1651331723.962225]: Current change in position of motor 1: -35994.0
+[INFO] [1651331723.962843]: Current change in position of motor 2: -36285.0
+[INFO] [1651331723.963451]: Current change in position of motor 3: -36410.0
+[INFO] [1651331723.964112]: Current change in position of motor 4: -36860.0
+[INFO] [1651331723.964729]: Current yaw: 30.223201005459927
+[INFO] [1651331723.965337]: Current change in yaw: 4.509868818326726
+[INFO] [1651331724.060836]: Current position: (3278693.0, -32640898.0, -32547451.0, 3192795.0)
+[INFO] [1651331724.061616]: Current velocity: (-35.48148148148148, -35.96296296296296, -36.2962962962963, -37.01234567901235)
+[INFO] [1651331724.062239]: Current change in position of motor 1: -45963.0
+[INFO] [1651331724.062905]: Current change in position of motor 2: -46252.0
+[INFO] [1651331724.063525]: Current change in position of motor 3: -46474.0
+[INFO] [1651331724.064124]: Current change in position of motor 4: -47377.0
+[INFO] [1651331724.064753]: Current yaw: 31.25861660457517
+[INFO] [1651331724.065399]: Current change in yaw: 5.54528441744197
+[INFO] [1651331724.160777]: Current position: (3272982.0, -32646656.0, -32553200.0, 3187056.0)
+[INFO] [1651331724.161523]: Current velocity: (-38.32098765432099, -38.45679012345679, -38.370370370370374, -38.54320987654321)
+[INFO] [1651331724.162188]: Current change in position of motor 1: -51674.0
+[INFO] [1651331724.162809]: Current change in position of motor 2: -52010.0
+[INFO] [1651331724.163489]: Current change in position of motor 3: -52223.0
+[INFO] [1651331724.164179]: Current change in position of motor 4: -53116.0
+[INFO] [1651331724.164785]: Current yaw: 32.44053598180394
+[INFO] [1651331724.165407]: Current change in yaw: 6.727203794670738
+[INFO] [1651331724.260848]: Current position: (3261588.0, -32658014.0, -32564563.0, 3175710.0)
+[INFO] [1651331724.261645]: Current velocity: (-38.72839506172839, -38.851851851851855, -38.69135802469136, -38.7037037037037)
+[INFO] [1651331724.262346]: Current change in position of motor 1: -63068.0
+[INFO] [1651331724.262976]: Current change in position of motor 2: -63368.0
+[INFO] [1651331724.263617]: Current change in position of motor 3: -63586.0
+[INFO] [1651331724.264227]: Current change in position of motor 4: -64462.0
+[INFO] [1651331724.264856]: Current yaw: 33.67713241582467
+[INFO] [1651331724.265520]: Current change in yaw: 7.9638002286914755
+[INFO] [1651331724.360841]: Current position: (3250138.0, -32669482.0, -32576067.0, 3164221.0)
+[INFO] [1651331724.361626]: Current velocity: (-38.72839506172839, -38.81481481481482, -38.93827160493827, -38.67901234567901)
+[INFO] [1651331724.362264]: Current change in position of motor 1: -74518.0
+[INFO] [1651331724.362982]: Current change in position of motor 2: -74836.0
+[INFO] [1651331724.363644]: Current change in position of motor 3: -75090.0
+[INFO] [1651331724.364248]: Current change in position of motor 4: -75951.0
+[INFO] [1651331724.364875]: Current yaw: 34.93399326559829
+[INFO] [1651331724.365509]: Current change in yaw: 9.22066107846509
+[INFO] [1651331724.460836]: Current position: (3238637.0, -32680988.0, -32587571.0, 3152689.0)
+[INFO] [1651331724.461601]: Current velocity: (-38.58024691358025, -38.7037037037037, -38.851851851851855, -38.80246913580247)
+[INFO] [1651331724.462246]: Current change in position of motor 1: -86019.0
+[INFO] [1651331724.462859]: Current change in position of motor 2: -86342.0
+[INFO] [1651331724.463494]: Current change in position of motor 3: -86594.0
+[INFO] [1651331724.464114]: Current change in position of motor 4: -87483.0
+[INFO] [1651331724.464753]: Current yaw: 36.86552981121084
+[INFO] [1651331724.465402]: Current change in yaw: 11.152197624077642
+[INFO] [1651331724.560792]: Current position: (3227156.0, -32692492.0, -32599035.0, 3141214.0)
+[INFO] [1651331724.561565]: Current velocity: (-38.41975308641975, -38.851851851851855, -38.67901234567901, -38.901234567901234)
+[INFO] [1651331724.562244]: Current change in position of motor 1: -97500.0
+[INFO] [1651331724.562888]: Current change in position of motor 2: -97846.0
+[INFO] [1651331724.563516]: Current change in position of motor 3: -98058.0
+[INFO] [1651331724.564131]: Current change in position of motor 4: -98958.0
+[INFO] [1651331724.564775]: Current yaw: 37.98421633291728
+[INFO] [1651331724.565423]: Current change in yaw: 12.270884145784079
+[INFO] [1651331724.660758]: Current position: (3221389.0, -32698219.0, -32604814.0, 3135467.0)
+[INFO] [1651331724.661511]: Current velocity: (-38.69135802469136, -39.03703703703704, -38.901234567901234, -38.65432098765432)
+[INFO] [1651331724.662221]: Current change in position of motor 1: -103267.0
+[INFO] [1651331724.662891]: Current change in position of motor 2: -109341.0
+[INFO] [1651331724.663560]: Current change in position of motor 3: -109665.0
+[INFO] [1651331724.664218]: Current change in position of motor 4: -110509.0
+[INFO] [1651331724.664885]: Current yaw: 39.233451421865865
+[INFO] [1651331724.665529]: Current change in yaw: 13.520119234732663
+[INFO] [1651331724.760770]: Current position: (3209830.0, -32709731.0, -32616309.0, 3123983.0)
+[INFO] [1651331724.761634]: Current velocity: (-38.864197530864196, -38.81481481481482, -38.75308641975309, -38.60493827160494)
+[INFO] [1651331724.762342]: Current change in position of motor 1: -114826.0
+[INFO] [1651331724.763045]: Current change in position of motor 2: -115085.0
+[INFO] [1651331724.763756]: Current change in position of motor 3: -115332.0
+[INFO] [1651331724.764492]: Current change in position of motor 4: -116189.0
+[INFO] [1651331724.765164]: Current yaw: 40.45575620029747
+[INFO] [1651331724.765841]: Current change in yaw: 14.74242401316427
+[INFO] [1651331724.860751]: Current position: (3198425.0, -32721196.0, -32627766.0, 3112552.0)
+[INFO] [1651331724.861511]: Current velocity: (-38.74074074074074, -38.7037037037037, -38.876543209876544, -38.55555555555556)
+[INFO] [1651331724.862148]: Current change in position of motor 1: -126231.0
+[INFO] [1651331724.862742]: Current change in position of motor 2: -126550.0
+[INFO] [1651331724.863344]: Current change in position of motor 3: -126789.0
+[INFO] [1651331724.863994]: Current change in position of motor 4: -127620.0
+[INFO] [1651331724.864601]: Current yaw: 42.04070562906392
+[INFO] [1651331724.865200]: Current change in yaw: 16.32737344193072
+[INFO] [1651331724.960750]: Current position: (3186977.0, -32732554.0, -32639158.0, 3101137.0)
+[INFO] [1651331724.961485]: Current velocity: (-39.03703703703704, -38.46913580246913, -38.91358024691358, -38.75308641975309)
+[INFO] [1651331724.962159]: Current change in position of motor 1: -137679.0
+[INFO] [1651331724.962771]: Current change in position of motor 2: -137908.0
+[INFO] [1651331724.963555]: Current change in position of motor 3: -138181.0
+[INFO] [1651331724.964202]: Current change in position of motor 4: -139035.0
+[INFO] [1651331724.964854]: Current yaw: 44.018321784993816
+[INFO] [1651331724.965441]: Current change in yaw: 18.304989597860615
+[INFO] [1651331725.060815]: Current position: (3175715.0, -32743894.0, -32650441.0, 3089854.0)
+[INFO] [1651331725.061551]: Current velocity: (-38.666666666666664, -38.72839506172839, -38.81481481481482, -38.93827160493827)
+[INFO] [1651331725.062234]: Current change in position of motor 1: -148941.0
+[INFO] [1651331725.062839]: Current change in position of motor 2: -149248.0
+[INFO] [1651331725.063465]: Current change in position of motor 3: -149464.0
+[INFO] [1651331725.064126]: Current change in position of motor 4: -150318.0
+[INFO] [1651331725.064720]: Current yaw: 45.46858560663966
+[INFO] [1651331725.065320]: Current change in yaw: 19.755253419506456
+[INFO] [1651331725.160815]: Current position: (3164355.0, -32755241.0, -32661811.0, 3078444.0)
+[INFO] [1651331725.161562]: Current velocity: (-38.65432098765432, -38.67901234567901, -38.67901234567901, -38.7037037037037)
+[INFO] [1651331725.162236]: Current change in position of motor 1: -160301.0
+[INFO] [1651331725.162844]: Current change in position of motor 2: -160595.0
+[INFO] [1651331725.163464]: Current change in position of motor 3: -160834.0
+[INFO] [1651331725.164076]: Current change in position of motor 4: -161728.0
+[INFO] [1651331725.164703]: Current yaw: 46.99072512173219
+[INFO] [1651331725.165348]: Current change in yaw: 21.27739293459899
+[INFO] [1651331725.260811]: Current position: (3158585.0, -32761013.0, -32667592.0, 3072683.0)
+[INFO] [1651331725.261642]: Current velocity: (-39.0, -38.617283950617285, -38.901234567901234, -38.48148148148148)
+[INFO] [1651331725.262282]: Current change in position of motor 1: -171848.0
+[INFO] [1651331725.262902]: Current change in position of motor 2: -172107.0
+[INFO] [1651331725.263524]: Current change in position of motor 3: -172381.0
+[INFO] [1651331725.264179]: Current change in position of motor 4: -173219.0
+[INFO] [1651331725.264809]: Current yaw: 48.36167536476722
+[INFO] [1651331725.265417]: Current change in yaw: 22.648343177634022
+[INFO] [1651331725.360814]: Current position: (3147108.0, -32772488.0, -32679031.0, 3061243.0)
+[INFO] [1651331725.361550]: Current velocity: (-38.77777777777778, -38.96296296296296, -38.91358024691358, -38.72839506172839)
+[INFO] [1651331725.362202]: Current change in position of motor 1: -177548.0
+[INFO] [1651331725.362857]: Current change in position of motor 2: -177842.0
+[INFO] [1651331725.363498]: Current change in position of motor 3: -178054.0
+[INFO] [1651331725.364147]: Current change in position of motor 4: -178929.0
+[INFO] [1651331725.364754]: Current yaw: 49.70732415680229
+[INFO] [1651331725.365397]: Current change in yaw: 23.993991969669086
+[INFO] [1651331725.460770]: Current position: (3135657.0, -32783936.0, -32690527.0, 3049744.0)
+[INFO] [1651331725.461507]: Current velocity: (-38.58024691358025, -38.72839506172839, -38.60493827160494, -38.75308641975309)
+[INFO] [1651331725.462135]: Current change in position of motor 1: -188999.0
+[INFO] [1651331725.462779]: Current change in position of motor 2: -189290.0
+[INFO] [1651331725.463400]: Current change in position of motor 3: -189550.0
+[INFO] [1651331725.464063]: Current change in position of motor 4: -190428.0
+[INFO] [1651331725.464679]: Current yaw: 51.14244907575092
+[INFO] [1651331725.465316]: Current change in yaw: 25.429116888617717
+[INFO] [1651331725.560752]: Current position: (3124247.0, -32795344.0, -32701895.0, 3038402.0)
+[INFO] [1651331725.561572]: Current velocity: (-38.91358024691358, -38.876543209876544, -38.79012345679013, -38.60493827160494)
+[INFO] [1651331725.562311]: Current change in position of motor 1: -200409.0
+[INFO] [1651331725.563006]: Current change in position of motor 2: -200698.0
+[INFO] [1651331725.563662]: Current change in position of motor 3: -200918.0
+[INFO] [1651331725.564313]: Current change in position of motor 4: -201770.0
+[INFO] [1651331725.564928]: Current yaw: 52.38155910180707
+[INFO] [1651331725.565545]: Current change in yaw: 26.668226914673866
+[INFO] [1651331725.660769]: Current position: (3112798.0, -32806781.0, -32713393.0, 3026960.0)
+[INFO] [1651331725.661541]: Current velocity: (-38.79012345679013, -38.69135802469136, -38.96296296296296, -38.44444444444444)
+[INFO] [1651331725.662252]: Current change in position of motor 1: -211858.0
+[INFO] [1651331725.663385]: Current change in position of motor 2: -212135.0
+[INFO] [1651331725.664056]: Current change in position of motor 3: -212416.0
+[INFO] [1651331725.664691]: Current change in position of motor 4: -213212.0
+[INFO] [1651331725.665349]: Current yaw: 54.493800624738064
+[INFO] [1651331725.666009]: Current change in yaw: 28.780468437604863
+[INFO] [1651331725.760763]: Current position: (3101322.0, -32818249.0, -32724767.0, 3015469.0)
+[INFO] [1651331725.761515]: Current velocity: (-38.75308641975309, -38.71604938271605, -38.7037037037037, -38.839506172839506)
+[INFO] [1651331725.762205]: Current change in position of motor 1: -223334.0
+[INFO] [1651331725.762821]: Current change in position of motor 2: -223603.0
+[INFO] [1651331725.763455]: Current change in position of motor 3: -223790.0
+[INFO] [1651331725.764076]: Current change in position of motor 4: -224703.0
+[INFO] [1651331725.764688]: Current yaw: 56.707590563369145
+[INFO] [1651331725.765303]: Current change in yaw: 30.994258376235948
+[INFO] [1651331725.860824]: Current position: (3095558.0, -32824005.0, -32730567.0, 3009698.0)
+[INFO] [1651331725.861560]: Current velocity: (-38.864197530864196, -38.72839506172839, -38.80246913580247, -38.58024691358025)
+[INFO] [1651331725.862229]: Current change in position of motor 1: -234759.0
+[INFO] [1651331725.862874]: Current change in position of motor 2: -235032.0
+[INFO] [1651331725.863485]: Current change in position of motor 3: -235277.0
+[INFO] [1651331725.864118]: Current change in position of motor 4: -236136.0
+[INFO] [1651331725.864715]: Current yaw: 58.57654842567696
+[INFO] [1651331725.865320]: Current change in yaw: 32.863216238543764
+[INFO] [1651331725.960818]: Current position: (3084131.0, -32835440.0, -32742020.0, 2998237.0)
+[INFO] [1651331725.961571]: Current velocity: (-39.135802469135804, -38.71604938271605, -38.76543209876543, -38.888888888888886)
+[INFO] [1651331725.962236]: Current change in position of motor 1: -240525.0
+[INFO] [1651331725.962883]: Current change in position of motor 2: -240794.0
+[INFO] [1651331725.963546]: Current change in position of motor 3: -241043.0
+[INFO] [1651331725.964294]: Current change in position of motor 4: -241935.0
+[INFO] [1651331725.964935]: Current yaw: 60.14410229159223
+[INFO] [1651331725.965565]: Current change in yaw: 34.430770104459036
+[INFO] [1651331726.060819]: Current position: (3072642.0, -32846944.0, -32753538.0, 2986733.0)
+[INFO] [1651331726.061578]: Current velocity: (-38.666666666666664, -38.50617283950617, -38.864197530864196, -38.876543209876544)
+[INFO] [1651331726.062278]: Current change in position of motor 1: -252014.0
+[INFO] [1651331726.062926]: Current change in position of motor 2: -252298.0
+[INFO] [1651331726.063557]: Current change in position of motor 3: -252561.0
+[INFO] [1651331726.064193]: Current change in position of motor 4: -253439.0
+[INFO] [1651331726.064839]: Current yaw: 61.596253540894764
+[INFO] [1651331726.065475]: Current change in yaw: 35.88292135376156
+[INFO] [1651331726.160755]: Current position: (3061153.0, -32858442.0, -32765004.0, 2975261.0)
+[INFO] [1651331726.161502]: Current velocity: (-38.79012345679013, -38.925925925925924, -38.79012345679013, -38.876543209876544)
+[INFO] [1651331726.162162]: Current change in position of motor 1: -263503.0
+[INFO] [1651331726.162776]: Current change in position of motor 2: -263796.0
+[INFO] [1651331726.163717]: Current change in position of motor 3: -264027.0
+[INFO] [1651331726.164345]: Current change in position of motor 4: -264911.0
+[INFO] [1651331726.164962]: Current yaw: 63.438395545086195
+[INFO] [1651331726.165576]: Current change in yaw: 37.725063357953
+[INFO] [1651331726.260747]: Current position: (3049699.0, -32869918.0, -32776455.0, 2963817.0)
+[INFO] [1651331726.261476]: Current velocity: (-38.74074074074074, -38.864197530864196, -38.888888888888886, -38.864197530864196)
+[INFO] [1651331726.262140]: Current change in position of motor 1: -274957.0
+[INFO] [1651331726.262758]: Current change in position of motor 2: -275272.0
+[INFO] [1651331726.263369]: Current change in position of motor 3: -275478.0
+[INFO] [1651331726.263975]: Current change in position of motor 4: -276355.0
+[INFO] [1651331726.264600]: Current yaw: 64.54024542235592
+[INFO] [1651331726.265217]: Current change in yaw: 38.826913235222726
+[INFO] [1651331726.360766]: Current position: (3038277.0, -32881299.0, -32787863.0, 2952430.0)
+[INFO] [1651331726.361493]: Current velocity: (-38.91358024691358, -38.74074074074074, -38.69135802469136, -38.79012345679013)
+[INFO] [1651331726.362162]: Current change in position of motor 1: -286379.0
+[INFO] [1651331726.362792]: Current change in position of motor 2: -286653.0
+[INFO] [1651331726.363407]: Current change in position of motor 3: -286886.0
+[INFO] [1651331726.363990]: Current change in position of motor 4: -287742.0
+[INFO] [1651331726.364602]: Current yaw: 65.7151732706512
+[INFO] [1651331726.365197]: Current change in yaw: 40.001841083518
+[INFO] [1651331726.460773]: Current position: (3032571.0, -32887012.0, -32793575.0, 2946671.0)
+[INFO] [1651331726.461499]: Current velocity: (-38.81481481481482, -38.81481481481482, -38.5679012345679, -38.925925925925924)
+[INFO] [1651331726.462162]: Current change in position of motor 1: -292085.0
+[INFO] [1651331726.462769]: Current change in position of motor 2: -292366.0
+[INFO] [1651331726.463391]: Current change in position of motor 3: -292598.0
+[INFO] [1651331726.464002]: Current change in position of motor 4: -293501.0
+[INFO] [1651331726.464662]: Current yaw: 66.96302280639348
+[INFO] [1651331726.465280]: Current change in yaw: 41.24969061926028
+[INFO] [1651331726.560753]: Current position: (3021093.0, -32898475.0, -32805015.0, 2935272.0)
+[INFO] [1651331726.561479]: Current velocity: (-39.19753086419753, -38.80246913580247, -38.901234567901234, -38.901234567901234)
+[INFO] [1651331726.562131]: Current change in position of motor 1: -303563.0
+[INFO] [1651331726.562747]: Current change in position of motor 2: -303829.0
+[INFO] [1651331726.563369]: Current change in position of motor 3: -304038.0
+[INFO] [1651331726.563962]: Current change in position of motor 4: -304900.0
+[INFO] [1651331726.564598]: Current yaw: 68.20846743588456
+[INFO] [1651331726.565229]: Current change in yaw: 42.49513524875136
+[INFO] [1651331726.660751]: Current position: (3009725.0, -32909837.0, -32816417.0, 2923890.0)
+[INFO] [1651331726.661467]: Current velocity: (-39.01234567901235, -38.72839506172839, -38.98765432098765, -38.7037037037037)
+[INFO] [1651331726.662108]: Current change in position of motor 1: -314931.0
+[INFO] [1651331726.662810]: Current change in position of motor 2: -315191.0
+[INFO] [1651331726.663568]: Current change in position of motor 3: -315440.0
+[INFO] [1651331726.664248]: Current change in position of motor 4: -316282.0
+[INFO] [1651331726.664865]: Current yaw: 69.55071579435277
+[INFO] [1651331726.665534]: Current change in yaw: 43.83738360721957
+[INFO] [1651331726.760769]: Current position: (2998275.0, -32921276.0, -32827877.0, 2912406.0)
+[INFO] [1651331726.761481]: Current velocity: (-38.76543209876543, -38.79012345679013, -38.901234567901234, -38.98765432098765)
+[INFO] [1651331726.762129]: Current change in position of motor 1: -326381.0
+[INFO] [1651331726.762793]: Current change in position of motor 2: -326630.0
+[INFO] [1651331726.763454]: Current change in position of motor 3: -326900.0
+[INFO] [1651331726.764126]: Current change in position of motor 4: -327766.0
+[INFO] [1651331726.764755]: Current yaw: 71.37350071221907
+[INFO] [1651331726.765375]: Current change in yaw: 45.660168525085865
+[INFO] [1651331726.860789]: Current position: (2986870.0, -32932720.0, -32839309.0, 2900996.0)
+[INFO] [1651331726.861653]: Current velocity: (-38.666666666666664, -38.69135802469136, -38.901234567901234, -38.69135802469136)
+[INFO] [1651331726.862429]: Current change in position of motor 1: -337786.0
+[INFO] [1651331726.863112]: Current change in position of motor 2: -338074.0
+[INFO] [1651331726.863786]: Current change in position of motor 3: -338332.0
+[INFO] [1651331726.864405]: Current change in position of motor 4: -339176.0
+[INFO] [1651331726.865040]: Current yaw: 72.86111924006156
+[INFO] [1651331726.865659]: Current change in yaw: 47.14778705292836
+[INFO] [1651331726.960762]: Current position: (2975289.0, -32944314.0, -32850884.0, 2889437.0)
+[INFO] [1651331726.961528]: Current velocity: (-38.71604938271605, -38.901234567901234, -38.80246913580247, -38.370370370370374)
+[INFO] [1651331726.962154]: Current change in position of motor 1: -349367.0
+[INFO] [1651331726.962759]: Current change in position of motor 2: -349668.0
+[INFO] [1651331726.963361]: Current change in position of motor 3: -349907.0
+[INFO] [1651331726.963970]: Current change in position of motor 4: -350735.0
+[INFO] [1651331726.964722]: Current yaw: 75.07843600550585
+[INFO] [1651331726.965338]: Current change in yaw: 49.365103818372646
+[INFO] [1651331727.060757]: Current position: (2969560.0, -32950033.0, -32856613.0, 2883734.0)
+[INFO] [1651331727.061610]: Current velocity: (-38.888888888888886, -38.81481481481482, -38.76543209876543, -38.81481481481482)
+[INFO] [1651331727.062288]: Current change in position of motor 1: -355096.0
+[INFO] [1651331727.062963]: Current change in position of motor 2: -355387.0
+[INFO] [1651331727.063573]: Current change in position of motor 3: -355636.0
+[INFO] [1651331727.064207]: Current change in position of motor 4: -356438.0
+[INFO] [1651331727.064835]: Current yaw: 76.88095215523663
+[INFO] [1651331727.065578]: Current change in yaw: 51.16761996810343
+[INFO] [1651331727.160755]: Current position: (2958045.0, -32961532.0, -32868069.0, 2872207.0)
+[INFO] [1651331727.161513]: Current velocity: (-38.80246913580247, -38.82716049382716, -38.81481481481482, -38.888888888888886)
+[INFO] [1651331727.162210]: Current change in position of motor 1: -366611.0
+[INFO] [1651331727.162871]: Current change in position of motor 2: -366886.0
+[INFO] [1651331727.163515]: Current change in position of motor 3: -367092.0
+[INFO] [1651331727.164210]: Current change in position of motor 4: -367965.0
+[INFO] [1651331727.164865]: Current yaw: 79.2418153137025
+[INFO] [1651331727.165515]: Current change in yaw: 53.528483126569306
+[INFO] [1651331727.260768]: Current position: (2946574.0, -32973028.0, -32879583.0, 2860732.0)
+[INFO] [1651331727.261513]: Current velocity: (-38.851851851851855, -38.97530864197531, -38.76543209876543, -38.71604938271605)
+[INFO] [1651331727.262198]: Current change in position of motor 1: -378082.0
+[INFO] [1651331727.262858]: Current change in position of motor 2: -378382.0
+[INFO] [1651331727.263542]: Current change in position of motor 3: -378606.0
+[INFO] [1651331727.264190]: Current change in position of motor 4: -379440.0
+[INFO] [1651331727.264845]: Current yaw: 81.5367647868242
+[INFO] [1651331727.265504]: Current change in yaw: 55.823432599690996
+[INFO] [1651331727.360768]: Current position: (2935165.0, -32984383.0, -32890933.0, 2849342.0)
+[INFO] [1651331727.361520]: Current velocity: (-39.23456790123457, -38.888888888888886, -38.77777777777778, -39.01234567901235)
+[INFO] [1651331727.362196]: Current change in position of motor 1: -389491.0
+[INFO] [1651331727.362846]: Current change in position of motor 2: -389737.0
+[INFO] [1651331727.363530]: Current change in position of motor 3: -389956.0
+[INFO] [1651331727.364193]: Current change in position of motor 4: -390830.0
+[INFO] [1651331727.364850]: Current yaw: 83.62778922990563
+[INFO] [1651331727.365497]: Current change in yaw: 57.91445704277243
+[INFO] [1651331727.460759]: Current position: (2923726.0, -32995839.0, -32902468.0, 2837840.0)
+[INFO] [1651331727.461484]: Current velocity: (-38.51851851851852, -38.30864197530864, -38.888888888888886, -38.876543209876544)
+[INFO] [1651331727.462177]: Current change in position of motor 1: -400930.0
+[INFO] [1651331727.462811]: Current change in position of motor 2: -401193.0
+[INFO] [1651331727.463478]: Current change in position of motor 3: -401491.0
+[INFO] [1651331727.464087]: Current change in position of motor 4: -402332.0
+[INFO] [1651331727.464727]: Current yaw: 85.02105775397409
+[INFO] [1651331727.465326]: Current change in yaw: 59.30772556684089
+[INFO] [1651331727.560754]: Current position: (2912333.0, -33007276.0, -32913859.0, 2826431.0)
+[INFO] [1651331727.561484]: Current velocity: (-38.44444444444444, -38.617283950617285, -38.81481481481482, -38.71604938271605)
+[INFO] [1651331727.562198]: Current change in position of motor 1: -412323.0
+[INFO] [1651331727.562897]: Current change in position of motor 2: -412630.0
+[INFO] [1651331727.563602]: Current change in position of motor 3: -412882.0
+[INFO] [1651331727.564227]: Current change in position of motor 4: -413741.0
+[INFO] [1651331727.564861]: Current yaw: 86.94645970818345
+[INFO] [1651331727.565526]: Current change in yaw: 61.23312752105026
+[INFO] [1651331727.660775]: Current position: (2906563.0, -33013012.0, -32919578.0, 2820758.0)
+[INFO] [1651331727.661631]: Current velocity: (-38.901234567901234, -38.95061728395062, -38.79012345679013, -38.407407407407405)
+[INFO] [1651331727.662300]: Current change in position of motor 1: -418093.0
+[INFO] [1651331727.662993]: Current change in position of motor 2: -418366.0
+[INFO] [1651331727.663650]: Current change in position of motor 3: -418601.0
+[INFO] [1651331727.664340]: Current change in position of motor 4: -419414.0
+[INFO] [1651331727.664989]: Current yaw: 88.29783400553569
+[INFO] [1651331727.665641]: Current change in yaw: 62.584501818402494
+[INFO] [1651331727.760750]: Current position: (2895108.0, -33024460.0, -32931035.0, 2809295.0)
+[INFO] [1651331727.761506]: Current velocity: (-38.839506172839506, -38.79012345679013, -38.76543209876543, -38.58024691358025)
+[INFO] [1651331727.762221]: Current change in position of motor 1: -429548.0
+[INFO] [1651331727.762902]: Current change in position of motor 2: -429814.0
+[INFO] [1651331727.763558]: Current change in position of motor 3: -430058.0
+[INFO] [1651331727.764210]: Current change in position of motor 4: -430877.0
+[INFO] [1651331727.764883]: Current yaw: 89.7348731907417
+[INFO] [1651331727.765527]: Current change in yaw: 64.02154100360849
+[INFO] [1651331727.860816]: Current position: (2883685.0, -33035881.0, -32942440.0, 2797830.0)
+[INFO] [1651331727.861568]: Current velocity: (-38.876543209876544, -38.839506172839506, -38.864197530864196, -38.80246913580247)
+[INFO] [1651331727.862240]: Current change in position of motor 1: -440971.0
+[INFO] [1651331727.862907]: Current change in position of motor 2: -441235.0
+[INFO] [1651331727.863564]: Current change in position of motor 3: -441463.0
+[INFO] [1651331727.864217]: Current change in position of motor 4: -442342.0
+[INFO] [1651331727.864859]: Current yaw: 91.24676203534318
+[INFO] [1651331727.865524]: Current change in yaw: 65.53342984820998
+[INFO] [1651331727.960758]: Current position: (2872341.0, -33047254.0, -32953821.0, 2786473.0)
+[INFO] [1651331727.961508]: Current velocity: (-38.72839506172839, -38.876543209876544, -38.80246913580247, -38.7037037037037)
+[INFO] [1651331727.962186]: Current change in position of motor 1: -452315.0
+[INFO] [1651331727.962838]: Current change in position of motor 2: -452608.0
+[INFO] [1651331727.963562]: Current change in position of motor 3: -452844.0
+[INFO] [1651331727.964176]: Current change in position of motor 4: -453699.0
+[INFO] [1651331727.964789]: Current yaw: 92.45877892379802
+[INFO] [1651331727.965433]: Current change in yaw: 66.74544673666483
+[INFO] [1651331728.060756]: Current position: (2860973.0, -33058659.0, -32965201.0, 2775083.0)
+[INFO] [1651331728.061553]: Current velocity: (-39.0, -38.77777777777778, -38.839506172839506, -38.65432098765432)
+[INFO] [1651331728.062190]: Current change in position of motor 1: -463683.0
+[INFO] [1651331728.062811]: Current change in position of motor 2: -464013.0
+[INFO] [1651331728.063746]: Current change in position of motor 3: -464224.0
+[INFO] [1651331728.064405]: Current change in position of motor 4: -465089.0
+[INFO] [1651331728.065030]: Current yaw: 94.4900456850027
+[INFO] [1651331728.065645]: Current change in yaw: 68.77671349786951
+[INFO] [1651331728.160814]: Current position: (2849489.0, -33070113.0, -32976717.0, 2763600.0)
+[INFO] [1651331728.161553]: Current velocity: (-38.44444444444444, -38.382716049382715, -38.76543209876543, -38.592592592592595)
+[INFO] [1651331728.162183]: Current change in position of motor 1: -475167.0
+[INFO] [1651331728.162874]: Current change in position of motor 2: -475467.0
+[INFO] [1651331728.163907]: Current change in position of motor 3: -475740.0
+[INFO] [1651331728.164516]: Current change in position of motor 4: -476572.0
+[INFO] [1651331728.165128]: Current yaw: 95.80661695388028
+[INFO] [1651331728.165740]: Current change in yaw: 70.09328476674708
+[INFO] [1651331728.260756]: Current position: (2843708.0, -33075900.0, -32982442.0, 2757860.0)
+[INFO] [1651331728.261547]: Current velocity: (-38.53086419753087, -39.27160493827161, -38.77777777777778, -38.629629629629626)
+[INFO] [1651331728.262217]: Current change in position of motor 1: -480948.0
+[INFO] [1651331728.262818]: Current change in position of motor 2: -481254.0
+[INFO] [1651331728.263436]: Current change in position of motor 3: -481465.0
+[INFO] [1651331728.264091]: Current change in position of motor 4: -482312.0
+[INFO] [1651331728.264704]: Current yaw: 97.1378950486042
+[INFO] [1651331728.265321]: Current change in yaw: 71.42456286147099
+[INFO] [1651331728.360755]: Current position: (2832264.0, -33087293.0, -32993865.0, 2746418.0)
+[INFO] [1651331728.361480]: Current velocity: (-38.91358024691358, -38.65432098765432, -39.0, -38.641975308641975)
+[INFO] [1651331728.362112]: Current change in position of motor 1: -492392.0
+[INFO] [1651331728.362756]: Current change in position of motor 2: -492647.0
+[INFO] [1651331728.363417]: Current change in position of motor 3: -492888.0
+[INFO] [1651331728.364023]: Current change in position of motor 4: -493754.0
+[INFO] [1651331728.364617]: Current yaw: 98.29743580868394
+[INFO] [1651331728.365251]: Current change in yaw: 72.58410362155074
+[INFO] [1651331728.460776]: Current position: (2820809.0, -33098782.0, -33005359.0, 2734901.0)
+[INFO] [1651331728.461532]: Current velocity: (-38.76543209876543, -38.69135802469136, -38.851851851851855, -39.25925925925926)
+[INFO] [1651331728.462170]: Current change in position of motor 1: -503847.0
+[INFO] [1651331728.462777]: Current change in position of motor 2: -504136.0
+[INFO] [1651331728.463391]: Current change in position of motor 3: -504382.0
+[INFO] [1651331728.464100]: Current change in position of motor 4: -505271.0
+[INFO] [1651331728.464690]: Current yaw: 99.77970223764044
+[INFO] [1651331728.465306]: Current change in yaw: 74.06637005050725
+[INFO] [1651331728.560760]: Current position: (2809328.0, -33110246.0, -33016841.0, 2723484.0)
+[INFO] [1651331728.561516]: Current velocity: (-38.839506172839506, -38.888888888888886, -39.04938271604938, -38.7037037037037)
+[INFO] [1651331728.562165]: Current change in position of motor 1: -515328.0
+[INFO] [1651331728.562847]: Current change in position of motor 2: -515600.0
+[INFO] [1651331728.563489]: Current change in position of motor 3: -515864.0
+[INFO] [1651331728.564116]: Current change in position of motor 4: -516688.0
+[INFO] [1651331728.564722]: Current yaw: 101.44833135448627
+[INFO] [1651331728.565353]: Current change in yaw: 75.73499916735307
+[INFO] [1651331728.660814]: Current position: (2797832.0, -33121715.0, -33028301.0, 2712014.0)
+[INFO] [1651331728.661657]: Current velocity: (-38.91358024691358, -38.71604938271605, -38.82716049382716, -38.54320987654321)
+[INFO] [1651331728.662403]: Current change in position of motor 1: -526824.0
+[INFO] [1651331728.663461]: Current change in position of motor 2: -527069.0
+[INFO] [1651331728.664092]: Current change in position of motor 3: -527324.0
+[INFO] [1651331728.664716]: Current change in position of motor 4: -528158.0
+[INFO] [1651331728.665327]: Current yaw: 104.31696991127309
+[INFO] [1651331728.665957]: Current change in yaw: 78.60363772413989
+[INFO] [1651331728.760835]: Current position: (2786481.0, -33133129.0, -33039664.0, 2700570.0)
+[INFO] [1651331728.761576]: Current velocity: (-38.54320987654321, -38.7037037037037, -38.629629629629626, -39.098765432098766)
+[INFO] [1651331728.762220]: Current change in position of motor 1: -538175.0
+[INFO] [1651331728.762826]: Current change in position of motor 2: -538483.0
+[INFO] [1651331728.763455]: Current change in position of motor 3: -538687.0
+[INFO] [1651331728.764058]: Current change in position of motor 4: -539602.0
+[INFO] [1651331728.764665]: Current yaw: 106.30048750101086
+[INFO] [1651331728.765276]: Current change in yaw: 80.58715531387767
+[INFO] [1651331728.860751]: Current position: (2780744.0, -33138854.0, -33045413.0, 2694859.0)
+[INFO] [1651331728.861455]: Current velocity: (-38.80246913580247, -38.864197530864196, -38.641975308641975, -38.72839506172839)
+[INFO] [1651331728.862122]: Current change in position of motor 1: -543912.0
+[INFO] [1651331728.862742]: Current change in position of motor 2: -544208.0
+[INFO] [1651331728.863360]: Current change in position of motor 3: -544436.0
+[INFO] [1651331728.863961]: Current change in position of motor 4: -545313.0
+[INFO] [1651331728.864561]: Current yaw: 107.78451109291777
+[INFO] [1651331728.865213]: Current change in yaw: 82.07117890578456
+[INFO] [1651331728.960820]: Current position: (2769307.0, -33150253.0, -33056848.0, 2683438.0)
+[INFO] [1651331728.961637]: Current velocity: (-39.02469135802469, -38.65432098765432, -38.888888888888886, -38.851851851851855)
+[INFO] [1651331728.962274]: Current change in position of motor 1: -555349.0
+[INFO] [1651331728.962889]: Current change in position of motor 2: -555607.0
+[INFO] [1651331728.963496]: Current change in position of motor 3: -555871.0
+[INFO] [1651331728.964111]: Current change in position of motor 4: -556734.0
+[INFO] [1651331728.964734]: Current yaw: 109.2431694804632
+[INFO] [1651331728.965383]: Current change in yaw: 83.52983729333
+[INFO] [1651331729.060769]: Current position: (2757825.0, -33161780.0, -33068340.0, 2671946.0)
+[INFO] [1651331729.061526]: Current velocity: (-38.49382716049383, -38.65432098765432, -38.65432098765432, -38.7037037037037)
+[INFO] [1651331729.062191]: Current change in position of motor 1: -566831.0
+[INFO] [1651331729.062830]: Current change in position of motor 2: -567134.0
+[INFO] [1651331729.063435]: Current change in position of motor 3: -567363.0
+[INFO] [1651331729.064053]: Current change in position of motor 4: -568226.0
+[INFO] [1651331729.064672]: Current yaw: 110.6611823001383
+[INFO] [1651331729.065306]: Current change in yaw: 84.94785011300509
+[INFO] [1651331729.160754]: Current position: (2746487.0, -33173128.0, -33079649.0, 2660619.0)
+[INFO] [1651331729.161507]: Current velocity: (-38.888888888888886, -38.98765432098765, -38.69135802469136, -38.72839506172839)
+[INFO] [1651331729.162157]: Current change in position of motor 1: -578169.0
+[INFO] [1651331729.162791]: Current change in position of motor 2: -578482.0
+[INFO] [1651331729.163397]: Current change in position of motor 3: -578672.0
+[INFO] [1651331729.163987]: Current change in position of motor 4: -579553.0
+[INFO] [1651331729.164614]: Current yaw: 112.07230471704311
+[INFO] [1651331729.165246]: Current change in yaw: 86.3589725299099
+[INFO] [1651331729.260773]: Current position: (2734953.0, -33184610.0, -33091200.0, 2649105.0)
+[INFO] [1651331729.261600]: Current velocity: (-38.74074074074074, -38.74074074074074, -38.81481481481482, -38.80246913580247)
+[INFO] [1651331729.262306]: Current change in position of motor 1: -589703.0
+[INFO] [1651331729.262925]: Current change in position of motor 2: -589964.0
+[INFO] [1651331729.263616]: Current change in position of motor 3: -590223.0
+[INFO] [1651331729.264272]: Current change in position of motor 4: -591067.0
+[INFO] [1651331729.264876]: Current yaw: 113.63985620765287
+[INFO] [1651331729.265510]: Current change in yaw: 87.92652402051966
+[INFO] [1651331729.360800]: Current position: (2723548.0, -33196068.0, -33102634.0, 2637674.0)
+[INFO] [1651331729.361537]: Current velocity: (-38.851851851851855, -38.79012345679013, -38.96296296296296, -38.79012345679013)
+[INFO] [1651331729.362339]: Current change in position of motor 1: -601108.0
+[INFO] [1651331729.362961]: Current change in position of motor 2: -601422.0
+[INFO] [1651331729.363644]: Current change in position of motor 3: -601657.0
+[INFO] [1651331729.364276]: Current change in position of motor 4: -602498.0
+[INFO] [1651331729.364962]: Current yaw: 115.82439185956946
+[INFO] [1651331729.365629]: Current change in yaw: 90.11105967243626
+[INFO] [1651331729.460761]: Current position: (2717799.0, -33201802.0, -33108433.0, 2631860.0)
+[INFO] [1651331729.461572]: Current velocity: (-38.82716049382716, -38.641975308641975, -38.81481481481482, -38.77777777777778)
+[INFO] [1651331729.462276]: Current change in position of motor 1: -606857.0
+[INFO] [1651331729.462959]: Current change in position of motor 2: -607156.0
+[INFO] [1651331729.463637]: Current change in position of motor 3: -607456.0
+[INFO] [1651331729.464316]: Current change in position of motor 4: -608312.0
+[INFO] [1651331729.464963]: Current yaw: 117.00518572767679
+[INFO] [1651331729.465585]: Current change in yaw: 91.29185354054358
+[INFO] [1651331729.560845]: Current position: (2706222.0, -33213348.0, -33119910.0, 2620360.0)
+[INFO] [1651331729.561592]: Current velocity: (-38.80246913580247, -38.71604938271605, -38.79012345679013, -39.074074074074076)
+[INFO] [1651331729.562241]: Current change in position of motor 1: -618434.0
+[INFO] [1651331729.562900]: Current change in position of motor 2: -618702.0
+[INFO] [1651331729.563551]: Current change in position of motor 3: -618933.0
+[INFO] [1651331729.564190]: Current change in position of motor 4: -619812.0
+[INFO] [1651331729.564803]: Current yaw: 118.17228544422969
+[INFO] [1651331729.565434]: Current change in yaw: 92.45895325709648
+[INFO] [1651331729.660778]: Current position: (2694840.0, -33224742.0, -33131317.0, 2608975.0)
+[INFO] [1651331729.661583]: Current velocity: (-38.851851851851855, -38.82716049382716, -38.7037037037037, -39.03703703703704)
+[INFO] [1651331729.662270]: Current change in position of motor 1: -629816.0
+[INFO] [1651331729.662918]: Current change in position of motor 2: -630096.0
+[INFO] [1651331729.663688]: Current change in position of motor 3: -630340.0
+[INFO] [1651331729.664393]: Current change in position of motor 4: -631197.0
+[INFO] [1651331729.665043]: Current yaw: 119.4738883144208
+[INFO] [1651331729.665669]: Current change in yaw: 93.76055612728761
+[INFO] [1651331729.760772]: Current position: (2683394.0, -33236198.0, -33142787.0, 2597531.0)
+[INFO] [1651331729.761586]: Current velocity: (-38.82716049382716, -38.80246913580247, -38.82716049382716, -38.74074074074074)
+[INFO] [1651331729.762275]: Current change in position of motor 1: -641262.0
+[INFO] [1651331729.762923]: Current change in position of motor 2: -641552.0
+[INFO] [1651331729.763638]: Current change in position of motor 3: -641810.0
+[INFO] [1651331729.764332]: Current change in position of motor 4: -642641.0
+[INFO] [1651331729.764983]: Current yaw: 120.86533112258496
+[INFO] [1651331729.765605]: Current change in yaw: 95.15199893545176
+[INFO] [1651331729.860768]: Current position: (2671948.0, -33247577.0, -33154244.0, 2586145.0)
+[INFO] [1651331729.861518]: Current velocity: (-38.72839506172839, -37.925925925925924, -38.97530864197531, -38.82716049382716)
+[INFO] [1651331729.862176]: Current change in position of motor 1: -652708.0
+[INFO] [1651331729.862776]: Current change in position of motor 2: -652931.0
+[INFO] [1651331729.863473]: Current change in position of motor 3: -653267.0
+[INFO] [1651331729.864085]: Current change in position of motor 4: -654027.0
+[INFO] [1651331729.864714]: Current yaw: 122.75530325193608
+[INFO] [1651331729.865329]: Current change in yaw: 97.0419710648029
+[INFO] [1651331729.960760]: Current position: (2666132.0, -33253475.0, -33160026.0, 2580209.0)
+[INFO] [1651331729.961512]: Current velocity: (-38.65432098765432, -38.925925925925924, -38.34567901234568, -39.19753086419753)
+[INFO] [1651331729.962160]: Current change in position of motor 1: -658524.0
+[INFO] [1651331729.962794]: Current change in position of motor 2: -664577.0
+[INFO] [1651331729.963744]: Current change in position of motor 3: -664804.0
+[INFO] [1651331729.964388]: Current change in position of motor 4: -665665.0
+[INFO] [1651331729.964984]: Current yaw: 126.28352652382507
+[INFO] [1651331729.965617]: Current change in yaw: 100.57019433669187
+[INFO] [1651331730.060834]: Current position: (2654618.0, -33264972.0, -33171529.0, 2568762.0)
+[INFO] [1651331730.061600]: Current velocity: (-38.851851851851855, -38.80246913580247, -38.69135802469136, -38.80246913580247)
+[INFO] [1651331730.062263]: Current change in position of motor 1: -670038.0
+[INFO] [1651331730.062918]: Current change in position of motor 2: -670326.0
+[INFO] [1651331730.064016]: Current change in position of motor 3: -670552.0
+[INFO] [1651331730.064658]: Current change in position of motor 4: -671410.0
+[INFO] [1651331730.065275]: Current yaw: 128.6142346960253
+[INFO] [1651331730.065893]: Current change in yaw: 102.9009025088921
+[INFO] [1651331730.160755]: Current position: (2643077.0, -33276465.0, -33183022.0, 2557256.0)
+[INFO] [1651331730.161526]: Current velocity: (-38.96296296296296, -38.72839506172839, -38.72839506172839, -38.839506172839506)
+[INFO] [1651331730.162215]: Current change in position of motor 1: -681579.0
+[INFO] [1651331730.162869]: Current change in position of motor 2: -681819.0
+[INFO] [1651331730.163489]: Current change in position of motor 3: -682045.0
+[INFO] [1651331730.164100]: Current change in position of motor 4: -682916.0
+[INFO] [1651331730.164756]: Current yaw: 130.72915570241537
+[INFO] [1651331730.165356]: Current change in yaw: 105.01582351528218
+[INFO] [1651331730.260830]: Current position: (2631762.0, -33287812.0, -33194389.0, 2545897.0)
+[INFO] [1651331730.261595]: Current velocity: (-38.98765432098765, -38.82716049382716, -39.08641975308642, -39.45679012345679)
+[INFO] [1651331730.262226]: Current change in position of motor 1: -692894.0
+[INFO] [1651331730.262832]: Current change in position of motor 2: -693166.0
+[INFO] [1651331730.263468]: Current change in position of motor 3: -693412.0
+[INFO] [1651331730.264088]: Current change in position of motor 4: -694275.0
+[INFO] [1651331730.264696]: Current yaw: 132.71047669205365
+[INFO] [1651331730.265283]: Current change in yaw: 106.99714450492046
+[INFO] [1651331730.360831]: Current position: (2620344.0, -33299181.0, -33205805.0, 2534500.0)
+[INFO] [1651331730.361644]: Current velocity: (-38.81481481481482, -38.592592592592595, -38.71604938271605, -38.81481481481482)
+[INFO] [1651331730.362343]: Current change in position of motor 1: -704312.0
+[INFO] [1651331730.362979]: Current change in position of motor 2: -704535.0
+[INFO] [1651331730.363582]: Current change in position of motor 3: -704828.0
+[INFO] [1651331730.364212]: Current change in position of motor 4: -705672.0
+[INFO] [1651331730.364858]: Current yaw: 134.29720377498387
+[INFO] [1651331730.365506]: Current change in yaw: 108.58387158785068
+[INFO] [1651331730.460757]: Current position: (2608729.0, -33310864.0, -33217448.0, 2522857.0)
+[INFO] [1651331730.461560]: Current velocity: (-38.839506172839506, -38.72839506172839, -38.82716049382716, -38.55555555555556)
+[INFO] [1651331730.462251]: Current change in position of motor 1: -715927.0
+[INFO] [1651331730.462869]: Current change in position of motor 2: -716218.0
+[INFO] [1651331730.463493]: Current change in position of motor 3: -716471.0
+[INFO] [1651331730.464081]: Current change in position of motor 4: -717315.0
+[INFO] [1651331730.464712]: Current yaw: 135.8301870052362
+[INFO] [1651331730.465329]: Current change in yaw: 110.11685481810301
+[INFO] [1651331730.560816]: Current position: (2603007.0, -33316609.0, -33223145.0, 2517118.0)
+[INFO] [1651331730.561552]: Current velocity: (-38.641975308641975, -38.925925925925924, -38.75308641975309, -38.98765432098765)
+[INFO] [1651331730.562218]: Current change in position of motor 1: -721649.0
+[INFO] [1651331730.562829]: Current change in position of motor 2: -721963.0
+[INFO] [1651331730.563439]: Current change in position of motor 3: -722168.0
+[INFO] [1651331730.564098]: Current change in position of motor 4: -728669.0
+[INFO] [1651331730.564716]: Current yaw: 137.2555392361035
+[INFO] [1651331730.565316]: Current change in yaw: 111.5422070489703
+[INFO] [1651331730.660756]: Current position: (2591591.0, -33328019.0, -33234588.0, 2505735.0)
+[INFO] [1651331730.661643]: Current velocity: (-38.65432098765432, -38.864197530864196, -38.72839506172839, -38.45679012345679)
+[INFO] [1651331730.662381]: Current change in position of motor 1: -733065.0
+[INFO] [1651331730.663017]: Current change in position of motor 2: -733373.0
+[INFO] [1651331730.663739]: Current change in position of motor 3: -733611.0
+[INFO] [1651331730.664423]: Current change in position of motor 4: -734437.0
+[INFO] [1651331730.665035]: Current yaw: 138.97136740284594
+[INFO] [1651331730.665642]: Current change in yaw: 113.25803521571274
+[INFO] [1651331730.760846]: Current position: (2580109.0, -33339471.0, -33246009.0, 2494240.0)
+[INFO] [1651331730.761658]: Current velocity: (-38.55555555555556, -38.864197530864196, -38.50617283950617, -39.03703703703704)
+[INFO] [1651331730.762306]: Current change in position of motor 1: -744547.0
+[INFO] [1651331730.762924]: Current change in position of motor 2: -744825.0
+[INFO] [1651331730.763547]: Current change in position of motor 3: -745032.0
+[INFO] [1651331730.764172]: Current change in position of motor 4: -745932.0
+[INFO] [1651331730.764782]: Current yaw: 141.17473325697975
+[INFO] [1651331730.765400]: Current change in yaw: 115.46140106984654
+[INFO] [1651331730.860769]: Current position: (2568700.0, -33350888.0, -33257483.0, 2482815.0)
+[INFO] [1651331730.861514]: Current velocity: (-38.925925925925924, -38.91358024691358, -38.82716049382716, -38.72839506172839)
+[INFO] [1651331730.862199]: Current change in position of motor 1: -755956.0
+[INFO] [1651331730.862853]: Current change in position of motor 2: -756242.0
+[INFO] [1651331730.863658]: Current change in position of motor 3: -756506.0
+[INFO] [1651331730.864266]: Current change in position of motor 4: -757357.0
+[INFO] [1651331730.864877]: Current yaw: 144.2727422158621
+[INFO] [1651331730.865505]: Current change in yaw: 118.55941002872892
+[INFO] [1651331730.960761]: Current position: (2557193.0, -33362365.0, -33268894.0, 2471419.0)
+[INFO] [1651331730.961517]: Current velocity: (-39.20987654320987, -39.01234567901235, -38.81481481481482, -38.58024691358025)
+[INFO] [1651331730.962137]: Current change in position of motor 1: -767463.0
+[INFO] [1651331730.962749]: Current change in position of motor 2: -767719.0
+[INFO] [1651331730.963384]: Current change in position of motor 3: -767917.0
+[INFO] [1651331730.963987]: Current change in position of motor 4: -768753.0
+[INFO] [1651331730.964592]: Current yaw: 146.31042929482857
+[INFO] [1651331730.965212]: Current change in yaw: 120.59709710769536
+[INFO] [1651331731.060773]: Current position: (2545804.0, -33373782.0, -33280348.0, 2459985.0)
+[INFO] [1651331731.061550]: Current velocity: (-38.7037037037037, -39.18518518518518, -38.901234567901234, -38.71604938271605)
+[INFO] [1651331731.062183]: Current change in position of motor 1: -778852.0
+[INFO] [1651331731.062806]: Current change in position of motor 2: -779136.0
+[INFO] [1651331731.063496]: Current change in position of motor 3: -779371.0
+[INFO] [1651331731.064132]: Current change in position of motor 4: -780187.0
+[INFO] [1651331731.064758]: Current yaw: 148.5650463209054
+[INFO] [1651331731.065381]: Current change in yaw: 122.85171413377219
+[INFO] [1651331731.160761]: Current position: (2540058.0, -33379528.0, -33286075.0, 2454228.0)
+[INFO] [1651331731.161505]: Current velocity: (-38.72839506172839, -39.19753086419753, -38.71604938271605, -38.81481481481482)
+[INFO] [1651331731.162157]: Current change in position of motor 1: -784598.0
+[INFO] [1651331731.162772]: Current change in position of motor 2: -784882.0
+[INFO] [1651331731.163406]: Current change in position of motor 3: -785098.0
+[INFO] [1651331731.164037]: Current change in position of motor 4: -785944.0
+[INFO] [1651331731.164654]: Current yaw: 150.47325645561054
+[INFO] [1651331731.165379]: Current change in yaw: 124.75992426847735
+[INFO] [1651331731.260751]: Current position: (2528627.0, -33390953.0, -33297534.0, 2442776.0)
+[INFO] [1651331731.261493]: Current velocity: (-38.81481481481482, -38.851851851851855, -38.82716049382716, -38.641975308641975)
+[INFO] [1651331731.262138]: Current change in position of motor 1: -796029.0
+[INFO] [1651331731.262762]: Current change in position of motor 2: -796307.0
+[INFO] [1651331731.263425]: Current change in position of motor 3: -796557.0
+[INFO] [1651331731.264015]: Current change in position of motor 4: -797396.0
+[INFO] [1651331731.264643]: Current yaw: 152.16170319933724
+[INFO] [1651331731.265341]: Current change in yaw: 126.44837101220403
+[INFO] [1651331731.360770]: Current position: (2517258.0, -33402343.0, -33308887.0, 2431376.0)
+[INFO] [1651331731.361512]: Current velocity: (-38.7037037037037, -38.851851851851855, -38.617283950617285, -38.77777777777778)
+[INFO] [1651331731.362188]: Current change in position of motor 1: -807398.0
+[INFO] [1651331731.362797]: Current change in position of motor 2: -807697.0
+[INFO] [1651331731.363730]: Current change in position of motor 3: -807910.0
+[INFO] [1651331731.364332]: Current change in position of motor 4: -808796.0
+[INFO] [1651331731.365018]: Current yaw: 154.68864583801778
+[INFO] [1651331731.365620]: Current change in yaw: 128.97531365088457
+[INFO] [1651331731.460761]: Current position: (2505808.0, -33413793.0, -33320327.0, 2419942.0)
+[INFO] [1651331731.461507]: Current velocity: (-38.79012345679013, -38.839506172839506, -38.58024691358025, -38.666666666666664)
+[INFO] [1651331731.462152]: Current change in position of motor 1: -818848.0
+[INFO] [1651331731.462809]: Current change in position of motor 2: -819147.0
+[INFO] [1651331731.463472]: Current change in position of motor 3: -819350.0
+[INFO] [1651331731.464115]: Current change in position of motor 4: -820230.0
+[INFO] [1651331731.464773]: Current yaw: 156.22168951340407
+[INFO] [1651331731.465494]: Current change in yaw: 130.5083573262709
+[INFO] [1651331731.560767]: Current position: (2494399.0, -33425203.0, -33331779.0, 2408475.0)
+[INFO] [1651331731.561506]: Current velocity: (-38.71604938271605, -38.77777777777778, -38.77777777777778, -39.08641975308642)
+[INFO] [1651331731.562170]: Current change in position of motor 1: -830257.0
+[INFO] [1651331731.562802]: Current change in position of motor 2: -830557.0
+[INFO] [1651331731.563431]: Current change in position of motor 3: -830802.0
+[INFO] [1651331731.564063]: Current change in position of motor 4: -831697.0
+[INFO] [1651331731.564722]: Current yaw: 157.71797916970792
+[INFO] [1651331731.565335]: Current change in yaw: 132.0046469825747
+[INFO] [1651331731.660809]: Current position: (2482970.0, -33436633.0, -33343158.0, 2397104.0)
+[INFO] [1651331731.661534]: Current velocity: (-39.123456790123456, -38.876543209876544, -38.839506172839506, -38.65432098765432)
+[INFO] [1651331731.662263]: Current change in position of motor 1: -841686.0
+[INFO] [1651331731.662894]: Current change in position of motor 2: -841987.0
+[INFO] [1651331731.663528]: Current change in position of motor 3: -842181.0
+[INFO] [1651331731.664161]: Current change in position of motor 4: -843068.0
+[INFO] [1651331731.664850]: Current yaw: 159.2115038379382
+[INFO] [1651331731.665490]: Current change in yaw: 133.498171650805
+[INFO] [1651331731.760780]: Current position: (2477210.0, -33442336.0, -33348919.0, 2391369.0)
+[INFO] [1651331731.761575]: Current velocity: (-38.5679012345679, -38.45679012345679, -38.925925925925924, -38.641975308641975)
+[INFO] [1651331731.762256]: Current change in position of motor 1: -847446.0
+[INFO] [1651331731.762898]: Current change in position of motor 2: -847690.0
+[INFO] [1651331731.763549]: Current change in position of motor 3: -847942.0
+[INFO] [1651331731.764217]: Current change in position of motor 4: -848803.0
+[INFO] [1651331731.764837]: Current yaw: 160.6539737589173
+[INFO] [1651331731.765450]: Current change in yaw: 134.94064157178408
+[INFO] [1651331731.860822]: Current position: (2465691.0, -33453892.0, -33360474.0, 2379813.0)
+[INFO] [1651331731.861599]: Current velocity: (-38.7037037037037, -39.03703703703704, -38.74074074074074, -38.851851851851855)
+[INFO] [1651331731.862290]: Current change in position of motor 1: -858965.0
+[INFO] [1651331731.862956]: Current change in position of motor 2: -859246.0
+[INFO] [1651331731.863643]: Current change in position of motor 3: -859497.0
+[INFO] [1651331731.864283]: Current change in position of motor 4: -860359.0
+[INFO] [1651331731.864918]: Current yaw: 162.4257518757855
+[INFO] [1651331731.865556]: Current change in yaw: 136.7124196886523
+[INFO] [1651331731.960809]: Current position: (2454148.0, -33465416.0, -33371990.0, 2368271.0)
+[INFO] [1651331731.961573]: Current velocity: (-38.82716049382716, -38.839506172839506, -38.76543209876543, -38.839506172839506)
+[INFO] [1651331731.962204]: Current change in position of motor 1: -870508.0
+[INFO] [1651331731.962818]: Current change in position of motor 2: -870770.0
+[INFO] [1651331731.963417]: Current change in position of motor 3: -871013.0
+[INFO] [1651331731.964122]: Current change in position of motor 4: -871901.0
+[INFO] [1651331731.964752]: Current yaw: 164.87169646357108
+[INFO] [1651331731.965353]: Current change in yaw: 139.15836427643788
+[INFO] [1651331732.060776]: Current position: (2442758.0, -33476830.0, -33383374.0, 2356909.0)
+[INFO] [1651331732.061612]: Current velocity: (-38.81481481481482, -38.82716049382716, -38.617283950617285, -38.901234567901234)
+[INFO] [1651331732.062257]: Current change in position of motor 1: -881898.0
+[INFO] [1651331732.062841]: Current change in position of motor 2: -882184.0
+[INFO] [1651331732.063478]: Current change in position of motor 3: -882397.0
+[INFO] [1651331732.064093]: Current change in position of motor 4: -883263.0
+[INFO] [1651331732.064752]: Current yaw: 166.52091085448447
+[INFO] [1651331732.065348]: Current change in yaw: 140.80757866735127
+[INFO] [1651331732.160765]: Current position: (2431343.0, -33488209.0, -33394783.0, 2345490.0)
+[INFO] [1651331732.161511]: Current velocity: (-38.71604938271605, -38.72839506172839, -38.7037037037037, -38.79012345679013)
+[INFO] [1651331732.162182]: Current change in position of motor 1: -893313.0
+[INFO] [1651331732.162847]: Current change in position of motor 2: -893563.0
+[INFO] [1651331732.163471]: Current change in position of motor 3: -893806.0
+[INFO] [1651331732.164121]: Current change in position of motor 4: -894682.0
+[INFO] [1651331732.164731]: Current yaw: 168.44888175280516
+[INFO] [1651331732.165355]: Current change in yaw: 142.73554956567196
+[INFO] [1651331732.260755]: Current position: (2419850.0, -33499679.0, -33406220.0, 2334042.0)
+[INFO] [1651331732.261480]: Current velocity: (-39.06172839506173, -38.54320987654321, -38.79012345679013, -39.333333333333336)
+[INFO] [1651331732.262121]: Current change in position of motor 1: -904806.0
+[INFO] [1651331732.262742]: Current change in position of motor 2: -905033.0
+[INFO] [1651331732.263460]: Current change in position of motor 3: -905243.0
+[INFO] [1651331732.264099]: Current change in position of motor 4: -906130.0
+[INFO] [1651331732.264724]: Current yaw: 170.21357856093593
+[INFO] [1651331732.265333]: Current change in yaw: 144.50024637380272
+[INFO] [1651331732.360763]: Current position: (2414220.0, -33505338.0, -33411881.0, 2328329.0)
+[INFO] [1651331732.361544]: Current velocity: (-38.76543209876543, -38.55555555555556, -38.851851851851855, -38.876543209876544)
+[INFO] [1651331732.362206]: Current change in position of motor 1: -910436.0
+[INFO] [1651331732.362890]: Current change in position of motor 2: -910692.0
+[INFO] [1651331732.363514]: Current change in position of motor 3: -910904.0
+[INFO] [1651331732.364147]: Current change in position of motor 4: -911843.0
+[INFO] [1651331732.364768]: Current yaw: 171.65356727579112
+[INFO] [1651331732.365377]: Current change in yaw: 145.94023508865791
+[INFO] [1651331732.460754]: Current position: (2402864.0, -33516720.0, -33423323.0, 2316920.0)
+[INFO] [1651331732.461501]: Current velocity: (-38.46913580246913, -38.75308641975309, -38.81481481481482, -38.839506172839506)
+[INFO] [1651331732.462159]: Current change in position of motor 1: -921792.0
+[INFO] [1651331732.462813]: Current change in position of motor 2: -922074.0
+[INFO] [1651331732.463436]: Current change in position of motor 3: -922346.0
+[INFO] [1651331732.464077]: Current change in position of motor 4: -923252.0
+[INFO] [1651331732.464680]: Current yaw: 172.82167916071958
+[INFO] [1651331732.465314]: Current change in yaw: 147.10834697358638
+[INFO] [1651331732.560745]: Current position: (2391416.0, -33528161.0, -33434734.0, 2305549.0)
+[INFO] [1651331732.561473]: Current velocity: (-38.888888888888886, -39.160493827160494, -38.76543209876543, -38.65432098765432)
+[INFO] [1651331732.562132]: Current change in position of motor 1: -933240.0
+[INFO] [1651331732.562743]: Current change in position of motor 2: -933515.0
+[INFO] [1651331732.563394]: Current change in position of motor 3: -933757.0
+[INFO] [1651331732.563999]: Current change in position of motor 4: -934623.0
+[INFO] [1651331732.564591]: Current yaw: 174.03518389321428
+[INFO] [1651331732.565193]: Current change in yaw: 148.32185170608108
+[INFO] [1651331732.660755]: Current position: (2379936.0, -33539616.0, -33446181.0, 2294072.0)
+[INFO] [1651331732.661549]: Current velocity: (-38.79012345679013, -38.67901234567901, -38.60493827160494, -39.04938271604938)
+[INFO] [1651331732.662281]: Current change in position of motor 1: -944720.0
+[INFO] [1651331732.662892]: Current change in position of motor 2: -944970.0
+[INFO] [1651331732.663503]: Current change in position of motor 3: -945204.0
+[INFO] [1651331732.664152]: Current change in position of motor 4: -946100.0
+[INFO] [1651331732.664768]: Current yaw: 176.00941621955394
+[INFO] [1651331732.665362]: Current change in yaw: 150.29608403242074
+[INFO] [1651331732.760743]: Current position: (2368506.0, -33551084.0, -33457625.0, 2282666.0)
+[INFO] [1651331732.761447]: Current velocity: (-38.876543209876544, -38.77777777777778, -38.641975308641975, -38.93827160493827)
+[INFO] [1651331732.762147]: Current change in position of motor 1: -956150.0
+[INFO] [1651331732.762770]: Current change in position of motor 2: -956438.0
+[INFO] [1651331732.763377]: Current change in position of motor 3: -956648.0
+[INFO] [1651331732.764007]: Current change in position of motor 4: -957506.0
+[INFO] [1651331732.764627]: Current yaw: 177.56402162909828
+[INFO] [1651331732.765250]: Current change in yaw: 151.85068944196507
+[INFO] [1651331732.860786]: Current position: (2357102.0, -33562502.0, -33469060.0, 2271249.0)
+[INFO] [1651331732.861613]: Current velocity: (-38.72839506172839, -38.839506172839506, -38.58024691358025, -38.71604938271605)
+[INFO] [1651331732.862334]: Current change in position of motor 1: -967554.0
+[INFO] [1651331732.862961]: Current change in position of motor 2: -967856.0
+[INFO] [1651331732.863620]: Current change in position of motor 3: -968083.0
+[INFO] [1651331732.864269]: Current change in position of motor 4: -968923.0
+[INFO] [1651331732.864899]: Current yaw: 179.23062580230228
+[INFO] [1651331732.865507]: Current change in yaw: 153.51729361516908
+[INFO] [1651331732.960750]: Current position: (2351435.0, -33568171.0, -33474679.0, 2265540.0)
+[INFO] [1651331732.961514]: Current velocity: (-38.75308641975309, -38.80246913580247, -38.74074074074074, -39.0)
+[INFO] [1651331732.962191]: Current change in position of motor 1: -973221.0
+[INFO] [1651331732.962815]: Current change in position of motor 2: -973525.0
+[INFO] [1651331732.963441]: Current change in position of motor 3: -973702.0
+[INFO] [1651331732.964084]: Current change in position of motor 4: -974632.0
+[INFO] [1651331732.964684]: Current yaw: -179.31081225290237
+[INFO] [1651331732.965285]: Current change in yaw: -205.02414444003557
+[INFO] [1651331733.060752]: Current position: (2339908.0, -33579668.0, -33486231.0, 2254035.0)
+[INFO] [1651331733.061502]: Current velocity: (-38.80246913580247, -38.72839506172839, -39.02469135802469, -38.839506172839506)
+[INFO] [1651331733.062135]: Current change in position of motor 1: -984748.0
+[INFO] [1651331733.062756]: Current change in position of motor 2: -985022.0
+[INFO] [1651331733.063403]: Current change in position of motor 3: -985254.0
+[INFO] [1651331733.064042]: Current change in position of motor 4: -986137.0
+[INFO] [1651331733.064654]: Current yaw: -178.15927373810732
+[INFO] [1651331733.065284]: Current change in yaw: -203.87260592524052
+[INFO] [1651331733.160843]: Current position: (2328409.0, -33591159.0, -33497710.0, 2242589.0)
+[INFO] [1651331733.161646]: Current velocity: (-38.851851851851855, -38.74074074074074, -38.888888888888886, -38.666666666666664)
+[INFO] [1651331733.162344]: Current change in position of motor 1: -996247.0
+[INFO] [1651331733.163342]: Current change in position of motor 2: -996513.0
+[INFO] [1651331733.163975]: Current change in position of motor 3: -996733.0
+[INFO] [1651331733.164587]: Current change in position of motor 4: -997583.0
+[INFO] [1651331733.165186]: Current yaw: -176.1957947300776
+[INFO] [1651331733.165792]: Current change in yaw: -201.9091269172108
+[INFO] [1651331733.260746]: Current position: (2317032.0, -33602590.0, -33509094.0, 2231149.0)
+[INFO] [1651331733.261527]: Current velocity: (-38.77777777777778, -39.34567901234568, -38.50617283950617, -38.74074074074074)
+[INFO] [1651331733.262235]: Current change in position of motor 1: -1007624.0
+[INFO] [1651331733.262906]: Current change in position of motor 2: -1007944.0
+[INFO] [1651331733.263522]: Current change in position of motor 3: -1008117.0
+[INFO] [1651331733.264140]: Current change in position of motor 4: -1009023.0
+[INFO] [1651331733.264730]: Current yaw: -174.83542204910563
+[INFO] [1651331733.265349]: Current change in yaw: -200.54875423623884
+[INFO] [1651331733.360766]: Current position: (2305458.0, -33614145.0, -33520700.0, 2219568.0)
+[INFO] [1651331733.361516]: Current velocity: (-38.82716049382716, -38.864197530864196, -38.74074074074074, -38.97530864197531)
+[INFO] [1651331733.362193]: Current change in position of motor 1: -1019198.0
+[INFO] [1651331733.362807]: Current change in position of motor 2: -1019499.0
+[INFO] [1651331733.363433]: Current change in position of motor 3: -1019723.0
+[INFO] [1651331733.364032]: Current change in position of motor 4: -1020604.0
+[INFO] [1651331733.364661]: Current yaw: -173.19715851208198
+[INFO] [1651331733.365291]: Current change in yaw: -198.91049069921516
+[INFO] [1651331733.460775]: Current position: (2294019.0, -33625552.0, -33532102.0, 2208180.0)
+[INFO] [1651331733.461486]: Current velocity: (-38.876543209876544, -38.80246913580247, -38.76543209876543, -38.901234567901234)
+[INFO] [1651331733.462137]: Current change in position of motor 1: -1030637.0
+[INFO] [1651331733.462778]: Current change in position of motor 2: -1030906.0
+[INFO] [1651331733.463409]: Current change in position of motor 3: -1031125.0
+[INFO] [1651331733.464019]: Current change in position of motor 4: -1031992.0
+[INFO] [1651331733.464613]: Current yaw: -171.78000781623422
+[INFO] [1651331733.465217]: Current change in yaw: -197.49334000336742
+[INFO] [1651331733.560762]: Current position: (2288260.0, -33631320.0, -33537865.0, 2202402.0)
+[INFO] [1651331733.561505]: Current velocity: (-38.72839506172839, -38.851851851851855, -38.81481481481482, -38.95061728395062)
+[INFO] [1651331733.562154]: Current change in position of motor 1: -1036396.0
+[INFO] [1651331733.562754]: Current change in position of motor 2: -1036674.0
+[INFO] [1651331733.563374]: Current change in position of motor 3: -1036888.0
+[INFO] [1651331733.563972]: Current change in position of motor 4: -1037770.0
+[INFO] [1651331733.564600]: Current yaw: -170.0227360910294
+[INFO] [1651331733.565231]: Current change in yaw: -195.7360682781626
+[INFO] [1651331733.660748]: Current position: (2276806.0, -33642787.0, -33549366.0, 2190914.0)
+[INFO] [1651331733.661469]: Current velocity: (-38.80246913580247, -38.79012345679013, -38.93827160493827, -38.76543209876543)
+[INFO] [1651331733.662145]: Current change in position of motor 1: -1047850.0
+[INFO] [1651331733.662829]: Current change in position of motor 2: -1048141.0
+[INFO] [1651331733.663486]: Current change in position of motor 3: -1048389.0
+[INFO] [1651331733.664140]: Current change in position of motor 4: -1049258.0
+[INFO] [1651331733.664788]: Current yaw: -168.6889187133737
+[INFO] [1651331733.665449]: Current change in yaw: -194.4022509005069
+[INFO] [1651331733.760773]: Current position: (2265328.0, -33654250.0, -33560816.0, 2179412.0)
+[INFO] [1651331733.761557]: Current velocity: (-38.839506172839506, -38.75308641975309, -38.80246913580247, -38.98765432098765)
+[INFO] [1651331733.762231]: Current change in position of motor 1: -1059328.0
+[INFO] [1651331733.762835]: Current change in position of motor 2: -1059604.0
+[INFO] [1651331733.763765]: Current change in position of motor 3: -1059839.0
+[INFO] [1651331733.764397]: Current change in position of motor 4: -1060760.0
+[INFO] [1651331733.765020]: Current yaw: -166.72704178471324
+[INFO] [1651331733.765614]: Current change in yaw: -192.44037397184644
+[INFO] [1651331733.860819]: Current position: (2253798.0, -33665781.0, -33572313.0, 2167965.0)
+[INFO] [1651331733.861586]: Current velocity: (-39.02469135802469, -38.851851851851855, -38.75308641975309, -38.65432098765432)
+[INFO] [1651331733.862211]: Current change in position of motor 1: -1070858.0
+[INFO] [1651331733.862831]: Current change in position of motor 2: -1071135.0
+[INFO] [1651331733.863504]: Current change in position of motor 3: -1071336.0
+[INFO] [1651331733.864133]: Current change in position of motor 4: -1072207.0
+[INFO] [1651331733.864732]: Current yaw: -165.27684646227937
+[INFO] [1651331733.865360]: Current change in yaw: -190.99017864941257
+[INFO] [1651331733.960789]: Current position: (2242372.0, -33677159.0, -33583758.0, 2156543.0)
+[INFO] [1651331733.961532]: Current velocity: (-38.901234567901234, -38.7037037037037, -38.876543209876544, -38.79012345679013)
+[INFO] [1651331733.962181]: Current change in position of motor 1: -1082284.0
+[INFO] [1651331733.962801]: Current change in position of motor 2: -1082513.0
+[INFO] [1651331733.963476]: Current change in position of motor 3: -1082781.0
+[INFO] [1651331733.964150]: Current change in position of motor 4: -1083629.0
+[INFO] [1651331733.964792]: Current yaw: -163.6055663348908
+[INFO] [1651331733.965415]: Current change in yaw: -189.318898522024
+[INFO] [1651331734.060843]: Current position: (2236689.0, -33682874.0, -33589488.0, 2150810.0)
+[INFO] [1651331734.061664]: Current velocity: (-38.74074074074074, -39.03703703703704, -38.7037037037037, -38.839506172839506)
+[INFO] [1651331734.062316]: Current change in position of motor 1: -1093663.0
+[INFO] [1651331734.062928]: Current change in position of motor 2: -1093963.0
+[INFO] [1651331734.063543]: Current change in position of motor 3: -1094176.0
+[INFO] [1651331734.064175]: Current change in position of motor 4: -1095046.0
+[INFO] [1651331734.064792]: Current yaw: -162.07114120128128
+[INFO] [1651331734.065397]: Current change in yaw: -187.78447338841448
+[INFO] [1651331734.160809]: Current position: (2225265.0, -33694310.0, -33600869.0, 2139395.0)
+[INFO] [1651331734.161546]: Current velocity: (-38.81481481481482, -38.79012345679013, -38.77777777777778, -38.71604938271605)
+[INFO] [1651331734.162181]: Current change in position of motor 1: -1099391.0
+[INFO] [1651331734.162796]: Current change in position of motor 2: -1099664.0
+[INFO] [1651331734.163459]: Current change in position of motor 3: -1099892.0
+[INFO] [1651331734.164063]: Current change in position of motor 4: -1100777.0
+[INFO] [1651331734.164659]: Current yaw: -160.68071990644145
+[INFO] [1651331734.165254]: Current change in yaw: -186.39405209357463
+[INFO] [1651331734.260799]: Current position: (2213773.0, -33705824.0, -33612401.0, 2127889.0)
+[INFO] [1651331734.261538]: Current velocity: (-39.02469135802469, -38.851851851851855, -38.76543209876543, -38.67901234567901)
+[INFO] [1651331734.262256]: Current change in position of motor 1: -1110883.0
+[INFO] [1651331734.262927]: Current change in position of motor 2: -1111178.0
+[INFO] [1651331734.263602]: Current change in position of motor 3: -1111424.0
+[INFO] [1651331734.264282]: Current change in position of motor 4: -1112283.0
+[INFO] [1651331734.264976]: Current yaw: -159.58933790765008
+[INFO] [1651331734.265631]: Current change in yaw: -185.30267009478328
+[INFO] [1651331734.360749]: Current position: (2202274.0, -33717310.0, -33623816.0, 2116425.0)
+[INFO] [1651331734.361559]: Current velocity: (-39.18518518518518, -38.82716049382716, -38.617283950617285, -38.77777777777778)
+[INFO] [1651331734.362267]: Current change in position of motor 1: -1122382.0
+[INFO] [1651331734.362959]: Current change in position of motor 2: -1122664.0
+[INFO] [1651331734.363652]: Current change in position of motor 3: -1122839.0
+[INFO] [1651331734.364297]: Current change in position of motor 4: -1123747.0
+[INFO] [1651331734.364927]: Current yaw: -158.2807222185771
+[INFO] [1651331734.365541]: Current change in yaw: -183.9940544057103
+[INFO] [1651331734.460817]: Current position: (2190773.0, -33728837.0, -33635349.0, 2104914.0)
+[INFO] [1651331734.461529]: Current velocity: (-38.7037037037037, -38.864197530864196, -38.76543209876543, -38.60493827160494)
+[INFO] [1651331734.462214]: Current change in position of motor 1: -1133883.0
+[INFO] [1651331734.462904]: Current change in position of motor 2: -1134191.0
+[INFO] [1651331734.463521]: Current change in position of motor 3: -1134372.0
+[INFO] [1651331734.464139]: Current change in position of motor 4: -1135258.0
+[INFO] [1651331734.464758]: Current yaw: -157.15650852452063
+[INFO] [1651331734.465364]: Current change in yaw: -182.8698407116538
+[INFO] [1651331734.560746]: Current position: (2179363.0, -33740241.0, -33646774.0, 2093460.0)
+[INFO] [1651331734.561470]: Current velocity: (-38.72839506172839, -38.888888888888886, -38.69135802469136, -38.901234567901234)
+[INFO] [1651331734.562103]: Current change in position of motor 1: -1145293.0
+[INFO] [1651331734.562744]: Current change in position of motor 2: -1145595.0
+[INFO] [1651331734.563631]: Current change in position of motor 3: -1145797.0
+[INFO] [1651331734.564270]: Current change in position of motor 4: -1146712.0
+[INFO] [1651331734.564841]: Current yaw: -155.1177939772548
+[INFO] [1651331734.565466]: Current change in yaw: -180.831126164388
+[INFO] [1651331734.660790]: Current position: (2173615.0, -33745916.0, -33652519.0, 2087757.0)
+[INFO] [1651331734.661595]: Current velocity: (-38.79012345679013, -38.370370370370374, -38.96296296296296, -38.76543209876543)
+[INFO] [1651331734.662268]: Current change in position of motor 1: -1151041.0
+[INFO] [1651331734.663391]: Current change in position of motor 2: -1151270.0
+[INFO] [1651331734.664035]: Current change in position of motor 3: -1157247.0
+[INFO] [1651331734.664661]: Current change in position of motor 4: -1158099.0
+[INFO] [1651331734.665260]: Current yaw: -153.61487641992912
+[INFO] [1651331734.665853]: Current change in yaw: -179.32820860706232
+[INFO] [1651331734.760752]: Current position: (2162195.0, -33757364.0, -33663948.0, 2076304.0)
+[INFO] [1651331734.761554]: Current velocity: (-38.77777777777778, -38.5679012345679, -38.77777777777778, -38.82716049382716)
+[INFO] [1651331734.762296]: Current change in position of motor 1: -1162461.0
+[INFO] [1651331734.762987]: Current change in position of motor 2: -1162718.0
+[INFO] [1651331734.763644]: Current change in position of motor 3: -1162971.0
+[INFO] [1651331734.764254]: Current change in position of motor 4: -1163868.0
+[INFO] [1651331734.764858]: Current yaw: -152.3471178553923
+[INFO] [1651331734.765475]: Current change in yaw: -178.0604500425255
+[INFO] [1651331734.860765]: Current position: (2150650.0, -33768954.0, -33675469.0, 2064785.0)
+[INFO] [1651331734.861547]: Current velocity: (-38.851851851851855, -38.864197530864196, -38.72839506172839, -38.75308641975309)
+[INFO] [1651331734.862283]: Current change in position of motor 1: -1174006.0
+[INFO] [1651331734.862950]: Current change in position of motor 2: -1174308.0
+[INFO] [1651331734.863569]: Current change in position of motor 3: -1174492.0
+[INFO] [1651331734.864197]: Current change in position of motor 4: -1175387.0
+[INFO] [1651331734.864824]: Current yaw: -151.00040945622038
+[INFO] [1651331734.865426]: Current change in yaw: -176.7137416433536
+[INFO] [1651331734.960750]: Current position: (2139131.0, -33780462.0, -33687003.0, 2053264.0)
+[INFO] [1651331734.961473]: Current velocity: (-38.79012345679013, -38.876543209876544, -38.888888888888886, -38.864197530864196)
+[INFO] [1651331734.962205]: Current change in position of motor 1: -1185525.0
+[INFO] [1651331734.962872]: Current change in position of motor 2: -1185816.0
+[INFO] [1651331734.963511]: Current change in position of motor 3: -1186026.0
+[INFO] [1651331734.964157]: Current change in position of motor 4: -1186908.0
+[INFO] [1651331734.964780]: Current yaw: -149.53935986797782
+[INFO] [1651331734.965380]: Current change in yaw: -175.25269205511103
+[INFO] [1651331735.060820]: Current position: (2127611.0, -33791958.0, -33698483.0, 2041729.0)
+[INFO] [1651331735.061547]: Current velocity: (-38.925925925925924, -38.77777777777778, -38.666666666666664, -38.901234567901234)
+[INFO] [1651331735.062227]: Current change in position of motor 1: -1197045.0
+[INFO] [1651331735.062832]: Current change in position of motor 2: -1197312.0
+[INFO] [1651331735.063457]: Current change in position of motor 3: -1197506.0
+[INFO] [1651331735.064062]: Current change in position of motor 4: -1198443.0
+[INFO] [1651331735.064692]: Current yaw: -148.20495143505067
+[INFO] [1651331735.065314]: Current change in yaw: -173.91828362218388
+[INFO] [1651331735.160752]: Current position: (2116158.0, -33803429.0, -33709934.0, 2030311.0)
+[INFO] [1651331735.161507]: Current velocity: (-38.925925925925924, -38.82716049382716, -38.69135802469136, -38.69135802469136)
+[INFO] [1651331735.162144]: Current change in position of motor 1: -1208498.0
+[INFO] [1651331735.162786]: Current change in position of motor 2: -1208783.0
+[INFO] [1651331735.163405]: Current change in position of motor 3: -1208957.0
+[INFO] [1651331735.164012]: Current change in position of motor 4: -1209861.0
+[INFO] [1651331735.164604]: Current yaw: -146.26604063615554
+[INFO] [1651331735.165235]: Current change in yaw: -171.97937282328874
+[INFO] [1651331735.260818]: Current position: (2110493.0, -33809140.0, -33715667.0, 2024587.0)
+[INFO] [1651331735.261594]: Current velocity: (-38.2962962962963, -38.80246913580247, -38.81481481481482, -38.81481481481482)
+[INFO] [1651331735.262293]: Current change in position of motor 1: -1214163.0
+[INFO] [1651331735.262969]: Current change in position of motor 2: -1214494.0
+[INFO] [1651331735.263578]: Current change in position of motor 3: -1214690.0
+[INFO] [1651331735.264199]: Current change in position of motor 4: -1215585.0
+[INFO] [1651331735.264823]: Current yaw: -144.75118455971582
+[INFO] [1651331735.265440]: Current change in yaw: -170.46451674684903
+[INFO] [1651331735.360757]: Current position: (2098906.0, -33820660.0, -33727241.0, 2013080.0)
+[INFO] [1651331735.361538]: Current velocity: (-38.79012345679013, -38.7037037037037, -38.97530864197531, -38.65432098765432)
+[INFO] [1651331735.362199]: Current change in position of motor 1: -1225750.0
+[INFO] [1651331735.362849]: Current change in position of motor 2: -1226014.0
+[INFO] [1651331735.363496]: Current change in position of motor 3: -1226264.0
+[INFO] [1651331735.364107]: Current change in position of motor 4: -1227092.0
+[INFO] [1651331735.364723]: Current yaw: -143.4103316333134
+[INFO] [1651331735.365334]: Current change in yaw: -169.1236638204466
+[INFO] [1651331735.460840]: Current position: (2087383.0, -33832203.0, -33738726.0, 2001520.0)
+[INFO] [1651331735.461570]: Current velocity: (-38.82716049382716, -38.864197530864196, -38.641975308641975, -39.23456790123457)
+[INFO] [1651331735.462229]: Current change in position of motor 1: -1237273.0
+[INFO] [1651331735.462874]: Current change in position of motor 2: -1237557.0
+[INFO] [1651331735.463524]: Current change in position of motor 3: -1237749.0
+[INFO] [1651331735.464176]: Current change in position of motor 4: -1238652.0
+[INFO] [1651331735.464767]: Current yaw: -141.5134716445362
+[INFO] [1651331735.465376]: Current change in yaw: -167.2268038316694
+[INFO] [1651331735.560755]: Current position: (2075952.0, -33843619.0, -33750175.0, 1990122.0)
+[INFO] [1651331735.561467]: Current velocity: (-38.79012345679013, -38.864197530864196, -38.72839506172839, -38.641975308641975)
+[INFO] [1651331735.562125]: Current change in position of motor 1: -1248704.0
+[INFO] [1651331735.562729]: Current change in position of motor 2: -1248973.0
+[INFO] [1651331735.563361]: Current change in position of motor 3: -1249198.0
+[INFO] [1651331735.563989]: Current change in position of motor 4: -1250050.0
+[INFO] [1651331735.564601]: Current yaw: -139.72616879653464
+[INFO] [1651331735.565209]: Current change in yaw: -165.4395009836678
+[INFO] [1651331735.660767]: Current position: (2064457.0, -33855094.0, -33761641.0, 1978614.0)
+[INFO] [1651331735.661530]: Current velocity: (-38.839506172839506, -38.79012345679013, -38.65432098765432, -38.666666666666664)
+[INFO] [1651331735.662257]: Current change in position of motor 1: -1260199.0
+[INFO] [1651331735.662949]: Current change in position of motor 2: -1260448.0
+[INFO] [1651331735.663560]: Current change in position of motor 3: -1260664.0
+[INFO] [1651331735.664156]: Current change in position of motor 4: -1261558.0
+[INFO] [1651331735.664746]: Current yaw: -137.7424958133154
+[INFO] [1651331735.665342]: Current change in yaw: -163.45582800044858
+[INFO] [1651331735.760784]: Current position: (2058671.0, -33860893.0, -33767480.0, 1972832.0)
+[INFO] [1651331735.761624]: Current velocity: (-38.71604938271605, -38.79012345679013, -38.51851851851852, -38.77777777777778)
+[INFO] [1651331735.762275]: Current change in position of motor 1: -1271671.0
+[INFO] [1651331735.762896]: Current change in position of motor 2: -1271936.0
+[INFO] [1651331735.763496]: Current change in position of motor 3: -1272161.0
+[INFO] [1651331735.764126]: Current change in position of motor 4: -1273050.0
+[INFO] [1651331735.764730]: Current yaw: -136.10895440356072
+[INFO] [1651331735.765347]: Current change in yaw: -161.8222865906939
+[INFO] [1651331735.860816]: Current position: (2047274.0, -33872301.0, -33778855.0, 1961441.0)
+[INFO] [1651331735.861559]: Current velocity: (-38.75308641975309, -38.80246913580247, -38.95061728395062, -38.617283950617285)
+[INFO] [1651331735.862168]: Current change in position of motor 1: -1277382.0
+[INFO] [1651331735.862782]: Current change in position of motor 2: -1277655.0
+[INFO] [1651331735.863404]: Current change in position of motor 3: -1277878.0
+[INFO] [1651331735.864000]: Current change in position of motor 4: -1278731.0
+[INFO] [1651331735.864588]: Current yaw: -133.18613315267515
+[INFO] [1651331735.865237]: Current change in yaw: -158.89946533980836
+[INFO] [1651331735.960747]: Current position: (2035793.0, -33883821.0, -33790392.0, 1949852.0)
+[INFO] [1651331735.961488]: Current velocity: (-38.27160493827161, -38.7037037037037, -38.76543209876543, -38.876543209876544)
+[INFO] [1651331735.962164]: Current change in position of motor 1: -1288863.0
+[INFO] [1651331735.962788]: Current change in position of motor 2: -1289175.0
+[INFO] [1651331735.963390]: Current change in position of motor 3: -1289415.0
+[INFO] [1651331735.963987]: Current change in position of motor 4: -1290320.0
+[INFO] [1651331735.964634]: Current yaw: -131.5658975283775
+[INFO] [1651331735.965258]: Current change in yaw: -157.27922971551067
+[INFO] [1651331736.060746]: Current position: (2024217.0, -33895329.0, -33801894.0, 1938361.0)
+[INFO] [1651331736.061491]: Current velocity: (-38.98765432098765, -38.5679012345679, -38.925925925925924, -38.93827160493827)
+[INFO] [1651331736.062118]: Current change in position of motor 1: -1300439.0
+[INFO] [1651331736.062742]: Current change in position of motor 2: -1300683.0
+[INFO] [1651331736.063418]: Current change in position of motor 3: -1300917.0
+[INFO] [1651331736.064020]: Current change in position of motor 4: -1301811.0
+[INFO] [1651331736.064626]: Current yaw: -130.18140181038547
+[INFO] [1651331736.065246]: Current change in yaw: -155.89473399751867
+[INFO] [1651331736.160749]: Current position: (2012713.0, -33906764.0, -33813455.0, 1926804.0)
+[INFO] [1651331736.161511]: Current velocity: (-38.81481481481482, -37.851851851851855, -39.03703703703704, -38.80246913580247)
+[INFO] [1651331736.162218]: Current change in position of motor 1: -1311943.0
+[INFO] [1651331736.162848]: Current change in position of motor 2: -1312118.0
+[INFO] [1651331736.163494]: Current change in position of motor 3: -1312478.0
+[INFO] [1651331736.164139]: Current change in position of motor 4: -1313368.0
+[INFO] [1651331736.164750]: Current yaw: -129.1581367819701
+[INFO] [1651331736.165340]: Current change in yaw: -154.8714689691033
+[INFO] [1651331736.260854]: Current position: (2001195.0, -33918391.0, -33824962.0, 1915299.0)
+[INFO] [1651331736.261719]: Current velocity: (-38.95061728395062, -38.77777777777778, -38.69135802469136, -38.67901234567901)
+[INFO] [1651331736.262454]: Current change in position of motor 1: -1323461.0
+[INFO] [1651331736.263563]: Current change in position of motor 2: -1323745.0
+[INFO] [1651331736.264239]: Current change in position of motor 3: -1323985.0
+[INFO] [1651331736.264892]: Current change in position of motor 4: -1324873.0
+[INFO] [1651331736.265529]: Current yaw: -127.44208803980762
+[INFO] [1651331736.266149]: Current change in yaw: -153.1554202269408
+[INFO] [1651331736.360746]: Current position: (1995407.0, -33924149.0, -33830704.0, 1909627.0)
+[INFO] [1651331736.361477]: Current velocity: (-39.111111111111114, -38.74074074074074, -38.876543209876544, -38.32098765432099)
+[INFO] [1651331736.362124]: Current change in position of motor 1: -1329249.0
+[INFO] [1651331736.362764]: Current change in position of motor 2: -1329503.0
+[INFO] [1651331736.363375]: Current change in position of motor 3: -1329727.0
+[INFO] [1651331736.364003]: Current change in position of motor 4: -1330545.0
+[INFO] [1651331736.364609]: Current yaw: -126.17119215603279
+[INFO] [1651331736.365220]: Current change in yaw: -151.884524343166
+[INFO] [1651331736.460747]: Current position: (1983927.0, -33935669.0, -33842219.0, 1898078.0)
+[INFO] [1651331736.461455]: Current velocity: (-38.641975308641975, -38.72839506172839, -39.08641975308642, -38.71604938271605)
+[INFO] [1651331736.462116]: Current change in position of motor 1: -1340729.0
+[INFO] [1651331736.462726]: Current change in position of motor 2: -1341023.0
+[INFO] [1651331736.463343]: Current change in position of motor 3: -1341242.0
+[INFO] [1651331736.463977]: Current change in position of motor 4: -1342094.0
+[INFO] [1651331736.464615]: Current yaw: -124.41722735555764
+[INFO] [1651331736.465237]: Current change in yaw: -150.13055954269083
+[INFO] [1651331736.560746]: Current position: (1972371.0, -33947180.0, -33853730.0, 1886542.0)
+[INFO] [1651331736.561460]: Current velocity: (-38.81481481481482, -38.71604938271605, -38.901234567901234, -38.617283950617285)
+[INFO] [1651331736.562078]: Current change in position of motor 1: -1352285.0
+[INFO] [1651331736.562683]: Current change in position of motor 2: -1352534.0
+[INFO] [1651331736.563296]: Current change in position of motor 3: -1352753.0
+[INFO] [1651331736.563998]: Current change in position of motor 4: -1353630.0
+[INFO] [1651331736.564640]: Current yaw: -122.7278346753458
+[INFO] [1651331736.565266]: Current change in yaw: -148.441166862479
+[INFO] [1651331736.660768]: Current position: (1960920.0, -33958669.0, -33865196.0, 1875064.0)
+[INFO] [1651331736.661573]: Current velocity: (-38.382716049382715, -38.65432098765432, -38.69135802469136, -38.7037037037037)
+[INFO] [1651331736.662249]: Current change in position of motor 1: -1363736.0
+[INFO] [1651331736.662888]: Current change in position of motor 2: -1364023.0
+[INFO] [1651331736.663506]: Current change in position of motor 3: -1364219.0
+[INFO] [1651331736.664155]: Current change in position of motor 4: -1365108.0
+[INFO] [1651331736.664785]: Current yaw: -121.05941488053753
+[INFO] [1651331736.665402]: Current change in yaw: -146.77274706767074
+[INFO] [1651331736.760828]: Current position: (1949436.0, -33970099.0, -33876646.0, 1863669.0)
+[INFO] [1651331736.761592]: Current velocity: (-38.81481481481482, -38.76543209876543, -38.77777777777778, -38.65432098765432)
+[INFO] [1651331736.762254]: Current change in position of motor 1: -1375220.0
+[INFO] [1651331736.762895]: Current change in position of motor 2: -1375453.0
+[INFO] [1651331736.763526]: Current change in position of motor 3: -1375669.0
+[INFO] [1651331736.764141]: Current change in position of motor 4: -1376503.0
+[INFO] [1651331736.764781]: Current yaw: -119.30706568823629
+[INFO] [1651331736.765402]: Current change in yaw: -145.0203978753695
+[INFO] [1651331736.860748]: Current position: (1938023.0, -33981502.0, -33888087.0, 1852177.0)
+[INFO] [1651331736.861495]: Current velocity: (-38.864197530864196, -38.30864197530864, -38.839506172839506, -38.76543209876543)
+[INFO] [1651331736.862142]: Current change in position of motor 1: -1386633.0
+[INFO] [1651331736.862773]: Current change in position of motor 2: -1386856.0
+[INFO] [1651331736.863408]: Current change in position of motor 3: -1387110.0
+[INFO] [1651331736.864037]: Current change in position of motor 4: -1387995.0
+[INFO] [1651331736.864658]: Current yaw: -116.40162216354732
+[INFO] [1651331736.865282]: Current change in yaw: -142.1149543506805
+[INFO] [1651331736.960816]: Current position: (1932280.0, -33987248.0, -33893840.0, 1846416.0)
+[INFO] [1651331736.961569]: Current velocity: (-38.901234567901234, -38.67901234567901, -38.839506172839506, -38.77777777777778)
+[INFO] [1651331736.962235]: Current change in position of motor 1: -1392376.0
+[INFO] [1651331736.962877]: Current change in position of motor 2: -1392602.0
+[INFO] [1651331736.963517]: Current change in position of motor 3: -1392863.0
+[INFO] [1651331736.964149]: Current change in position of motor 4: -1393756.0
+[INFO] [1651331736.964778]: Current yaw: -114.68156654813593
+[INFO] [1651331736.965404]: Current change in yaw: -140.39489873526912
+[INFO] [1651331737.060757]: Current position: (1920778.0, -33998812.0, -33905369.0, 1834891.0)
+[INFO] [1651331737.061516]: Current velocity: (-38.71604938271605, -38.69135802469136, -38.60493827160494, -38.81481481481482)
+[INFO] [1651331737.062181]: Current change in position of motor 1: -1403878.0
+[INFO] [1651331737.062810]: Current change in position of motor 2: -1404166.0
+[INFO] [1651331737.063456]: Current change in position of motor 3: -1404392.0
+[INFO] [1651331737.064053]: Current change in position of motor 4: -1405281.0
+[INFO] [1651331737.064695]: Current yaw: -112.78548853946246
+[INFO] [1651331737.065282]: Current change in yaw: -138.49882072659568
+[INFO] [1651331737.160809]: Current position: (1909328.0, -34010225.0, -33916784.0, 1823494.0)
+[INFO] [1651331737.161604]: Current velocity: (-38.77777777777778, -38.76543209876543, -38.80246913580247, -39.01234567901235)
+[INFO] [1651331737.162196]: Current change in position of motor 1: -1415328.0
+[INFO] [1651331737.162852]: Current change in position of motor 2: -1415579.0
+[INFO] [1651331737.163491]: Current change in position of motor 3: -1415807.0
+[INFO] [1651331737.164094]: Current change in position of motor 4: -1416678.0
+[INFO] [1651331737.164700]: Current yaw: -111.17087555451337
+[INFO] [1651331737.165301]: Current change in yaw: -136.88420774164658
+[INFO] [1651331737.260764]: Current position: (1897851.0, -34021719.0, -33928274.0, 1811988.0)
+[INFO] [1651331737.261502]: Current velocity: (-38.72839506172839, -38.7037037037037, -38.888888888888886, -38.80246913580247)
+[INFO] [1651331737.262278]: Current change in position of motor 1: -1426805.0
+[INFO] [1651331737.262949]: Current change in position of motor 2: -1427073.0
+[INFO] [1651331737.263570]: Current change in position of motor 3: -1427297.0
+[INFO] [1651331737.264218]: Current change in position of motor 4: -1428184.0
+[INFO] [1651331737.264818]: Current yaw: -109.47809355307109
+[INFO] [1651331737.265388]: Current change in yaw: -135.1914257402043
+[INFO] [1651331737.360827]: Current position: (1886410.0, -34033153.0, -33939720.0, 1800535.0)
+[INFO] [1651331737.361554]: Current velocity: (-38.77777777777778, -38.72839506172839, -38.80246913580247, -38.82716049382716)
+[INFO] [1651331737.362259]: Current change in position of motor 1: -1438246.0
+[INFO] [1651331737.362849]: Current change in position of motor 2: -1438507.0
+[INFO] [1651331737.363482]: Current change in position of motor 3: -1438743.0
+[INFO] [1651331737.364067]: Current change in position of motor 4: -1439637.0
+[INFO] [1651331737.364655]: Current yaw: -107.89276517011744
+[INFO] [1651331737.365258]: Current change in yaw: -133.60609735725063
+[INFO] [1651331737.460830]: Current position: (1880618.0, -34038937.0, -33945488.0, 1794788.0)
+[INFO] [1651331737.461634]: Current velocity: (-38.81481481481482, -38.72839506172839, -38.91358024691358, -38.864197530864196)
+[INFO] [1651331737.462264]: Current change in position of motor 1: -1449761.0
+[INFO] [1651331737.462882]: Current change in position of motor 2: -1450039.0
+[INFO] [1651331737.463986]: Current change in position of motor 3: -1450264.0
+[INFO] [1651331737.464615]: Current change in position of motor 4: -1451140.0
+[INFO] [1651331737.465229]: Current yaw: -106.01876378514586
+[INFO] [1651331737.465837]: Current change in yaw: -131.73209597227907
+[INFO] [1651331737.560713]: Current position: (1869145.0, -34050391.0, -33956988.0, 1783300.0)
+[INFO] [1651331737.561454]: Current velocity: (-38.851851851851855, -38.74074074074074, -38.80246913580247, -38.888888888888886)
+[INFO] [1651331737.562126]: Current change in position of motor 1: -1455511.0
+[INFO] [1651331737.562744]: Current change in position of motor 2: -1455745.0
+[INFO] [1651331737.563382]: Current change in position of motor 3: -1456011.0
+[INFO] [1651331737.563996]: Current change in position of motor 4: -1456872.0
+[INFO] [1651331737.564627]: Current yaw: -104.53536168984182
+[INFO] [1651331737.565284]: Current change in yaw: -130.248693876975
+[INFO] [1651331737.660751]: Current position: (1857756.0, -34061838.0, -33968401.0, 1771889.0)
+[INFO] [1651331737.661532]: Current velocity: (-38.888888888888886, -38.888888888888886, -38.82716049382716, -38.69135802469136)
+[INFO] [1651331737.662206]: Current change in position of motor 1: -1466900.0
+[INFO] [1651331737.662873]: Current change in position of motor 2: -1467192.0
+[INFO] [1651331737.663523]: Current change in position of motor 3: -1467424.0
+[INFO] [1651331737.664176]: Current change in position of motor 4: -1468283.0
+[INFO] [1651331737.664823]: Current yaw: -103.18615197941797
+[INFO] [1651331737.665423]: Current change in yaw: -128.89948416655116
+[INFO] [1651331737.760764]: Current position: (1846295.0, -34073283.0, -33979844.0, 1760437.0)
+[INFO] [1651331737.761580]: Current velocity: (-38.79012345679013, -38.76543209876543, -38.901234567901234, -38.925925925925924)
+[INFO] [1651331737.762288]: Current change in position of motor 1: -1478361.0
+[INFO] [1651331737.762964]: Current change in position of motor 2: -1478637.0
+[INFO] [1651331737.763628]: Current change in position of motor 3: -1478867.0
+[INFO] [1651331737.764274]: Current change in position of motor 4: -1479735.0
+[INFO] [1651331737.764898]: Current yaw: -101.62755678137655
+[INFO] [1651331737.765527]: Current change in yaw: -127.34088896850976
+[INFO] [1651331737.860677]: Current position: (1834791.0, -34084763.0, -33991339.0, 1748945.0)
+[INFO] [1651331737.861391]: Current velocity: (-38.74074074074074, -38.641975308641975, -38.851851851851855, -38.95061728395062)
+[INFO] [1651331737.862018]: Current change in position of motor 1: -1489865.0
+[INFO] [1651331737.862623]: Current change in position of motor 2: -1490117.0
+[INFO] [1651331737.863233]: Current change in position of motor 3: -1490362.0
+[INFO] [1651331737.863832]: Current change in position of motor 4: -1491227.0
+[INFO] [1651331737.864422]: Current yaw: -100.01803304436052
+[INFO] [1651331737.865040]: Current change in yaw: -125.73136523149374
+[INFO] [1651331737.960766]: Current position: (1823459.0, -34096129.0, -34002686.0, 1737539.0)
+[INFO] [1651331737.961514]: Current velocity: (-38.72839506172839, -38.72839506172839, -38.77777777777778, -38.60493827160494)
+[INFO] [1651331737.962130]: Current change in position of motor 1: -1501197.0
+[INFO] [1651331737.962746]: Current change in position of motor 2: -1501483.0
+[INFO] [1651331737.963369]: Current change in position of motor 3: -1501709.0
+[INFO] [1651331737.963974]: Current change in position of motor 4: -1502633.0
+[INFO] [1651331737.964583]: Current yaw: -98.26778107708729
+[INFO] [1651331737.965178]: Current change in yaw: -123.98111326422051
+[INFO] [1651331738.060779]: Current position: (1817681.0, -34101883.0, -34008411.0, 1731846.0)
+[INFO] [1651331738.061618]: Current velocity: (-38.82716049382716, -38.75308641975309, -38.74074074074074, -38.77777777777778)
+[INFO] [1651331738.062330]: Current change in position of motor 1: -1512709.0
+[INFO] [1651331738.062960]: Current change in position of motor 2: -1512976.0
+[INFO] [1651331738.063560]: Current change in position of motor 3: -1513150.0
+[INFO] [1651331738.064164]: Current change in position of motor 4: -1514002.0
+[INFO] [1651331738.064742]: Current yaw: -96.8993269912815
+[INFO] [1651331738.065349]: Current change in yaw: -122.6126591784147
+[INFO] [1651331738.160746]: Current position: (1806252.0, -34113281.0, -34019806.0, 1720414.0)
+[INFO] [1651331738.161469]: Current velocity: (-38.95061728395062, -38.839506172839506, -38.888888888888886, -39.03703703703704)
+[INFO] [1651331738.162096]: Current change in position of motor 1: -1518404.0
+[INFO] [1651331738.162700]: Current change in position of motor 2: -1518635.0
+[INFO] [1651331738.163349]: Current change in position of motor 3: -1518829.0
+[INFO] [1651331738.163958]: Current change in position of motor 4: -1519758.0
+[INFO] [1651331738.164565]: Current yaw: -95.43332931911027
+[INFO] [1651331738.165187]: Current change in yaw: -121.14666150624346
+[INFO] [1651331738.260748]: Current position: (1794883.0, -34124726.0, -34031279.0, 1709035.0)
+[INFO] [1651331738.261521]: Current velocity: (-38.7037037037037, -39.34567901234568, -38.93827160493827, -38.888888888888886)
+[INFO] [1651331738.262166]: Current change in position of motor 1: -1529773.0
+[INFO] [1651331738.262778]: Current change in position of motor 2: -1530080.0
+[INFO] [1651331738.263388]: Current change in position of motor 3: -1530302.0
+[INFO] [1651331738.264078]: Current change in position of motor 4: -1531137.0
+[INFO] [1651331738.264671]: Current yaw: -93.62226352666491
+[INFO] [1651331738.265292]: Current change in yaw: -119.33559571379811
+[INFO] [1651331738.360697]: Current position: (1783357.0, -34136197.0, -34042760.0, 1697532.0)
+[INFO] [1651331738.361461]: Current velocity: (-38.851851851851855, -38.876543209876544, -38.82716049382716, -38.71604938271605)
+[INFO] [1651331738.362119]: Current change in position of motor 1: -1541299.0
+[INFO] [1651331738.362711]: Current change in position of motor 2: -1541551.0
+[INFO] [1651331738.363331]: Current change in position of motor 3: -1541783.0
+[INFO] [1651331738.363963]: Current change in position of motor 4: -1542640.0
+[INFO] [1651331738.364563]: Current yaw: -91.15756263007067
+[INFO] [1651331738.365198]: Current change in yaw: -116.87089481720386
+[INFO] [1651331738.460757]: Current position: (1771953.0, -34147597.0, -34054181.0, 1686152.0)
+[INFO] [1651331738.461456]: Current velocity: (-38.67901234567901, -38.876543209876544, -38.76543209876543, -38.41975308641975)
+[INFO] [1651331738.462102]: Current change in position of motor 1: -1552703.0
+[INFO] [1651331738.462723]: Current change in position of motor 2: -1552951.0
+[INFO] [1651331738.463388]: Current change in position of motor 3: -1553204.0
+[INFO] [1651331738.464019]: Current change in position of motor 4: -1554020.0
+[INFO] [1651331738.464643]: Current yaw: -89.63147029730817
+[INFO] [1651331738.465263]: Current change in yaw: -115.34480248444139
+[INFO] [1651331738.560833]: Current position: (1760504.0, -34159076.0, -34065626.0, 1674653.0)
+[INFO] [1651331738.561587]: Current velocity: (-38.7037037037037, -38.79012345679013, -38.79012345679013, -38.77777777777778)
+[INFO] [1651331738.562227]: Current change in position of motor 1: -1564152.0
+[INFO] [1651331738.562846]: Current change in position of motor 2: -1564430.0
+[INFO] [1651331738.563451]: Current change in position of motor 3: -1564649.0
+[INFO] [1651331738.564065]: Current change in position of motor 4: -1565519.0
+[INFO] [1651331738.564706]: Current yaw: -88.01469643067787
+[INFO] [1651331738.565304]: Current change in yaw: -113.72802861781106
+[INFO] [1651331738.660818]: Current position: (1754773.0, -34164775.0, -34071309.0, 1668932.0)
+[INFO] [1651331738.661556]: Current velocity: (-38.81481481481482, -38.75308641975309, -38.58024691358025, -38.91358024691358)
+[INFO] [1651331738.662290]: Current change in position of motor 1: -1575572.0
+[INFO] [1651331738.662913]: Current change in position of motor 2: -1575819.0
+[INFO] [1651331738.663524]: Current change in position of motor 3: -1576038.0
+[INFO] [1651331738.664147]: Current change in position of motor 4: -1576896.0
+[INFO] [1651331738.664773]: Current yaw: -86.41065541862056
+[INFO] [1651331738.665395]: Current change in yaw: -112.12398760575377
+[INFO] [1651331738.760792]: Current position: (1743328.0, -34176236.0, -34082799.0, 1657493.0)
+[INFO] [1651331738.761555]: Current velocity: (-38.76543209876543, -38.851851851851855, -38.71604938271605, -38.67901234567901)
+[INFO] [1651331738.762199]: Current change in position of motor 1: -1581328.0
+[INFO] [1651331738.762873]: Current change in position of motor 2: -1581590.0
+[INFO] [1651331738.763497]: Current change in position of motor 3: -1581822.0
+[INFO] [1651331738.764123]: Current change in position of motor 4: -1582679.0
+[INFO] [1651331738.764750]: Current yaw: -84.66854474476696
+[INFO] [1651331738.765340]: Current change in yaw: -110.38187693190017
+[INFO] [1651331738.860738]: Current position: (1731826.0, -34187732.0, -34094264.0, 1646017.0)
+[INFO] [1651331738.861494]: Current velocity: (-38.91358024691358, -38.82716049382716, -38.839506172839506, -38.76543209876543)
+[INFO] [1651331738.862203]: Current change in position of motor 1: -1592830.0
+[INFO] [1651331738.862792]: Current change in position of motor 2: -1593086.0
+[INFO] [1651331738.863422]: Current change in position of motor 3: -1593287.0
+[INFO] [1651331738.864022]: Current change in position of motor 4: -1594155.0
+[INFO] [1651331738.864630]: Current yaw: -83.16471665985968
+[INFO] [1651331738.865245]: Current change in yaw: -108.87804884699288
+[INFO] [1651331738.960754]: Current position: (1720469.0, -34199122.0, -34105694.0, 1634590.0)
+[INFO] [1651331738.961529]: Current velocity: (-38.44444444444444, -38.666666666666664, -38.72839506172839, -38.71604938271605)
+[INFO] [1651331738.962187]: Current change in position of motor 1: -1604187.0
+[INFO] [1651331738.962817]: Current change in position of motor 2: -1604476.0
+[INFO] [1651331738.963932]: Current change in position of motor 3: -1604717.0
+[INFO] [1651331738.964577]: Current change in position of motor 4: -1605582.0
+[INFO] [1651331738.965184]: Current yaw: -80.9175019598371
+[INFO] [1651331738.965801]: Current change in yaw: -106.6308341469703
+[INFO] [1651331739.060795]: Current position: (1708871.0, -34210733.0, -34117330.0, 1622966.0)
+[INFO] [1651331739.061529]: Current velocity: (-38.77777777777778, -38.65432098765432, -38.96296296296296, -38.7037037037037)
+[INFO] [1651331739.062201]: Current change in position of motor 1: -1615785.0
+[INFO] [1651331739.062826]: Current change in position of motor 2: -1616087.0
+[INFO] [1651331739.063472]: Current change in position of motor 3: -1616353.0
+[INFO] [1651331739.064112]: Current change in position of motor 4: -1617206.0
+[INFO] [1651331739.064746]: Current yaw: -79.26979157589193
+[INFO] [1651331739.065399]: Current change in yaw: -104.98312376302513
+[INFO] [1651331739.160748]: Current position: (1697273.0, -34222277.0, -34128854.0, 1611434.0)
+[INFO] [1651331739.161491]: Current velocity: (-38.76543209876543, -38.925925925925924, -38.839506172839506, -38.75308641975309)
+[INFO] [1651331739.162197]: Current change in position of motor 1: -1627383.0
+[INFO] [1651331739.162847]: Current change in position of motor 2: -1627631.0
+[INFO] [1651331739.163517]: Current change in position of motor 3: -1627877.0
+[INFO] [1651331739.164134]: Current change in position of motor 4: -1628738.0
+[INFO] [1651331739.164732]: Current yaw: -77.60284527661854
+[INFO] [1651331739.165365]: Current change in yaw: -103.31617746375174
+[INFO] [1651331739.260750]: Current position: (1691583.0, -34227943.0, -34134511.0, 1605771.0)
+[INFO] [1651331739.261466]: Current velocity: (-38.91358024691358, -38.74074074074074, -38.69135802469136, -38.67901234567901)
+[INFO] [1651331739.262105]: Current change in position of motor 1: -1633073.0
+[INFO] [1651331739.262725]: Current change in position of motor 2: -1633297.0
+[INFO] [1651331739.263381]: Current change in position of motor 3: -1633534.0
+[INFO] [1651331739.263981]: Current change in position of motor 4: -1634401.0
+[INFO] [1651331739.264584]: Current yaw: -75.88398911771883
+[INFO] [1651331739.265161]: Current change in yaw: -101.59732130485203
+[INFO] [1651331739.360747]: Current position: (1680087.0, -34239508.0, -34146036.0, 1594209.0)
+[INFO] [1651331739.361475]: Current velocity: (-38.77777777777778, -39.0, -38.69135802469136, -38.82716049382716)
+[INFO] [1651331739.362144]: Current change in position of motor 1: -1644569.0
+[INFO] [1651331739.362816]: Current change in position of motor 2: -1644862.0
+[INFO] [1651331739.363433]: Current change in position of motor 3: -1645059.0
+[INFO] [1651331739.364022]: Current change in position of motor 4: -1645963.0
+[INFO] [1651331739.364612]: Current yaw: -74.59256280741344
+[INFO] [1651331739.365230]: Current change in yaw: -100.30589499454665
+[INFO] [1651331739.460750]: Current position: (1668576.0, -34251015.0, -34157530.0, 1582783.0)
+[INFO] [1651331739.461478]: Current velocity: (-38.839506172839506, -38.81481481481482, -38.79012345679013, -38.50617283950617)
+[INFO] [1651331739.462147]: Current change in position of motor 1: -1656080.0
+[INFO] [1651331739.462784]: Current change in position of motor 2: -1656369.0
+[INFO] [1651331739.463423]: Current change in position of motor 3: -1656553.0
+[INFO] [1651331739.464054]: Current change in position of motor 4: -1657389.0
+[INFO] [1651331739.464687]: Current yaw: -73.20527073386643
+[INFO] [1651331739.465318]: Current change in yaw: -98.91860292099963
+[INFO] [1651331739.560748]: Current position: (1657143.0, -34262435.0, -34168960.0, 1571307.0)
+[INFO] [1651331739.561486]: Current velocity: (-38.876543209876544, -38.876543209876544, -38.888888888888886, -38.67901234567901)
+[INFO] [1651331739.562182]: Current change in position of motor 1: -1667513.0
+[INFO] [1651331739.562834]: Current change in position of motor 2: -1667789.0
+[INFO] [1651331739.563486]: Current change in position of motor 3: -1667983.0
+[INFO] [1651331739.564143]: Current change in position of motor 4: -1668865.0
+[INFO] [1651331739.564757]: Current yaw: -71.71391238013005
+[INFO] [1651331739.565381]: Current change in yaw: -97.42724456726324
+[INFO] [1651331739.660746]: Current position: (1645648.0, -34273921.0, -34180469.0, 1559799.0)
+[INFO] [1651331739.661486]: Current velocity: (-38.72839506172839, -38.864197530864196, -38.79012345679013, -38.91358024691358)
+[INFO] [1651331739.662136]: Current change in position of motor 1: -1679008.0
+[INFO] [1651331739.662762]: Current change in position of motor 2: -1679275.0
+[INFO] [1651331739.663380]: Current change in position of motor 3: -1679492.0
+[INFO] [1651331739.664025]: Current change in position of motor 4: -1680373.0
+[INFO] [1651331739.664631]: Current yaw: -69.46742276046203
+[INFO] [1651331739.665237]: Current change in yaw: -95.18075494759522
+[INFO] [1651331739.760820]: Current position: (1634224.0, -34285314.0, -34191898.0, 1548392.0)
+[INFO] [1651331739.761629]: Current velocity: (-38.79012345679013, -38.75308641975309, -38.888888888888886, -38.7037037037037)
+[INFO] [1651331739.762309]: Current change in position of motor 1: -1690432.0
+[INFO] [1651331739.762954]: Current change in position of motor 2: -1690668.0
+[INFO] [1651331739.763567]: Current change in position of motor 3: -1690921.0
+[INFO] [1651331739.764183]: Current change in position of motor 4: -1691780.0
+[INFO] [1651331739.764804]: Current yaw: -67.79022801497248
+[INFO] [1651331739.765395]: Current change in yaw: -93.50356020210567
+[INFO] [1651331739.860750]: Current position: (1628512.0, -34291050.0, -34197585.0, 1542677.0)
+[INFO] [1651331739.861514]: Current velocity: (-38.81481481481482, -38.82716049382716, -38.7037037037037, -38.864197530864196)
+[INFO] [1651331739.862210]: Current change in position of motor 1: -1696144.0
+[INFO] [1651331739.862901]: Current change in position of motor 2: -1696404.0
+[INFO] [1651331739.863595]: Current change in position of motor 3: -1696608.0
+[INFO] [1651331739.864321]: Current change in position of motor 4: -1697495.0
+[INFO] [1651331739.865006]: Current yaw: -66.0549733061612
+[INFO] [1651331739.865710]: Current change in yaw: -91.7683054932944
+[INFO] [1651331739.960764]: Current position: (1617015.0, -34302550.0, -34209093.0, 1531160.0)
+[INFO] [1651331739.961525]: Current velocity: (-38.75308641975309, -38.7037037037037, -38.65432098765432, -38.888888888888886)
+[INFO] [1651331739.962218]: Current change in position of motor 1: -1707641.0
+[INFO] [1651331739.962888]: Current change in position of motor 2: -1707904.0
+[INFO] [1651331739.963512]: Current change in position of motor 3: -1708116.0
+[INFO] [1651331739.964149]: Current change in position of motor 4: -1709012.0
+[INFO] [1651331739.964812]: Current yaw: -64.12386008976434
+[INFO] [1651331739.965431]: Current change in yaw: -89.83719227689754
+[INFO] [1651331740.060762]: Current position: (1605520.0, -34314059.0, -34220590.0, 1519671.0)
+[INFO] [1651331740.061510]: Current velocity: (-38.76543209876543, -38.79012345679013, -38.77777777777778, -38.60493827160494)
+[INFO] [1651331740.062217]: Current change in position of motor 1: -1719136.0
+[INFO] [1651331740.062894]: Current change in position of motor 2: -1719413.0
+[INFO] [1651331740.063569]: Current change in position of motor 3: -1719613.0
+[INFO] [1651331740.064184]: Current change in position of motor 4: -1720501.0
+[INFO] [1651331740.064811]: Current yaw: -62.46835681966652
+[INFO] [1651331740.065442]: Current change in yaw: -88.18168900679972
+[INFO] [1651331740.160756]: Current position: (1594007.0, -34325575.0, -34232118.0, 1508101.0)
+[INFO] [1651331740.161601]: Current velocity: (-38.81481481481482, -38.79012345679013, -38.81481481481482, -39.08641975308642)
+[INFO] [1651331740.162254]: Current change in position of motor 1: -1730649.0
+[INFO] [1651331740.162894]: Current change in position of motor 2: -1730929.0
+[INFO] [1651331740.163510]: Current change in position of motor 3: -1731141.0
+[INFO] [1651331740.164114]: Current change in position of motor 4: -1732071.0
+[INFO] [1651331740.164704]: Current yaw: -60.783775120935914
+[INFO] [1651331740.165381]: Current change in yaw: -86.4971073080691
+[INFO] [1651331740.260752]: Current position: (1582475.0, -34337110.0, -34243632.0, 1496608.0)
+[INFO] [1651331740.261514]: Current velocity: (-38.876543209876544, -38.76543209876543, -38.71604938271605, -38.80246913580247)
+[INFO] [1651331740.262161]: Current change in position of motor 1: -1742181.0
+[INFO] [1651331740.262762]: Current change in position of motor 2: -1742464.0
+[INFO] [1651331740.263620]: Current change in position of motor 3: -1742655.0
+[INFO] [1651331740.264266]: Current change in position of motor 4: -1743564.0
+[INFO] [1651331740.264936]: Current yaw: -58.54546779577997
+[INFO] [1651331740.265576]: Current change in yaw: -84.25879998291317
+[INFO] [1651331740.360751]: Current position: (1576726.0, -34342853.0, -34249393.0, 1490859.0)
+[INFO] [1651331740.361482]: Current velocity: (-38.72839506172839, -38.74074074074074, -38.72839506172839, -38.81481481481482)
+[INFO] [1651331740.362133]: Current change in position of motor 1: -1747930.0
+[INFO] [1651331740.362855]: Current change in position of motor 2: -1753882.0
+[INFO] [1651331740.363501]: Current change in position of motor 3: -1754180.0
+[INFO] [1651331740.364122]: Current change in position of motor 4: -1755023.0
+[INFO] [1651331740.364727]: Current yaw: -57.16965665956381
+[INFO] [1651331740.365326]: Current change in yaw: -82.882988846697
+[INFO] [1651331740.460753]: Current position: (1565277.0, -34354235.0, -34260814.0, 1479497.0)
+[INFO] [1651331740.461498]: Current velocity: (-38.75308641975309, -38.96296296296296, -38.666666666666664, -38.617283950617285)
+[INFO] [1651331740.462133]: Current change in position of motor 1: -1759379.0
+[INFO] [1651331740.462760]: Current change in position of motor 2: -1759589.0
+[INFO] [1651331740.463393]: Current change in position of motor 3: -1759837.0
+[INFO] [1651331740.464003]: Current change in position of motor 4: -1760675.0
+[INFO] [1651331740.464602]: Current yaw: -55.45071457259041
+[INFO] [1651331740.465233]: Current change in yaw: -81.1640467597236
+[INFO] [1651331740.560819]: Current position: (1553759.0, -34365810.0, -34272346.0, 1467948.0)
+[INFO] [1651331740.561554]: Current velocity: (-38.72839506172839, -38.80246913580247, -38.72839506172839, -38.98765432098765)
+[INFO] [1651331740.562183]: Current change in position of motor 1: -1770897.0
+[INFO] [1651331740.562824]: Current change in position of motor 2: -1771164.0
+[INFO] [1651331740.563470]: Current change in position of motor 3: -1771369.0
+[INFO] [1651331740.564083]: Current change in position of motor 4: -1772224.0
+[INFO] [1651331740.564697]: Current yaw: -53.2466995719616
+[INFO] [1651331740.565324]: Current change in yaw: -78.9600317590948
+[INFO] [1651331740.660822]: Current position: (1542269.0, -34377294.0, -34283857.0, 1456399.0)
+[INFO] [1651331740.661547]: Current velocity: (-38.74074074074074, -38.82716049382716, -38.839506172839506, -38.839506172839506)
+[INFO] [1651331740.662188]: Current change in position of motor 1: -1782387.0
+[INFO] [1651331740.662809]: Current change in position of motor 2: -1782648.0
+[INFO] [1651331740.663414]: Current change in position of motor 3: -1782880.0
+[INFO] [1651331740.664041]: Current change in position of motor 4: -1783773.0
+[INFO] [1651331740.664638]: Current yaw: -51.04415989077977
+[INFO] [1651331740.665257]: Current change in yaw: -76.75749207791297
+[INFO] [1651331740.760808]: Current position: (1530825.0, -34388725.0, -34295292.0, 1444943.0)
+[INFO] [1651331740.761503]: Current velocity: (-38.76543209876543, -38.67901234567901, -38.65432098765432, -39.407407407407405)
+[INFO] [1651331740.762125]: Current change in position of motor 1: -1793831.0
+[INFO] [1651331740.762740]: Current change in position of motor 2: -1794079.0
+[INFO] [1651331740.763379]: Current change in position of motor 3: -1794315.0
+[INFO] [1651331740.763978]: Current change in position of motor 4: -1795229.0
+[INFO] [1651331740.764565]: Current yaw: -49.52564505571261
+[INFO] [1651331740.765159]: Current change in yaw: -75.2389772428458
+[INFO] [1651331740.860741]: Current position: (1519407.0, -34400154.0, -34306693.0, 1433596.0)
+[INFO] [1651331740.861523]: Current velocity: (-39.02469135802469, -38.876543209876544, -38.901234567901234, -38.80246913580247)
+[INFO] [1651331740.862190]: Current change in position of motor 1: -1805249.0
+[INFO] [1651331740.862835]: Current change in position of motor 2: -1805508.0
+[INFO] [1651331740.863489]: Current change in position of motor 3: -1805716.0
+[INFO] [1651331740.864136]: Current change in position of motor 4: -1806576.0
+[INFO] [1651331740.864751]: Current yaw: -48.015334784019345
+[INFO] [1651331740.865388]: Current change in yaw: -73.72866697115253
+[INFO] [1651331740.960819]: Current position: (1513665.0, -34405865.0, -34312425.0, 1427830.0)
+[INFO] [1651331740.961651]: Current velocity: (-38.864197530864196, -38.629629629629626, -38.75308641975309, -38.76543209876543)
+[INFO] [1651331740.962323]: Current change in position of motor 1: -1810991.0
+[INFO] [1651331740.962972]: Current change in position of motor 2: -1811219.0
+[INFO] [1651331740.963616]: Current change in position of motor 3: -1811448.0
+[INFO] [1651331740.964267]: Current change in position of motor 4: -1812342.0
+[INFO] [1651331740.964942]: Current yaw: -45.34732608775022
+[INFO] [1651331740.965599]: Current change in yaw: -71.06065827488342
+[INFO] [1651331741.060749]: Current position: (1502150.0, -34417382.0, -34323959.0, 1416326.0)
+[INFO] [1651331741.061512]: Current velocity: (-38.888888888888886, -38.74074074074074, -38.888888888888886, -38.77777777777778)
+[INFO] [1651331741.062201]: Current change in position of motor 1: -1822506.0
+[INFO] [1651331741.062841]: Current change in position of motor 2: -1822736.0
+[INFO] [1651331741.063530]: Current change in position of motor 3: -1822982.0
+[INFO] [1651331741.064196]: Current change in position of motor 4: -1823846.0
+[INFO] [1651331741.064813]: Current yaw: -43.83557843245086
+[INFO] [1651331741.065419]: Current change in yaw: -69.54891061958405
+[INFO] [1651331741.160851]: Current position: (1490711.0, -34428853.0, -34335396.0, 1404860.0)
+[INFO] [1651331741.161709]: Current velocity: (-38.98765432098765, -38.65432098765432, -38.82716049382716, -38.74074074074074)
+[INFO] [1651331741.162453]: Current change in position of motor 1: -1833945.0
+[INFO] [1651331741.163077]: Current change in position of motor 2: -1834207.0
+[INFO] [1651331741.163724]: Current change in position of motor 3: -1834419.0
+[INFO] [1651331741.164344]: Current change in position of motor 4: -1835312.0
+[INFO] [1651331741.164984]: Current yaw: -42.31413502955344
+[INFO] [1651331741.165603]: Current change in yaw: -68.02746721668663
+[INFO] [1651331741.260781]: Current position: (1479266.0, -34440301.0, -34346849.0, 1393429.0)
+[INFO] [1651331741.261599]: Current velocity: (-38.75308641975309, -38.76543209876543, -38.75308641975309, -38.79012345679013)
+[INFO] [1651331741.262284]: Current change in position of motor 1: -1845390.0
+[INFO] [1651331741.262928]: Current change in position of motor 2: -1845655.0
+[INFO] [1651331741.263539]: Current change in position of motor 3: -1845872.0
+[INFO] [1651331741.264204]: Current change in position of motor 4: -1846743.0
+[INFO] [1651331741.264850]: Current yaw: -40.85477994112281
+[INFO] [1651331741.265502]: Current change in yaw: -66.568112128256
+[INFO] [1651331741.360756]: Current position: (1467892.0, -34451692.0, -34358236.0, 1382030.0)
+[INFO] [1651331741.361497]: Current velocity: (-38.74074074074074, -38.75308641975309, -38.97530864197531, -38.82716049382716)
+[INFO] [1651331741.362215]: Current change in position of motor 1: -1856764.0
+[INFO] [1651331741.362848]: Current change in position of motor 2: -1857046.0
+[INFO] [1651331741.363588]: Current change in position of motor 3: -1857259.0
+[INFO] [1651331741.364211]: Current change in position of motor 4: -1858142.0
+[INFO] [1651331741.364835]: Current yaw: -39.46800500645654
+[INFO] [1651331741.365437]: Current change in yaw: -65.18133719358974
+[INFO] [1651331741.460823]: Current position: (1456429.0, -34463209.0, -34369685.0, 1370507.0)
+[INFO] [1651331741.461549]: Current velocity: (-38.55555555555556, -38.75308641975309, -38.382716049382715, -38.901234567901234)
+[INFO] [1651331741.462244]: Current change in position of motor 1: -1868227.0
+[INFO] [1651331741.462942]: Current change in position of motor 2: -1868563.0
+[INFO] [1651331741.463602]: Current change in position of motor 3: -1868708.0
+[INFO] [1651331741.464239]: Current change in position of motor 4: -1869665.0
+[INFO] [1651331741.464895]: Current yaw: -37.7799805667527
+[INFO] [1651331741.465549]: Current change in yaw: -63.493312753885895
+[INFO] [1651331741.560753]: Current position: (1450629.0, -34468937.0, -34375439.0, 1364801.0)
+[INFO] [1651331741.561486]: Current velocity: (-39.0, -38.666666666666664, -38.641975308641975, -38.48148148148148)
+[INFO] [1651331741.562215]: Current change in position of motor 1: -1874027.0
+[INFO] [1651331741.562857]: Current change in position of motor 2: -1874291.0
+[INFO] [1651331741.563510]: Current change in position of motor 3: -1874462.0
+[INFO] [1651331741.564111]: Current change in position of motor 4: -1875371.0
+[INFO] [1651331741.564778]: Current yaw: -35.923438277333226
+[INFO] [1651331741.565409]: Current change in yaw: -61.63677046446644
+[INFO] [1651331741.660758]: Current position: (1439060.0, -34480497.0, -34386986.0, 1353215.0)
+[INFO] [1651331741.661494]: Current velocity: (-38.95061728395062, -38.617283950617285, -38.45679012345679, -39.19753086419753)
+[INFO] [1651331741.662110]: Current change in position of motor 1: -1885596.0
+[INFO] [1651331741.662791]: Current change in position of motor 2: -1885851.0
+[INFO] [1651331741.663509]: Current change in position of motor 3: -1886009.0
+[INFO] [1651331741.664120]: Current change in position of motor 4: -1886957.0
+[INFO] [1651331741.664751]: Current yaw: -34.422195137238816
+[INFO] [1651331741.665351]: Current change in yaw: -60.13552732437202
+[INFO] [1651331741.760769]: Current position: (1427579.0, -34491956.0, -34398543.0, 1341743.0)
+[INFO] [1651331741.761625]: Current velocity: (-38.876543209876544, -38.7037037037037, -38.93827160493827, -39.03703703703704)
+[INFO] [1651331741.762330]: Current change in position of motor 1: -1897077.0
+[INFO] [1651331741.762978]: Current change in position of motor 2: -1897310.0
+[INFO] [1651331741.763604]: Current change in position of motor 3: -1897566.0
+[INFO] [1651331741.764248]: Current change in position of motor 4: -1898429.0
+[INFO] [1651331741.764878]: Current yaw: -32.90021158769017
+[INFO] [1651331741.765517]: Current change in yaw: -58.613543774823384
+[INFO] [1651331741.860825]: Current position: (1416025.0, -34503526.0, -34410066.0, 1330195.0)
+[INFO] [1651331741.861582]: Current velocity: (-38.851851851851855, -38.77777777777778, -38.81481481481482, -38.79012345679013)
+[INFO] [1651331741.862285]: Current change in position of motor 1: -1908631.0
+[INFO] [1651331741.862958]: Current change in position of motor 2: -1908880.0
+[INFO] [1651331741.863591]: Current change in position of motor 3: -1909089.0
+[INFO] [1651331741.864278]: Current change in position of motor 4: -1909977.0
+[INFO] [1651331741.864903]: Current yaw: -31.20854255804491
+[INFO] [1651331741.865525]: Current change in yaw: -56.921874745178116
+[INFO] [1651331741.960756]: Current position: (1404551.0, -34515021.0, -34421581.0, 1318668.0)
+[INFO] [1651331741.961493]: Current velocity: (-38.72839506172839, -38.876543209876544, -38.65432098765432, -38.80246913580247)
+[INFO] [1651331741.962162]: Current change in position of motor 1: -1920105.0
+[INFO] [1651331741.962828]: Current change in position of motor 2: -1920375.0
+[INFO] [1651331741.963445]: Current change in position of motor 3: -1920604.0
+[INFO] [1651331741.964065]: Current change in position of motor 4: -1921504.0
+[INFO] [1651331741.964668]: Current yaw: -29.603626384251744
+[INFO] [1651331741.965248]: Current change in yaw: -55.316958571384944
+[INFO] [1651331742.060793]: Current position: (1393144.0, -34526460.0, -34432978.0, 1307318.0)
+[INFO] [1651331742.061580]: Current velocity: (-38.44444444444444, -38.851851851851855, -38.48148148148148, -38.75308641975309)
+[INFO] [1651331742.062243]: Current change in position of motor 1: -1931512.0
+[INFO] [1651331742.062850]: Current change in position of motor 2: -1931814.0
+[INFO] [1651331742.063484]: Current change in position of motor 3: -1932001.0
+[INFO] [1651331742.064100]: Current change in position of motor 4: -1932854.0
+[INFO] [1651331742.064705]: Current yaw: -28.153453040305852
+[INFO] [1651331742.065318]: Current change in yaw: -53.86678522743905
+[INFO] [1651331742.160807]: Current position: (1387437.0, -34532197.0, -34438715.0, 1301507.0)
+[INFO] [1651331742.161696]: Current velocity: (-38.55555555555556, -38.72839506172839, -38.7037037037037, -39.074074074074076)
+[INFO] [1651331742.162422]: Current change in position of motor 1: -1937219.0
+[INFO] [1651331742.163055]: Current change in position of motor 2: -1937551.0
+[INFO] [1651331742.163668]: Current change in position of motor 3: -1937738.0
+[INFO] [1651331742.164263]: Current change in position of motor 4: -1938665.0
+[INFO] [1651331742.164876]: Current yaw: -26.842095345618265
+[INFO] [1651331742.165495]: Current change in yaw: -52.555427532751466
+[INFO] [1651331742.260759]: Current position: (1375965.0, -34543632.0, -34450120.0, 1290092.0)
+[INFO] [1651331742.261526]: Current velocity: (-38.39506172839506, -38.851851851851855, -38.592592592592595, -38.75308641975309)
+[INFO] [1651331742.262141]: Current change in position of motor 1: -1948691.0
+[INFO] [1651331742.262743]: Current change in position of motor 2: -1948986.0
+[INFO] [1651331742.263549]: Current change in position of motor 3: -1949143.0
+[INFO] [1651331742.264168]: Current change in position of motor 4: -1950080.0
+[INFO] [1651331742.264765]: Current yaw: -24.625751703938796
+[INFO] [1651331742.265365]: Current change in yaw: -50.33908389107199
+[INFO] [1651331742.360793]: Current position: (1364487.0, -34555112.0, -34461631.0, 1278648.0)
+[INFO] [1651331742.361550]: Current velocity: (-38.876543209876544, -38.91358024691358, -38.71604938271605, -38.72839506172839)
+[INFO] [1651331742.362231]: Current change in position of motor 1: -1960169.0
+[INFO] [1651331742.362956]: Current change in position of motor 2: -1960466.0
+[INFO] [1651331742.363576]: Current change in position of motor 3: -1960654.0
+[INFO] [1651331742.364190]: Current change in position of motor 4: -1961524.0
+[INFO] [1651331742.364780]: Current yaw: -23.131986615986058
+[INFO] [1651331742.365417]: Current change in yaw: -48.845318803119255
+[INFO] [1651331742.460748]: Current position: (1353030.0, -34566551.0, -34473076.0, 1267182.0)
+[INFO] [1651331742.461467]: Current velocity: (-38.7037037037037, -38.888888888888886, -38.839506172839506, -38.81481481481482)
+[INFO] [1651331742.462157]: Current change in position of motor 1: -1971626.0
+[INFO] [1651331742.462846]: Current change in position of motor 2: -1971905.0
+[INFO] [1651331742.463464]: Current change in position of motor 3: -1972099.0
+[INFO] [1651331742.464062]: Current change in position of motor 4: -1972990.0
+[INFO] [1651331742.464662]: Current yaw: -21.787274517727507
+[INFO] [1651331742.465342]: Current change in yaw: -47.50060670486071
+[INFO] [1651331742.560794]: Current position: (1341557.0, -34577953.0, -34484514.0, 1255729.0)
+[INFO] [1651331742.561558]: Current velocity: (-38.876543209876544, -38.60493827160494, -38.75308641975309, -39.074074074074076)
+[INFO] [1651331742.562247]: Current change in position of motor 1: -1983099.0
+[INFO] [1651331742.562896]: Current change in position of motor 2: -1983307.0
+[INFO] [1651331742.563577]: Current change in position of motor 3: -1983537.0
+[INFO] [1651331742.564215]: Current change in position of motor 4: -1984443.0
+[INFO] [1651331742.564854]: Current yaw: -20.105568858393834
+[INFO] [1651331742.565472]: Current change in yaw: -45.818901045527035
+[INFO] [1651331742.660755]: Current position: (1335834.0, -34583759.0, -34490265.0, 1249970.0)
+[INFO] [1651331742.661502]: Current velocity: (-38.75308641975309, -39.18518518518518, -38.75308641975309, -38.93827160493827)
+[INFO] [1651331742.662161]: Current change in position of motor 1: -1988822.0
+[INFO] [1651331742.662816]: Current change in position of motor 2: -1994830.0
+[INFO] [1651331742.663484]: Current change in position of motor 3: -1995065.0
+[INFO] [1651331742.664125]: Current change in position of motor 4: -1995916.0
+[INFO] [1651331742.664758]: Current yaw: -18.19818911714746
+[INFO] [1651331742.665483]: Current change in yaw: -43.91152130428066
+[INFO] [1651331742.760769]: Current position: (1324324.0, -34595233.0, -34501795.0, 1238462.0)
+[INFO] [1651331742.761553]: Current velocity: (-38.71604938271605, -38.76543209876543, -38.77777777777778, -38.71604938271605)
+[INFO] [1651331742.762203]: Current change in position of motor 1: -2000332.0
+[INFO] [1651331742.762792]: Current change in position of motor 2: -2000587.0
+[INFO] [1651331742.763398]: Current change in position of motor 3: -2000818.0
+[INFO] [1651331742.763989]: Current change in position of motor 4: -2001710.0
+[INFO] [1651331742.764579]: Current yaw: -16.29870819484681
+[INFO] [1651331742.765233]: Current change in yaw: -42.01204038198001
+[INFO] [1651331742.860744]: Current position: (1312805.0, -34606776.0, -34513285.0, 1226942.0)
+[INFO] [1651331742.861459]: Current velocity: (-38.76543209876543, -38.93827160493827, -38.67901234567901, -38.95061728395062)
+[INFO] [1651331742.862123]: Current change in position of motor 1: -2011851.0
+[INFO] [1651331742.862801]: Current change in position of motor 2: -2012130.0
+[INFO] [1651331742.863499]: Current change in position of motor 3: -2012308.0
+[INFO] [1651331742.864150]: Current change in position of motor 4: -2013230.0
+[INFO] [1651331742.864769]: Current yaw: -13.776377435054036
+[INFO] [1651331742.865434]: Current change in yaw: -39.489709622187235
+[INFO] [1651331742.960759]: Current position: (1301378.0, -34618174.0, -34524728.0, 1215602.0)
+[INFO] [1651331742.961484]: Current velocity: (-38.81481481481482, -38.864197530864196, -38.839506172839506, -38.69135802469136)
+[INFO] [1651331742.962108]: Current change in position of motor 1: -2023278.0
+[INFO] [1651331742.962709]: Current change in position of motor 2: -2023528.0
+[INFO] [1651331742.963319]: Current change in position of motor 3: -2023751.0
+[INFO] [1651331742.963924]: Current change in position of motor 4: -2024570.0
+[INFO] [1651331742.964530]: Current yaw: -12.028568014244037
+[INFO] [1651331742.965181]: Current change in yaw: -37.74190020137724
+[INFO] [1651331743.060748]: Current position: (1289958.0, -34629580.0, -34536114.0, 1204102.0)
+[INFO] [1651331743.061530]: Current velocity: (-38.76543209876543, -38.80246913580247, -38.888888888888886, -38.97530864197531)
+[INFO] [1651331743.062149]: Current change in position of motor 1: -2034698.0
+[INFO] [1651331743.062789]: Current change in position of motor 2: -2034934.0
+[INFO] [1651331743.063446]: Current change in position of motor 3: -2035137.0
+[INFO] [1651331743.064074]: Current change in position of motor 4: -2036070.0
+[INFO] [1651331743.064727]: Current yaw: -10.089029130339139
+[INFO] [1651331743.065343]: Current change in yaw: -35.80236131747234
+[INFO] [1651331743.160757]: Current position: (1278549.0, -34641015.0, -34547552.0, 1192737.0)
+[INFO] [1651331743.161499]: Current velocity: (-38.876543209876544, -38.96296296296296, -38.79012345679013, -38.58024691358025)
+[INFO] [1651331743.162201]: Current change in position of motor 1: -2046107.0
+[INFO] [1651331743.162872]: Current change in position of motor 2: -2046369.0
+[INFO] [1651331743.163489]: Current change in position of motor 3: -2046575.0
+[INFO] [1651331743.164115]: Current change in position of motor 4: -2047435.0
+[INFO] [1651331743.164758]: Current yaw: -8.475898044584369
+[INFO] [1651331743.165402]: Current change in yaw: -34.189230231717566
+[INFO] [1651331743.260751]: Current position: (1272873.0, -34646667.0, -34553211.0, 1187065.0)
+[INFO] [1651331743.261511]: Current velocity: (-38.69135802469136, -38.629629629629626, -38.77777777777778, -38.69135802469136)
+[INFO] [1651331743.262134]: Current change in position of motor 1: -2051783.0
+[INFO] [1651331743.262831]: Current change in position of motor 2: -2057676.0
+[INFO] [1651331743.263464]: Current change in position of motor 3: -2057915.0
+[INFO] [1651331743.264055]: Current change in position of motor 4: -2058773.0
+[INFO] [1651331743.264668]: Current yaw: -6.364969153158667
+[INFO] [1651331743.265290]: Current change in yaw: -32.078301340291866
+[INFO] [1651331743.360748]: Current position: (1261474.0, -34658086.0, -34564632.0, 1175711.0)
+[INFO] [1651331743.361485]: Current velocity: (-38.81481481481482, -39.34567901234568, -38.666666666666664, -38.27160493827161)
+[INFO] [1651331743.362130]: Current change in position of motor 1: -2063182.0
+[INFO] [1651331743.362737]: Current change in position of motor 2: -2063440.0
+[INFO] [1651331743.363415]: Current change in position of motor 3: -2063655.0
+[INFO] [1651331743.364017]: Current change in position of motor 4: -2064461.0
+[INFO] [1651331743.364655]: Current yaw: -4.838955643183999
+[INFO] [1651331743.365276]: Current change in yaw: -30.5522878303172
+[INFO] [1651331743.460828]: Current position: (1250045.0, -34669497.0, -34576035.0, 1164275.0)
+[INFO] [1651331743.461546]: Current velocity: (-38.82716049382716, -38.864197530864196, -38.72839506172839, -38.93827160493827)
+[INFO] [1651331743.462219]: Current change in position of motor 1: -2074611.0
+[INFO] [1651331743.462835]: Current change in position of motor 2: -2074851.0
+[INFO] [1651331743.463458]: Current change in position of motor 3: -2075058.0
+[INFO] [1651331743.464084]: Current change in position of motor 4: -2075897.0
+[INFO] [1651331743.464724]: Current yaw: -2.6363290351694175
+[INFO] [1651331743.465328]: Current change in yaw: -28.34966122230262
+[INFO] [1651331743.560757]: Current position: (1238600.0, -34680969.0, -34587522.0, 1152744.0)
+[INFO] [1651331743.561490]: Current velocity: (-38.71604938271605, -38.74074074074074, -38.79012345679013, -38.51851851851852)
+[INFO] [1651331743.562151]: Current change in position of motor 1: -2086056.0
+[INFO] [1651331743.562746]: Current change in position of motor 2: -2086323.0
+[INFO] [1651331743.563387]: Current change in position of motor 3: -2086545.0
+[INFO] [1651331743.564015]: Current change in position of motor 4: -2087428.0
+[INFO] [1651331743.564625]: Current yaw: -0.6024496538236925
+[INFO] [1651331743.565228]: Current change in yaw: -26.31578184095689
+[INFO] [1651331743.660761]: Current position: (1227116.0, -34692491.0, -34599042.0, 1141217.0)
+[INFO] [1651331743.661478]: Current velocity: (-38.666666666666664, -38.75308641975309, -38.72839506172839, -38.76543209876543)
+[INFO] [1651331743.662158]: Current change in position of motor 1: -2097540.0
+[INFO] [1651331743.662784]: Current change in position of motor 2: -2097845.0
+[INFO] [1651331743.663446]: Current change in position of motor 3: -2098065.0
+[INFO] [1651331743.664061]: Current change in position of motor 4: -2098955.0
+[INFO] [1651331743.664702]: Current yaw: 1.1118943763829048
+[INFO] [1651331743.665329]: Current change in yaw: -24.601437810750294
+[INFO] [1651331743.760764]: Current position: (1215674.0, -34703883.0, -34610405.0, 1129820.0)
+[INFO] [1651331743.761608]: Current velocity: (-38.851851851851855, -38.82716049382716, -38.77777777777778, -38.82716049382716)
+[INFO] [1651331743.762260]: Current change in position of motor 1: -2108982.0
+[INFO] [1651331743.762935]: Current change in position of motor 2: -2109237.0
+[INFO] [1651331743.763563]: Current change in position of motor 3: -2109428.0
+[INFO] [1651331743.764184]: Current change in position of motor 4: -2110352.0
+[INFO] [1651331743.764801]: Current yaw: 2.8036399708187933
+[INFO] [1651331743.765415]: Current change in yaw: -22.909692216314408
+[INFO] [1651331743.860742]: Current position: (1209975.0, -34709591.0, -34616152.0, 1124108.0)
+[INFO] [1651331743.861470]: Current velocity: (-38.39506172839506, -38.72839506172839, -38.72839506172839, -38.81481481481482)
+[INFO] [1651331743.862134]: Current change in position of motor 1: -2114681.0
+[INFO] [1651331743.862716]: Current change in position of motor 2: -2114945.0
+[INFO] [1651331743.863331]: Current change in position of motor 3: -2115175.0
+[INFO] [1651331743.863942]: Current change in position of motor 4: -2121745.0
+[INFO] [1651331743.864538]: Current yaw: 4.734343204770148
+[INFO] [1651331743.865127]: Current change in yaw: -20.978988982363052
+[INFO] [1651331743.960746]: Current position: (1198524.0, -34721043.0, -34627580.0, 1112688.0)
+[INFO] [1651331743.961475]: Current velocity: (-38.82716049382716, -38.82716049382716, -38.876543209876544, -38.888888888888886)
+[INFO] [1651331743.962152]: Current change in position of motor 1: -2126132.0
+[INFO] [1651331743.962777]: Current change in position of motor 2: -2126397.0
+[INFO] [1651331743.963390]: Current change in position of motor 3: -2126603.0
+[INFO] [1651331743.963977]: Current change in position of motor 4: -2127484.0
+[INFO] [1651331743.964613]: Current yaw: 6.112343336381227
+[INFO] [1651331743.965221]: Current change in yaw: -19.60098885075197
+[INFO] [1651331744.060754]: Current position: (1187113.0, -34732408.0, -34639012.0, 1101265.0)
+[INFO] [1651331744.061559]: Current velocity: (-38.876543209876544, -38.65432098765432, -38.888888888888886, -38.925925925925924)
+[INFO] [1651331744.062201]: Current change in position of motor 1: -2137543.0
+[INFO] [1651331744.062802]: Current change in position of motor 2: -2137762.0
+[INFO] [1651331744.063496]: Current change in position of motor 3: -2138035.0
+[INFO] [1651331744.064104]: Current change in position of motor 4: -2138907.0
+[INFO] [1651331744.064704]: Current yaw: 7.582734138440928
+[INFO] [1651331744.065306]: Current change in yaw: -18.13059804869227
+[INFO] [1651331744.160747]: Current position: (1175602.0, -34743972.0, -34650519.0, 1089760.0)
+[INFO] [1651331744.161540]: Current velocity: (-38.82716049382716, -38.901234567901234, -38.82716049382716, -38.67901234567901)
+[INFO] [1651331744.162210]: Current change in position of motor 1: -2149054.0
+[INFO] [1651331744.162888]: Current change in position of motor 2: -2149326.0
+[INFO] [1651331744.163521]: Current change in position of motor 3: -2149542.0
+[INFO] [1651331744.164141]: Current change in position of motor 4: -2150412.0
+[INFO] [1651331744.164749]: Current yaw: 8.983131788054868
+[INFO] [1651331744.165355]: Current change in yaw: -16.73020039907833
+[INFO] [1651331744.260749]: Current position: (1164170.0, -34755413.0, -34661939.0, 1078302.0)
+[INFO] [1651331744.261469]: Current velocity: (-38.69135802469136, -38.77777777777778, -38.71604938271605, -38.74074074074074)
+[INFO] [1651331744.262138]: Current change in position of motor 1: -2160486.0
+[INFO] [1651331744.262769]: Current change in position of motor 2: -2160767.0
+[INFO] [1651331744.263414]: Current change in position of motor 3: -2160962.0
+[INFO] [1651331744.264024]: Current change in position of motor 4: -2161870.0
+[INFO] [1651331744.264647]: Current yaw: 9.879039072435326
+[INFO] [1651331744.265236]: Current change in yaw: -15.834293114697873
+[INFO] [1651331744.360764]: Current position: (1152672.0, -34766890.0, -34673425.0, 1066808.0)
+[INFO] [1651331744.361527]: Current velocity: (-38.77777777777778, -38.82716049382716, -38.55555555555556, -38.888888888888886)
+[INFO] [1651331744.362205]: Current change in position of motor 1: -2171984.0
+[INFO] [1651331744.362845]: Current change in position of motor 2: -2172244.0
+[INFO] [1651331744.363478]: Current change in position of motor 3: -2172448.0
+[INFO] [1651331744.364096]: Current change in position of motor 4: -2173364.0
+[INFO] [1651331744.364705]: Current yaw: 11.721452698834492
+[INFO] [1651331744.365327]: Current change in yaw: -13.991879488298709
+[INFO] [1651331744.460768]: Current position: (1146911.0, -34772675.0, -34679223.0, 1061026.0)
+[INFO] [1651331744.461501]: Current velocity: (-38.76543209876543, -38.666666666666664, -38.96296296296296, -38.641975308641975)
+[INFO] [1651331744.462169]: Current change in position of motor 1: -2177745.0
+[INFO] [1651331744.462779]: Current change in position of motor 2: -2178029.0
+[INFO] [1651331744.463392]: Current change in position of motor 3: -2178246.0
+[INFO] [1651331744.464047]: Current change in position of motor 4: -2179146.0
+[INFO] [1651331744.464663]: Current yaw: 13.082928203494063
+[INFO] [1651331744.465257]: Current change in yaw: -12.630403983639138
+[INFO] [1651331744.560697]: Current position: (1135383.0, -34784150.0, -34690707.0, 1049492.0)
+[INFO] [1651331744.561443]: Current velocity: (-38.81481481481482, -38.69135802469136, -38.71604938271605, -38.925925925925924)
+[INFO] [1651331744.562072]: Current change in position of motor 1: -2189273.0
+[INFO] [1651331744.562711]: Current change in position of motor 2: -2189504.0
+[INFO] [1651331744.563332]: Current change in position of motor 3: -2189730.0
+[INFO] [1651331744.563943]: Current change in position of motor 4: -2190680.0
+[INFO] [1651331744.564550]: Current yaw: 14.319189917458033
+[INFO] [1651331744.565183]: Current change in yaw: -11.394142269675166
+[INFO] [1651331744.660757]: Current position: (1123818.0, -34795687.0, -34702248.0, 1038061.0)
+[INFO] [1651331744.661553]: Current velocity: (-39.49382716049383, -38.67901234567901, -39.148148148148145, -38.49382716049383)
+[INFO] [1651331744.662199]: Current change in position of motor 1: -2200838.0
+[INFO] [1651331744.662840]: Current change in position of motor 2: -2201041.0
+[INFO] [1651331744.663459]: Current change in position of motor 3: -2201271.0
+[INFO] [1651331744.664113]: Current change in position of motor 4: -2202111.0
+[INFO] [1651331744.664743]: Current yaw: 15.447846630420383
+[INFO] [1651331744.665335]: Current change in yaw: -10.265485556712816
+[INFO] [1651331744.760768]: Current position: (1112454.0, -34807106.0, -34713688.0, 1026604.0)
+[INFO] [1651331744.761507]: Current velocity: (-38.71604938271605, -38.81481481481482, -38.93827160493827, -38.876543209876544)
+[INFO] [1651331744.762174]: Current change in position of motor 1: -2212202.0
+[INFO] [1651331744.762795]: Current change in position of motor 2: -2212460.0
+[INFO] [1651331744.763447]: Current change in position of motor 3: -2212711.0
+[INFO] [1651331744.764045]: Current change in position of motor 4: -2213568.0
+[INFO] [1651331744.764656]: Current yaw: 16.728981733504277
+[INFO] [1651331744.765281]: Current change in yaw: -8.984350453628924
+[INFO] [1651331744.860755]: Current position: (1101029.0, -34818521.0, -34725091.0, 1015197.0)
+[INFO] [1651331744.861496]: Current velocity: (-38.81481481481482, -38.82716049382716, -38.75308641975309, -38.71604938271605)
+[INFO] [1651331744.862107]: Current change in position of motor 1: -2223627.0
+[INFO] [1651331744.862746]: Current change in position of motor 2: -2223875.0
+[INFO] [1651331744.863383]: Current change in position of motor 3: -2224114.0
+[INFO] [1651331744.863981]: Current change in position of motor 4: -2224975.0
+[INFO] [1651331744.864578]: Current yaw: 18.17592394283552
+[INFO] [1651331744.865201]: Current change in yaw: -7.537408244297677
+[INFO] [1651331744.960822]: Current position: (1089706.0, -34829902.0, -34736451.0, 1003793.0)
+[INFO] [1651331744.961543]: Current velocity: (-38.370370370370374, -38.51851851851852, -38.641975308641975, -38.98765432098765)
+[INFO] [1651331744.962176]: Current change in position of motor 1: -2234950.0
+[INFO] [1651331744.962783]: Current change in position of motor 2: -2235256.0
+[INFO] [1651331744.963441]: Current change in position of motor 3: -2235474.0
+[INFO] [1651331744.964079]: Current change in position of motor 4: -2236379.0
+[INFO] [1651331744.964715]: Current yaw: 20.113654442224504
+[INFO] [1651331744.965312]: Current change in yaw: -5.5996777449086945
+[INFO] [1651331745.060778]: Current position: (1083869.0, -34835625.0, -34742247.0, 998051.0)
+[INFO] [1651331745.061616]: Current velocity: (-39.160493827160494, -38.28395061728395, -39.34567901234568, -39.28395061728395)
+[INFO] [1651331745.062296]: Current change in position of motor 1: -2240787.0
+[INFO] [1651331745.062932]: Current change in position of motor 2: -2240979.0
+[INFO] [1651331745.063577]: Current change in position of motor 3: -2241270.0
+[INFO] [1651331745.064185]: Current change in position of motor 4: -2242121.0
+[INFO] [1651331745.064803]: Current yaw: 21.308703834097166
+[INFO] [1651331745.065444]: Current change in yaw: -4.404628353036034
+[INFO] [1651331745.160763]: Current position: (1072505.0, -34847074.0, -34753578.0, 986683.0)
+[INFO] [1651331745.161522]: Current velocity: (-38.851851851851855, -38.79012345679013, -38.80246913580247, -38.67901234567901)
+[INFO] [1651331745.162187]: Current change in position of motor 1: -2252151.0
+[INFO] [1651331745.162825]: Current change in position of motor 2: -2252428.0
+[INFO] [1651331745.163447]: Current change in position of motor 3: -2252601.0
+[INFO] [1651331745.164061]: Current change in position of motor 4: -2253489.0
+[INFO] [1651331745.164698]: Current yaw: 22.811239595893507
+[INFO] [1651331745.165384]: Current change in yaw: -2.9020925912396933
+[INFO] [1651331745.260764]: Current position: (1061005.0, -34858542.0, -34765064.0, 975198.0)
+[INFO] [1651331745.261528]: Current velocity: (-38.81481481481482, -38.617283950617285, -38.7037037037037, -38.666666666666664)
+[INFO] [1651331745.262152]: Current change in position of motor 1: -2263651.0
+[INFO] [1651331745.262770]: Current change in position of motor 2: -2263896.0
+[INFO] [1651331745.263430]: Current change in position of motor 3: -2264087.0
+[INFO] [1651331745.264040]: Current change in position of motor 4: -2264974.0
+[INFO] [1651331745.264694]: Current yaw: 24.18966253146411
+[INFO] [1651331745.265305]: Current change in yaw: -1.523669655669091
+^C[INFO] [1651331746.336317]: Final yaw: 34.62473699825647
+[INFO] [1651331746.337254]: Final change in yaw: 8.911404811123276
+[INFO] [1651331746.337941]: Final position: (989468.0, -34929853.0, -34836157.0, 905495.0)
+[INFO] [1651331746.338560]: Final change in position of motor 1: -2335188.0
+[INFO] [1651331746.339163]: Final change in position of motor 2: -2335207.0
+[INFO] [1651331746.339749]: Final change in position of motor 3: -2335180.0
+[INFO] [1651331746.340340]: Final change in position of motor 4: -2334677.0
+[1m[7m%[27m[1m[0m                                                                                      ]2;viv@VIV:~/catkin_ws/src/student_marko]1;..student_marko[0m[27m[24m[J[1m[32mviv@VIV[00m:[1m[34m~/catkin_ws/src/student_marko[00m [31m[00m
+[34m[00m [1m$[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-04-30 17:16:35+02:00 [COMMAND_EXIT_CODE="0"]
