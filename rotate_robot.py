@@ -37,8 +37,8 @@ def shutdown_func():
 
     rospy.sleep(1)
     # The important bits
-    rospy.loginfo(f"Final yaw: {degrees(yaw)}")
-    rospy.loginfo(f"Final change in yaw: {degrees(yaw - start_yaw)}")
+    rospy.loginfo(f"Final yaw (deg): {degrees(yaw)}")
+    rospy.loginfo(f"Final change in yaw (deg): {degrees(yaw - start_yaw)}")
     rospy.loginfo(f"Final position: {position}")
     rospy.loginfo(f"Final change in position of motor 1: {position[0] - start_position[0]}")
     rospy.loginfo(f"Final change in position of motor 2: {position[1] - start_position[1]}")
@@ -72,7 +72,7 @@ def rotate():
     start_yaw = yaw
 
     rospy.loginfo(f"Starting position: {start_position}")
-    rospy.loginfo(f"Starting yaw: {degrees(start_yaw)}")
+    rospy.loginfo(f"Starting yaw (deg): {degrees(start_yaw)}")
 
     rospy.sleep(1)
 
@@ -91,8 +91,8 @@ def rotate():
         rospy.loginfo(f"Current change in position of motor 3: {position[2] - start_position[2]}")
         rospy.loginfo(f"Current change in position of motor 4: {position[3] - start_position[3]}")
 
-        rospy.loginfo(f"Current yaw: {degrees(yaw)}")
-        rospy.loginfo(f"Current change in yaw: {degrees(yaw - start_yaw)}")
+        rospy.loginfo(f"Current yaw (deg): {degrees(yaw)}")
+        rospy.loginfo(f"Current change in yaw (deg): {degrees(yaw - start_yaw)}")
 
         rate.sleep()  # let's not spam the robot
 
