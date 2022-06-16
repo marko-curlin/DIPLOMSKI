@@ -22,10 +22,10 @@ def rotate():
 
     # Receiving the user's input
     print("Let's make a U-turn")
-    forward_speed = float(input("Input the forward speed: "))
     rotational_speed = float(input("Input the rotational speed: "))
+    forward_speed = float(input("Input the forward speed: "))
     # wanted_rotation = radians(float(input("Type your wanted rotation (deg): ")))
-    wanted_rotation = radians(180)
+    wanted_rotation = radians(175)
 
     twist_msg = Twist()
 
@@ -46,7 +46,7 @@ def rotate():
 
         # t1 = rospy.Time.now().to_sec()
         rospy.loginfo(f"Currently rotated in z axis {degrees(yaw)} deg")
-        rospy.loginfo(f"Current rotation {degrees(abs(yaw - start_rotation))} deg")
+        rospy.loginfo(f"Current rotation diff {degrees(abs(yaw - start_rotation))} deg")
 
         rate.sleep()  # let's not spam the robot
 
